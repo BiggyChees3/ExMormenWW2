@@ -1,0 +1,22 @@
+
+state={
+	id=375
+	name="STATE_375"
+	resources={
+		steel=0.000
+	}
+	impassable = yes
+
+	history={
+		owner = ITA
+	}
+
+	provinces={
+		1994 4191 4962 12022 12082 
+	}
+	manpower=17146
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

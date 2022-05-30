@@ -1,0 +1,329 @@
+focus_tree = {
+	id = COL_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = COL
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = Home_of_RevolutionCOL
+		icon = GFX_goal_support_communism
+		text = Home_of_Revolution
+		x = 27
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_ideas = communist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_X02_COL
+		icon = GFX_goal_generic_propaganda
+		text = Influence_X02
+		prerequisite = { focus = Home_of_RevolutionCOL }
+		x = 26
+		y = 1
+		cost = 10
+		completion_reward = {
+			X02 = {
+				if = {
+					limit = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_X02_COL
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_X02
+		prerequisite = { focus = Influence_X02_COL }
+		x = 0
+		y = 1
+		relative_position_id = Influence_X02_COL
+		cost = 10
+		available = {
+		X02 = { communism > 0.5 }
+	}
+		completion_reward = {
+		X02 = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_X06_COL
+		icon = GFX_goal_generic_propaganda
+		text = Influence_X06
+		prerequisite = { focus = Home_of_RevolutionCOL }
+		x = 28
+		y = 1
+		cost = 10
+		completion_reward = {
+			X06 = {
+				if = {
+					limit = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_X06_COL
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_X06
+		prerequisite = { focus = Influence_X06_COL }
+		x = 0
+		y = 1
+		relative_position_id = Influence_X06_COL
+		cost = 10
+		available = {
+		X06 = { communism > 0.5 }
+	}
+		completion_reward = {
+		X06 = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = StrengthComCOL
+		icon = GFX_goal_support_communism
+		text = StrengthCom
+		x = 32
+		y = 0
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Inter_Com_PresCOL
+		icon = GFX_goal_generic_dangerous_deal
+		text = Inter_Com_Pres
+		prerequisite = { focus = StrengthComCOL }
+		x = 0
+		y = 1
+		relative_position_id = StrengthComCOL
+		cost = 10
+		available = {
+		date > 1937.1.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = Inter_Com_Pres }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = WarX08COL
+		icon = GFX_goal_generic_major_war
+		text = WarX08
+		prerequisite = { focus = Inter_Com_PresCOL }
+		bypass = {
+		has_war_with = X08
+	}
+		x = 30
+		y = 2
+		cost = 10
+		available = {
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with England" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = X08
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = X08 ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_war_with = X02
+				has_war_with = X06
+
+			}
+		}
+	}
+	}
+
+	focus = {
+		id = WarX02COL
+		icon = GFX_goal_generic_major_war
+		text = WarX02
+		prerequisite = { focus = Inter_Com_PresCOL }
+		bypass = {
+		has_war_with = X02
+	}
+		x = 32
+		y = 2
+		cost = 10
+		available = {
+		date > 1938.12.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with The Amerigan Federation" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = X02
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = X02 ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_war_with = X08
+				has_war_with = X06
+
+			}
+		}
+	}
+	}
+
+	focus = {
+		id = WarX06COL
+		icon = GFX_goal_generic_major_war
+		text = WarX06
+		prerequisite = { focus = Inter_Com_PresCOL }
+		bypass = {
+		has_war_with = X06
+	}
+		x = 34
+		y = 2
+		cost = 10
+		available = {
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with Xifang" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = X06
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = X06 ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_war_with = X08
+				has_war_with = X02
+
+			}
+		}
+	}
+	}
+
+}

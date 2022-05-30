@@ -1,0 +1,37 @@
+
+state={
+	id=506
+	name="STATE_506"
+	resources={
+		chromium=2.000
+		oil=2.000
+		steel=2.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			1773 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1773 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = X06
+	}
+
+	provinces={
+		1773 2130 2219 5211 5225 7567 8186 8220 10925 12910 12918 12924 12932 
+	}
+	manpower=105528
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

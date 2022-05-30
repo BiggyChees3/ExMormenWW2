@@ -1,0 +1,33 @@
+
+state={
+	id=633
+	name="STATE_633"
+
+	history={
+		owner = SPR
+		victory_points = {
+			1751 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			1751 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		1751 
+	}
+	manpower=54678
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

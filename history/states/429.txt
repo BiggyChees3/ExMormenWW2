@@ -1,0 +1,33 @@
+
+state={
+	id=429
+	name="STATE_429"
+	resources={
+		chromium=149.000
+		steel=12.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			8214 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		1509 2213 5203 8214 10525 10668 12940 12963 
+	}
+	manpower=114427
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

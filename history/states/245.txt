@@ -1,0 +1,34 @@
+
+state={
+	id=245
+	name="STATE_245"
+	resources={
+		oil=0.000
+		steel=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X01
+		victory_points = {
+			7901 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		7901 
+	}
+	manpower=15635
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

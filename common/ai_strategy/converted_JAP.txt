@@ -1,0 +1,93 @@
+﻿converted_war_strategies_JAP = {
+	enable = {
+		tag = JAP
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 1512
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 1188
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X01"
+		value = 756
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KOR"
+		value = 540
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 432
+	}
+	ai_strategy = {
+		type = conquer
+		id = "COL"
+		value = 108
+	}
+}
+
+converted_diplo_strategies_JAP = {
+	enable = {
+		tag = JAP
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 281
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 231
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X01"
+		value = 218
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 125
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "COL"
+		value = 31
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X04"
+		value = 75
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X12"
+		value = 73
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X13"
+		value = 43
+	}
+}

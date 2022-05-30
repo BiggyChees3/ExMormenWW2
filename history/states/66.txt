@@ -1,0 +1,36 @@
+
+state={
+	id=66
+	name="STATE_66"
+	resources={
+		aluminium=26.000
+	}
+
+	history={
+		owner = X02
+		victory_points = {
+			5167 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			5167 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = X02
+	}
+
+	provinces={
+		5112 5167 7553 8181 8239 10432 10513 10947 11008 
+	}
+	manpower=196698
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

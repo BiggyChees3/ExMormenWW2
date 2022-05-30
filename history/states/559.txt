@@ -1,0 +1,37 @@
+
+state={
+	id=559
+	name="STATE_559"
+	resources={
+		aluminium=1.000
+		oil=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			12512 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12512 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		12512 
+	}
+	manpower=4423
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

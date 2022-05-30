@@ -1,0 +1,30 @@
+
+state={
+	id=277
+	name="STATE_277"
+
+	history={
+		owner = X07
+		victory_points = {
+			9536 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X04
+		add_claim_by = HOL
+	}
+
+	provinces={
+		3516 6537 9444 9536 11519 13081 
+	}
+	manpower=236121
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=47
+	name="STATE_47"
+	resources={
+		oil=2.000
+		steel=2.000
+		tungsten=9.000
+	}
+
+	history={
+		owner = X01
+		victory_points = {
+			13075 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		2407 7696 10527 13075 
+	}
+	manpower=95378
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

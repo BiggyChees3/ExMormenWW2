@@ -1,0 +1,509 @@
+﻿capital = 302
+set_research_slots = 3
+
+oob = "ETH_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ETH_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "ETH_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fighter1 = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	motorised_infantry = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tactical_bomber1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		basic_light_tank = 1
+		gwtank = 1
+		improved_light_tank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_medium_battery = 1
+		basic_naval_mines = 1
+		basic_ship_hull_cruiser = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		basic_heavy_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		gwtank_chassis = 1
+		improved_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_light_cruiser = 1
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = air_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = air_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = naval_doctrine
+}
+
+set_country_flag = conv_abyssinia
+set_convoys = 41
+
+add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 350 producer = ETH }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 676 producer = ETH }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 678 producer = ETH }
+add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 350 producer = ETH }
+
+set_politics = {
+    ruling_party = radical
+    last_election = "1930.5.21"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 1
+	fascism = 6
+	neutrality = 61
+	radical = 32
+}
+
+give_guarantee = GER
+diplomatic_relation = { country = GER relation = non_aggression_pact }
+
+give_guarantee = HOL
+diplomatic_relation = { country = HOL relation = non_aggression_pact }
+
+give_guarantee = ITA
+diplomatic_relation = { country = ITA relation = non_aggression_pact }
+
+give_guarantee = SPR
+diplomatic_relation = { country = SPR relation = non_aggression_pact }
+
+give_guarantee = X07
+diplomatic_relation = { country = X07 relation = non_aggression_pact }
+
+give_guarantee = X11
+diplomatic_relation = { country = X11 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = CHI modifier = negative_200 }
+set_truce = { target = CHI days = 1823 }
+add_opinion_modifier = { target = COL modifier = negative_200 }
+set_truce = { target = COL days = 1823 }
+add_opinion_modifier = { target = GER modifier = positive_19 }
+add_opinion_modifier = { target = HOL modifier = positive_110 }
+give_military_access = HOL
+add_opinion_modifier = { target = ITA modifier = positive_200 }
+give_military_access = ITA
+add_opinion_modifier = { target = JAP modifier = negative_200 }
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+set_truce = { target = SCA days = 1823 }
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+set_truce = { target = SOV days = 1823 }
+add_opinion_modifier = { target = SPR modifier = positive_30 }
+add_opinion_modifier = { target = TUR modifier = negative_200 }
+set_truce = { target = TUR days = 1823 }
+add_opinion_modifier = { target = X01 modifier = negative_200 }
+set_truce = { target = X01 days = 1823 }
+add_opinion_modifier = { target = X03 modifier = negative_200 }
+set_truce = { target = X03 days = 1823 }
+add_opinion_modifier = { target = X05 modifier = negative_50 }
+give_military_access = X06
+add_opinion_modifier = { target = X07 modifier = positive_100 }
+add_opinion_modifier = { target = X08 modifier = negative_200 }
+set_truce = { target = X08 days = 1823 }
+add_opinion_modifier = { target = X10 modifier = negative_200 }
+set_truce = { target = X10 days = 1823 }
+add_opinion_modifier = { target = X11 modifier = negative_180 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	free_trade
+	culture_amhara
+}
+set_stability = 0.60
+set_war_support = 0.50
+
+recruit_character = ETH_negasi_dingil
+recruit_character = ETH_girma_abbaba
+recruit_character = ETH_girma_dingil
+recruit_character = ETH_amare_wossen
+recruit_character = ETH_girma_seged
+recruit_character = ETH_fakirta_makonnen
+recruit_character = ETH_john_cena
+recruit_character = ETH_negasi_mikael
+recruit_character = ETH_desta_seged
+recruit_character = ETH_bekele_hailu
+recruit_character = ETH_fakirta_mikael
+recruit_character = ETH_negasi_makonnen
+recruit_character = ETH_saleh_hailu
+recruit_character = ETH_geteye_mengitsu
+recruit_character = ETH_demissie_abbaba
+recruit_character = ETH_berhanu_selassie
+recruit_character = ETH_amare_mariam
+recruit_character = ETH_kassa_melekot
+recruit_character = ETH_girma_dingil_1
+recruit_character = ETH_kassa_melekot_1
+recruit_character = ETH_adis_giorgis
+recruit_character = ETH_negasi_mikael_1
+recruit_character = ETH_amare_mengitsu
+recruit_character = ETH_girma_selassie
+recruit_character = ETH_fakirta_makonnen_1
+recruit_character = ETH_demissie_seged
+recruit_character = ETH_girma_makonnen
+recruit_character = ETH_abebe_dingil
+recruit_character = ETH_saleh_seged
+recruit_character = ETH_demissie_selassie
+recruit_character = ETH_desta_mikael
+recruit_character = ETH_negasi_abbaba
+recruit_character = ETH_haile_melekot
+recruit_character = ETH_kassa_dingil
+recruit_character = ETH_bekele_hailu_1
+recruit_character = ETH_saleh_makonnen
+recruit_character = ETH_berihun_mariam
+recruit_character = ETH_abebe_seged
+recruit_character = ETH_saleh_makonnen_1
+recruit_character = ETH_adis_hailu
+recruit_character = ETH_kassa_giorgis
+recruit_character = ETH_berihun_selassie
+recruit_character = ETH_berhanu_giorgis
+recruit_character = ETH_haile_wossen
+recruit_character = ETH_berihun_mikael
+recruit_character = ETH_negasi_giorgis
+recruit_character = ETH_saleh_makonnen_2
+recruit_character = ETH_menelik_mengitsu
+recruit_character = ETH_saleh_mariam
+recruit_character = ETH_berihun_makonnen
+recruit_character = ETH_desta_melekot
+recruit_character = ETH_adis_selassie
+recruit_character = ETH_bekele_mengitsu
+recruit_character = ETH_abebe_mengitsu
+recruit_character = ETH_girma_selassie_1
+recruit_character = ETH_berihun_makonnen_1
+recruit_character = ETH_desta_mikael_1
+recruit_character = ETH_demissie_wossen
+recruit_character = ETH_saleh_wossen
+recruit_character = ETH_berihun_giorgis
+recruit_character = ETH_desta_wossen
+recruit_character = ETH_desta_mikael_2
+recruit_character = ETH_girma_mariam
+recruit_character = ETH_demissie_wossen_1
+recruit_character = ETH_kassa_makonnen
+recruit_character = ETH_girma_makonnen_1
+recruit_character = ETH_kassa_mariam
+recruit_character = ETH_desta_mariam
+recruit_character = ETH_berhanu_seged
+recruit_character = ETH_abebe_selassie
+recruit_character = ETH_amare_selassie
+recruit_character = ETH_menelik_mariam
+recruit_character = ETH_fakirta_melekot
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Berhane Melekot"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ETH }
+	}
+
+	create_operative_leader = {
+		name = "Bekele Mengitsu"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ETH }
+	}
+
+	create_operative_leader = {
+		name = "Habesha Seged"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ETH }
+	}
+
+	create_operative_leader = {
+		name = "Amare Mengitsu"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ETH }
+	}
+
+	create_operative_leader = {
+		name = "Girma Melekot"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ETH }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = ETH_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = ETH_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_medium_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = ETH_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = ETH_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = ETH_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "Basic Heavy Tank"
+		type = heavy_tank_chassis_1
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Basic Medium Tank"
+		type = medium_tank_chassis_1
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Improved Light Tank"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+		}
+	}
+}

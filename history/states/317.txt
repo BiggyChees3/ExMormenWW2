@@ -1,0 +1,34 @@
+
+state={
+	id=317
+	name="STATE_317"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			2029 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			5074 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1920 1973 2029 4924 4976 5074 10752 10840 12821 12894 13079 
+	}
+	manpower=138847
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

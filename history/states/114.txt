@@ -1,0 +1,33 @@
+
+state={
+	id=114
+	name="STATE_114"
+	resources={
+		oil=2.000
+		steel=13.000
+	}
+
+	history={
+		owner = X05
+		victory_points = {
+			3569 7 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = X05
+	}
+
+	provinces={
+		421 557 569 3414 3553 3569 3583 6485 6562 6576 6590 9412 9551 9567 11511 
+	}
+	manpower=530835
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

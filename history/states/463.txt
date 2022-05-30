@@ -1,0 +1,38 @@
+
+state={
+	id=463
+	name="STATE_463"
+	resources={
+		oil=3.000
+		rubber=30.000
+		steel=0.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			4306 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			4608 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		4306 4390 4608 
+	}
+	manpower=349683
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=698
+	name="STATE_698"
+
+	history={
+		owner = TUR
+		victory_points = {
+			5050 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		2065 5050 8040 8125 
+	}
+	manpower=38981
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=26
+	name="STATE_26"
+
+	history={
+		owner = X01
+		victory_points = {
+			10407 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			10407 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10352 10380 10407 10520 11509 11942 12735 12803 
+	}
+	manpower=255106
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

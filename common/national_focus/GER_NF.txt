@@ -1,0 +1,213 @@
+focus_tree = {
+	id = GER_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = expand_the_reichGER
+		icon = GFX_goal_generic_political_pressure
+		text = expand_the_reich
+		x = 26
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = expand_the_reich }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = GER_sudeten_SCA
+		icon = GFX_goal_anschluss
+		text = _sudeten_SCA
+		prerequisite = { focus = expand_the_reichGER }
+		bypass = {
+	  has_war_with = SCA
+	}
+		x = -1
+		y = 1
+		relative_position_id = expand_the_reichGER
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Scandinavia" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = SCA
+			}
+			SCA = {
+				country_event = NFEvents.1
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GER_finish_SCA
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_SCA
+		prerequisite = { focus =  GER_sudeten_SCA }
+		bypass = {
+		has_war_with = SCA
+	}
+		x = 0
+		y = 1
+		relative_position_id = GER_sudeten_SCA
+		cost = 10
+		available = {
+		date > 1938.4.9
+		SCA = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Scandinavia" }
+		create_wargoal = {
+			type = annex_everything
+			target = SCA
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GER_sudeten_TUR
+		icon = GFX_goal_anschluss
+		text = _sudeten_TUR
+		prerequisite = { focus = expand_the_reichGER }
+		bypass = {
+	  has_war_with = TUR
+	}
+		x = 1
+		y = 1
+		relative_position_id = expand_the_reichGER
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from The Ottoman Empire" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = TUR
+			}
+			TUR = {
+				country_event = NFEvents.4
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GER_finish_TUR
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_TUR
+		prerequisite = { focus =  GER_sudeten_TUR }
+		bypass = {
+		has_war_with = TUR
+	}
+		x = 0
+		y = 1
+		relative_position_id = GER_sudeten_TUR
+		cost = 10
+		available = {
+		date > 1938.4.9
+		TUR = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of The Ottoman Empire" }
+		create_wargoal = {
+			type = annex_everything
+			target = TUR
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GP_WarSPRGER
+		icon = GFX_goal_generic_major_war
+		text = GP_WarSPR
+		bypass = {
+		has_war_with = SPR
+	}
+		x = 28
+		y = 0
+		cost = 10
+		available = {
+		has_war = no
+		date > 1939.3.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 5 name = "War with Spain" }
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = SPR
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = SPR ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
+			}
+		}
+	}
+	}
+
+}

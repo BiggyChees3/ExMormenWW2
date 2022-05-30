@@ -1,0 +1,33 @@
+
+state={
+	id=186
+	name="STATE_186"
+
+	history={
+		owner = COL
+		victory_points = {
+			1965 40 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			12810 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		1965 7913 8089 10732 12810 
+	}
+	manpower=517538
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

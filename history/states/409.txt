@@ -1,0 +1,37 @@
+
+state={
+	id=409
+	name="STATE_409"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			2050 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2050 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		2050 12731 
+	}
+	manpower=265288
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

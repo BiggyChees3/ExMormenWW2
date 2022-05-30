@@ -1,0 +1,32 @@
+
+state={
+	id=302
+	name="STATE_302"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = ETH
+		victory_points = {
+			5010 25 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 8
+
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		5010 7980 8036 12714 
+	}
+	manpower=365287
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

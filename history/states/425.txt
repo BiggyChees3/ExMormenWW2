@@ -1,0 +1,30 @@
+
+state={
+	id=425
+	name="STATE_425"
+
+	history={
+		owner = TUR
+		victory_points = {
+			2013 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = TUR
+		add_claim_by = TUR
+	}
+
+	provinces={
+		901 1549 1578 1606 1634 2013 6883 10882 
+	}
+	manpower=45885
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

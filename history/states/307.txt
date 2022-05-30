@@ -1,0 +1,36 @@
+
+state={
+	id=307
+	name="STATE_307"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = ETH
+		victory_points = {
+			4995 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			10833 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		1905 4995 5068 8094 10775 10777 10833 10921 12757 12759 12812 12814 
+	}
+	manpower=209968
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

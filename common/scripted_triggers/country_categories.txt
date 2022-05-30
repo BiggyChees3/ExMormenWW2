@@ -1,0 +1,177 @@
+tag_fpcad= {
+	OR = {
+		tag = X13
+	}
+}
+
+tag_fpcae= {
+	OR = {
+	}
+}
+
+tag_fpvad= {
+	OR = {
+	}
+}
+
+tag_fpvae= {
+	OR = {
+	}
+}
+
+tag_fpvnd= {
+	OR = {
+	}
+}
+
+tag_fpvne= {
+	OR = {
+	}
+}
+
+tag_fscad= {
+	OR = {
+	}
+}
+
+tag_fscae= {
+	OR = {
+		tag = CHI
+		tag = COL
+		tag = KOR
+		tag = SCA
+		tag = SOV
+		AND = {
+			tag = TUR
+			OR = { has_government = communism }
+		}
+		tag = X04
+		tag = X09
+	}
+}
+
+tag_fscne= {
+	OR = {
+	}
+}
+
+tag_fsvad= {
+	OR = {
+	}
+}
+
+tag_fsvae= {
+	OR = {
+		tag = ETH
+		tag = GER
+		tag = ITA
+		tag = SPR
+		tag = X08
+	}
+}
+
+tag_fsvnd= {
+	OR = {
+	}
+}
+
+tag_fsvne= {
+	OR = {
+	}
+}
+
+tag_mpcad= {
+	OR = {
+		tag = HOL
+	}
+}
+
+tag_mpcae= {
+	OR = {
+	}
+}
+
+tag_mpvad= {
+	OR = {
+	}
+}
+
+tag_mpvae= {
+	OR = {
+	}
+}
+
+tag_mscad= {
+	OR = {
+	}
+}
+
+tag_mscae= {
+	OR = {
+		tag = JAP
+		tag = X11
+		tag = X12
+	}
+}
+
+tag_mscnd= {
+	OR = {
+	}
+}
+
+tag_mscne= {
+	OR = {
+		tag = X00
+		tag = X01
+		tag = X02
+		tag = X03
+		tag = X05
+		tag = X06
+		tag = X07
+		tag = X10
+		tag = X14
+		tag = X15
+		tag = X16
+		tag = X17
+		tag = X18
+		tag = X19
+		tag = X20
+		tag = X21
+		tag = X22
+		tag = X23
+		tag = X24
+		tag = X25
+		tag = X26
+		tag = X27
+		tag = X28
+		tag = X29
+	}
+}
+
+tag_msvad= {
+	OR = {
+		tag = GER
+		tag = SOV
+		AND = {
+			tag = TUR
+			NOT = { has_government = communism }
+		}
+	}
+}
+
+tag_msvae= {
+	OR = {
+		tag = UZB
+	}
+}
+
+tag_msvnd= {
+	OR = {
+	}
+}
+
+tag_msvne= {
+	OR = {
+	}
+}
+

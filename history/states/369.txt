@@ -1,0 +1,33 @@
+
+state={
+	id=369
+	name="STATE_369"
+	resources={
+		oil=2.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			7891 7 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		7891 
+	}
+	manpower=14493
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

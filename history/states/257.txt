@@ -1,0 +1,32 @@
+
+state={
+	id=257
+	name="STATE_257"
+
+	history={
+		owner = X07
+		victory_points = {
+			3552 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			3552 = {
+				naval_base = 8
+			}
+			air_base = 2
+
+		}
+		add_core_of = X07
+	}
+
+	provinces={
+		527 542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 11616 
+	}
+	manpower=301476
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

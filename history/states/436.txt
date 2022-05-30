@@ -1,0 +1,33 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		chromium=34.000
+		steel=0.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			13217 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		1580 12519 13217 
+	}
+	manpower=84281
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

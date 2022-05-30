@@ -1,0 +1,383 @@
+﻿capital = 614
+set_research_slots = 2
+
+oob = "X11_OOB"
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_south_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+give_guarantee = CHI
+diplomatic_relation = { country = CHI relation = non_aggression_pact }
+
+give_guarantee = COL
+diplomatic_relation = { country = COL relation = non_aggression_pact }
+
+give_guarantee = ETH
+diplomatic_relation = { country = ETH relation = non_aggression_pact }
+
+give_guarantee = GER
+diplomatic_relation = { country = GER relation = non_aggression_pact }
+
+give_guarantee = HOL
+diplomatic_relation = { country = HOL relation = non_aggression_pact }
+
+give_guarantee = ITA
+diplomatic_relation = { country = ITA relation = non_aggression_pact }
+
+give_guarantee = JAP
+diplomatic_relation = { country = JAP relation = non_aggression_pact }
+
+give_guarantee = SCA
+diplomatic_relation = { country = SCA relation = non_aggression_pact }
+
+give_guarantee = SOV
+diplomatic_relation = { country = SOV relation = non_aggression_pact }
+
+give_guarantee = SPR
+diplomatic_relation = { country = SPR relation = non_aggression_pact }
+
+give_guarantee = TUR
+diplomatic_relation = { country = TUR relation = non_aggression_pact }
+
+give_guarantee = X01
+diplomatic_relation = { country = X01 relation = non_aggression_pact }
+
+give_guarantee = X02
+diplomatic_relation = { country = X02 relation = non_aggression_pact }
+
+give_guarantee = X03
+diplomatic_relation = { country = X03 relation = non_aggression_pact }
+
+give_guarantee = X04
+diplomatic_relation = { country = X04 relation = non_aggression_pact }
+
+give_guarantee = X05
+diplomatic_relation = { country = X05 relation = non_aggression_pact }
+
+give_guarantee = X06
+diplomatic_relation = { country = X06 relation = non_aggression_pact }
+
+give_guarantee = X07
+diplomatic_relation = { country = X07 relation = non_aggression_pact }
+
+give_guarantee = X08
+diplomatic_relation = { country = X08 relation = non_aggression_pact }
+
+give_guarantee = X10
+diplomatic_relation = { country = X10 relation = non_aggression_pact }
+
+give_guarantee = X12
+diplomatic_relation = { country = X12 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = CHI modifier = negative_200 }
+add_opinion_modifier = { target = COL modifier = negative_200 }
+add_opinion_modifier = { target = ETH modifier = negative_180 }
+add_opinion_modifier = { target = GER modifier = negative_200 }
+add_opinion_modifier = { target = HOL modifier = negative_200 }
+add_opinion_modifier = { target = ITA modifier = negative_200 }
+add_opinion_modifier = { target = JAP modifier = negative_200 }
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+add_opinion_modifier = { target = SOV modifier = negative_180 }
+add_opinion_modifier = { target = SPR modifier = negative_200 }
+add_opinion_modifier = { target = TUR modifier = negative_200 }
+add_opinion_modifier = { target = UZB modifier = negative_30 }
+add_opinion_modifier = { target = X00 modifier = negative_20 }
+add_opinion_modifier = { target = X01 modifier = negative_200 }
+add_opinion_modifier = { target = X02 modifier = negative_130 }
+add_opinion_modifier = { target = X03 modifier = negative_200 }
+add_opinion_modifier = { target = X04 modifier = negative_200 }
+add_opinion_modifier = { target = X05 modifier = negative_200 }
+add_opinion_modifier = { target = X06 modifier = negative_200 }
+add_opinion_modifier = { target = X07 modifier = negative_40 }
+add_opinion_modifier = { target = X08 modifier = negative_200 }
+add_opinion_modifier = { target = X10 modifier = negative_200 }
+add_opinion_modifier = { target = X12 modifier = negative_200 }
+
+
+add_ideas = {
+	uncivilized
+	disarmed_nation
+	civilian_economy
+	export_focus
+	culture_nepali
+}
+set_stability = 0.60
+set_war_support = 0.61
+
+recruit_character = X11_renaudip_bahadur_rana
+recruit_character = X11_chandra_shamsher_thapa
+recruit_character = X11_renaudip_singh
+recruit_character = X11_renaudip_singh_1
+recruit_character = X11_jang_rana
+recruit_character = X11_bhakti_singh_thapa
+recruit_character = X11_shamsher_bahadur_rana
+recruit_character = X11_shamsher_thapa
+recruit_character = X11_deva_shamsher_bahadur_rana
+recruit_character = X11_ranjur_bahadur_rana
+recruit_character = X11_bir_shamsher_singh
+recruit_character = X11_deva_shamsher_rana
+recruit_character = X11_chandra_shamsher_bahadur_rana
+recruit_character = X11_amar_singh
+recruit_character = X11_shamsher_rana
+recruit_character = X11_shamsher_thapa_1
+recruit_character = X11_chandra_shamsher_rana
+recruit_character = X11_renaudip_singh_thapa
+recruit_character = X11_jang_singh_thapa
+recruit_character = X11_john_cena
+recruit_character = X11_bir_shamsher_rana
+recruit_character = X11_deva_shamsher_bahadur_rana_1
+recruit_character = X11_renaudip_bahadur_rana_1
+recruit_character = X11_renaudip_singh_2
+recruit_character = X11_bhim_shamsher_bahadur_rana
+recruit_character = X11_jang_rana_1
+recruit_character = X11_deva_shamsher_thapa
+recruit_character = X11_ranjur_singh_thapa
+recruit_character = X11_ranjur_singh_thapa_1
+recruit_character = X11_bhim_shamsher_singh
+recruit_character = X11_chandra_shamsher_singh
+recruit_character = X11_shamsher_rana_1
+recruit_character = X11_amar_thapa
+recruit_character = X11_shamsher_bahadur_rana_1
+recruit_character = X11_bhim_shamsher_singh_1
+recruit_character = X11_bir_shamsher_thapa
+recruit_character = X11_bhim_shamsher_rana
+recruit_character = X11_jang_bahadur_rana
+recruit_character = X11_jang_bahadur_rana_1
+recruit_character = X11_ranjur_rana
+recruit_character = X11_jang_thapa
+recruit_character = X11_renaudip_rana
+recruit_character = X11_deva_shamsher_singh
+recruit_character = X11_bhakti_singh_thapa_1
+recruit_character = X11_chandra_shamsher_singh_1
+recruit_character = X11_amar_singh_1
+recruit_character = X11_chandra_shamsher_singh_thapa
+recruit_character = X11_deva_shamsher_singh_thapa
+recruit_character = X11_deva_shamsher_bahadur_rana_2
+recruit_character = X11_shamsher_bahadur_rana_2
+recruit_character = X11_ranjur_singh_thapa_2
+recruit_character = X11_chandra_shamsher_singh_2
+recruit_character = X11_shamsher_bahadur_rana_3
+recruit_character = X11_shamsher_bahadur_rana_4
+recruit_character = X11_bir_shamsher_thapa_1
+recruit_character = X11_shamsher_singh
+recruit_character = X11_renaudip_singh_thapa_1
+recruit_character = X11_bhakti_rana
+recruit_character = X11_bir_shamsher_singh_1
+recruit_character = X11_deva_shamsher_bahadur_rana_3
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X11 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X11 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Bahadur Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X11 }
+	}
+
+	create_operative_leader = {
+		name = "Amar Bahadur Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X11 }
+	}
+
+	create_operative_leader = {
+		name = "Chandra Shamsher Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X11 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X11_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X11_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X11_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

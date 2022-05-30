@@ -1,0 +1,35 @@
+
+state={
+	id=30
+	name="STATE_30"
+	resources={
+		aluminium=0.000
+	}
+
+	history={
+		owner = X01
+		victory_points = {
+			7683 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			3208 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		1426 1785 3208 3691 4720 4787 7364 7683 7810 7813 10176 10534 12147 12503 13196 
+	}
+	manpower=122908
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

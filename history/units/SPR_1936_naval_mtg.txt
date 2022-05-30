@@ -1,0 +1,652 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 758
+		task_force = {
+			name = "1st Fleet"
+			location = 758
+			ship = { name = "Alfonso XII" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9764
+		task_force = {
+			name = "3rd Fleet"
+			location = 9764
+			ship = { name = "Extremadura" definition = light_cruiser start_experience_factor = 0.24687 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "5th Fleet"
+			location = 8000
+			ship = { name = "Castilla" definition = light_cruiser start_experience_factor = 0.26737 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Infanta Isabel" definition = light_cruiser start_experience_factor = 0.2705 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "6th Fleet"
+			location = 1048
+			ship = { name = "Ciudad de Oviedo" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Isla de Cuba" definition = light_cruiser start_experience_factor = 0.26737 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "7th Fleet"
+			location = 8000
+			ship = { name = "Cataluña" definition = light_cruiser start_experience_factor = 0.26737 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Isla de Luzón" definition = light_cruiser start_experience_factor = 0.24976 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 11805
+		task_force = {
+			name = "8th Fleet"
+			location = 11805
+			ship = { name = "Conde de Venadito" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 11805
+		task_force = {
+			name = "9th Fleet"
+			location = 11805
+			ship = { name = "Cristóbal Colón" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "11th Fleet"
+			location = 1048
+			ship = { name = "12th Rabat Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Casablanca Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "12th Fleet"
+			location = 1048
+			ship = { name = "11th Tangier Cruiser" definition = light_cruiser start_experience_factor = 0.28957 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Tangier Cruiser" definition = light_cruiser start_experience_factor = 0.29296 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "15th Fleet"
+			location = 8000
+			ship = { name = "14th Alger Cruiser" definition = light_cruiser start_experience_factor = 0.26737 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "16th Fleet"
+			location = 8000
+			ship = { name = "13th Bone Cruiser" definition = light_cruiser start_experience_factor = 0.24687 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 5012
+		task_force = {
+			name = "17th Fleet"
+			location = 5012
+			ship = { name = "6th Dakhla Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 7992
+		task_force = {
+			name = "18th Fleet"
+			location = 7992
+			ship = { name = "6th Nouakchott Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 4948
+		task_force = {
+			name = "19th Fleet"
+			location = 4948
+			ship = { name = "13th Dakar Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "20th Fleet"
+		naval_base = 4948
+		task_force = {
+			name = "20th Fleet"
+			location = 4948
+			ship = { name = "9th San Marco Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "21st Fleet"
+		naval_base = 4989
+		task_force = {
+			name = "21st Fleet"
+			location = 4989
+			ship = { name = "8th Banjul Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "22nd Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "22nd Fleet"
+			location = 8000
+			ship = { name = "6th Boffa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "23rd Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "23rd Fleet"
+			location = 2038
+			ship = { name = "7th Port Léonin Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "24th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "24th Fleet"
+			location = 1212
+			ship = { name = "8th Leblois Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "25th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "25th Fleet"
+			location = 8000
+			ship = { name = "9th Grand Bassam Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "26th Fleet"
+		naval_base = 1903
+		task_force = {
+			name = "26th Fleet"
+			location = 1903
+			ship = { name = "12th Fernando Po Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "27th Fleet"
+		naval_base = 13018
+		task_force = {
+			name = "27th Fleet"
+			location = 13018
+			ship = { name = "7th Dom Sebastião Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "28th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "28th Fleet"
+			location = 2272
+			ship = { name = "10th Madeira Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "29th Fleet"
+		naval_base = 758
+		task_force = {
+			name = "29th Fleet"
+			location = 758
+			ship = { name = "Don Juan de Austria" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "36th Fleet"
+		naval_base = 11805
+		task_force = {
+			name = "36th Fleet"
+			location = 11805
+			ship = { name = "Juan Sebastián Elcano" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "37th Fleet"
+		naval_base = 11805
+		task_force = {
+			name = "37th Fleet"
+			location = 11805
+			ship = { name = "Lepanto" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "43rd Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "43rd Fleet"
+			location = 8000
+			ship = { name = "15th Alger Cruiser" definition = light_cruiser start_experience_factor = 0.26737 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "44th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "44th Fleet"
+			location = 8000
+			ship = { name = "14th Bone Cruiser" definition = light_cruiser start_experience_factor = 0.26737 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "45th Fleet"
+		naval_base = 5012
+		task_force = {
+			name = "45th Fleet"
+			location = 5012
+			ship = { name = "7th Dakhla Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "46th Fleet"
+		naval_base = 7992
+		task_force = {
+			name = "46th Fleet"
+			location = 7992
+			ship = { name = "7th Nouakchott Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "47th Fleet"
+		naval_base = 4948
+		task_force = {
+			name = "47th Fleet"
+			location = 4948
+			ship = { name = "14th Dakar Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "48th Fleet"
+		naval_base = 4948
+		task_force = {
+			name = "48th Fleet"
+			location = 4948
+			ship = { name = "10th San Marco Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "49th Fleet"
+		naval_base = 4989
+		task_force = {
+			name = "49th Fleet"
+			location = 4989
+			ship = { name = "9th Banjul Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "50th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "50th Fleet"
+			location = 8000
+			ship = { name = "7th Boffa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "51st Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "51st Fleet"
+			location = 2038
+			ship = { name = "8th Port Léonin Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "52nd Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "52nd Fleet"
+			location = 1212
+			ship = { name = "9th Leblois Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "53rd Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "53rd Fleet"
+			location = 8000
+			ship = { name = "10th Grand Bassam Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "54th Fleet"
+		naval_base = 1903
+		task_force = {
+			name = "54th Fleet"
+			location = 1903
+			ship = { name = "13th Fernando Po Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "55th Fleet"
+		naval_base = 13018
+		task_force = {
+			name = "55th Fleet"
+			location = 13018
+			ship = { name = "8th Dom Sebastião Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "56th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "56th Fleet"
+			location = 2272
+			ship = { name = "11th Madeira Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "31st Fleet"
+		naval_base = 758
+		task_force = {
+			name = "31st Fleet"
+			location = 758
+			ship = { name = "Navarra" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 740
+		task_force = {
+			name = "4th Fleet"
+			location = 740
+			ship = { name = "Princesa de Asturias" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "13th Fleet"
+			location = 8000
+			ship = { name = "Reina Cristina" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "32nd Fleet"
+		naval_base = 6817
+		task_force = {
+			name = "32nd Fleet"
+			location = 6817
+			ship = { name = "Reina Mercedes" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "33rd Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "33rd Fleet"
+			location = 8000
+			ship = { name = "Reina Regente" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "34th Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "34th Fleet"
+			location = 1048
+			ship = { name = "Río de la Plata" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "35th Fleet"
+		naval_base = 10063
+		task_force = {
+			name = "35th Fleet"
+			location = 10063
+			ship = { name = "Velasco" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "39th Fleet"
+		naval_base = 9817
+		task_force = {
+			name = "39th Fleet"
+			location = 9817
+			ship = { name = "Vizcaya" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "40th Fleet"
+		naval_base = 11805
+		task_force = {
+			name = "40th Fleet"
+			location = 11805
+			ship = { name = "16th Lisboa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "41st Fleet"
+		naval_base = 3866
+		task_force = {
+			name = "41st Fleet"
+			location = 3866
+			ship = { name = "16th Beja Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "57th Fleet"
+		naval_base = 10070
+		task_force = {
+			name = "57th Fleet"
+			location = 10070
+			ship = { name = "13th Rabat Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "58th Fleet"
+		naval_base = 9945
+		task_force = {
+			name = "58th Fleet"
+			location = 9945
+			ship = { name = "13th Tangier Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 7069
+		task_force = {
+			name = "10th Fleet"
+			location = 7069
+			ship = { name = "14th Casablanca Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "38th Fleet"
+		naval_base = 12857
+		task_force = {
+			name = "38th Fleet"
+			location = 12857
+			ship = { name = "15th Santa Cruz Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "59th Fleet"
+		naval_base = 1145
+		task_force = {
+			name = "59th Fleet"
+			location = 1145
+			ship = { name = "16th Alger Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "60th Fleet"
+		naval_base = 1160
+		task_force = {
+			name = "60th Fleet"
+			location = 1160
+			ship = { name = "15th Bone Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "61st Fleet"
+		naval_base = 5012
+		task_force = {
+			name = "61st Fleet"
+			location = 5012
+			ship = { name = "8th Dakhla Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "62nd Fleet"
+		naval_base = 7992
+		task_force = {
+			name = "62nd Fleet"
+			location = 7992
+			ship = { name = "8th Nouakchott Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "63rd Fleet"
+		naval_base = 4948
+		task_force = {
+			name = "63rd Fleet"
+			location = 4948
+			ship = { name = "15th Dakar Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "64th Fleet"
+		naval_base = 4948
+		task_force = {
+			name = "64th Fleet"
+			location = 4948
+			ship = { name = "11th San Marco Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "65th Fleet"
+		naval_base = 4989
+		task_force = {
+			name = "65th Fleet"
+			location = 4989
+			ship = { name = "10th Banjul Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "66th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "66th Fleet"
+			location = 8000
+			ship = { name = "8th Boffa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "67th Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "67th Fleet"
+			location = 2038
+			ship = { name = "9th Port Léonin Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "68th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "68th Fleet"
+			location = 1212
+			ship = { name = "10th Leblois Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "69th Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "69th Fleet"
+			location = 8000
+			ship = { name = "11th Grand Bassam Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "70th Fleet"
+		naval_base = 1903
+		task_force = {
+			name = "70th Fleet"
+			location = 1903
+			ship = { name = "14th Fernando Po Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "71st Fleet"
+		naval_base = 13018
+		task_force = {
+			name = "71st Fleet"
+			location = 13018
+			ship = { name = "9th Dom Sebastião Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "72nd Fleet"
+		naval_base = 8000
+		task_force = {
+			name = "72nd Fleet"
+			location = 2272
+			ship = { name = "12th Madeira Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "2nd Fleet"
+			location = 1048
+			ship = { name = "11th Rabat Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Casablanca Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SPR"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "SPR"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

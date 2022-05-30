@@ -1,0 +1,148 @@
+﻿converted_war_strategies_HOL = {
+	enable = {
+		tag = HOL
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 715
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X07"
+		value = 440
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 417
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_HOL = {
+	enable = {
+		tag = HOL
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X07"
+		value = 394
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 367
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 367
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 248
+	}
+	ai_strategy = {
+		type = contain
+		id = "X01"
+		value = 245
+	}
+	ai_strategy = {
+		type = contain
+		id = "SPR"
+		value = 207
+	}
+	ai_strategy = {
+		type = contain
+		id = "X05"
+		value = 148
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 116
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X07"
+		value = 271
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 112
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPR"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 4
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X08"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 195
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 185
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPR"
+		value = 164
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X07"
+		value = 181
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 111
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SCA"
+		value = 60
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X05"
+		value = 56
+	}
+}

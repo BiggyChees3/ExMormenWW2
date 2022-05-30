@@ -1,0 +1,194 @@
+bookmarks = {
+	bookmark = {
+		name = GATHERING_STORM_NAME
+		desc = GATHERING_STORM_DESC
+		date = 1936.1.1.12
+		picture = GFX_select_date_1936
+		default_country = "SOV"
+		GER= {
+			history = "fascism_GP_CONV_DESC"
+			ideology = fascism
+			ideas = { great_power GER_monarch general_staff }
+		}
+		SOV= {
+			history = "radical_GP_CONV_DESC"
+			ideology = radical
+			ideas = { great_power SOV_monarch }
+		}
+		X03= {
+			history = "communism_GP_CONV_DESC"
+			ideology = communism
+			ideas = { great_power }
+		}
+		CHI= {
+			history = "communism_GP_CONV_DESC"
+			ideology = communism
+			ideas = { great_power CHI_monarch }
+		}
+		COL= {
+			history = "communism_GP_CONV_DESC"
+			ideology = communism
+			ideas = { great_power }
+		}
+		ITA= {
+			history = "fascism_GP_CONV_DESC"
+			ideology = fascism
+			ideas = { great_power vittoria_mutilata }
+		}
+		X01= {
+			history = "communism_GP_CONV_DESC"
+			ideology = communism
+			ideas = { great_power }
+		}
+		SPR= {
+			history = "radical_GP_CONV_DESC"
+			ideology = radical
+			ideas = { great_power SPR_monarch }
+		}
+		"---"= {
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		ETH = {
+			minor = yes
+			history = "radical_SP_CONV_DESC"
+			ideology = radical
+			ideas = { }
+		}
+		HOL = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { }
+		}
+		JAP = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		KOR = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		SCA = {
+			minor = yes
+			history = "communism_SP_CONV_DESC"
+			ideology = communism
+			ideas = { }
+		}
+		TUR = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		UZB = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { UZB_monarch }
+		}
+		X00 = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { }
+		}
+		X02 = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { }
+		}
+		X04 = {
+			minor = yes
+			history = "communism_SP_CONV_DESC"
+			ideology = communism
+			ideas = { }
+		}
+		X05 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { X05_monarch }
+		}
+		X06 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		X07 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		X08 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { X08_monarch }
+		}
+		X09 = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { X09_monarch }
+		}
+		X10 = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { }
+		}
+		X11 = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { }
+		}
+		X12 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		X13 = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { X13_monarch }
+		}
+		X14 = {
+			minor = yes
+			history = "communism_SP_CONV_DESC"
+			ideology = communism
+			ideas = { }
+		}
+		X15 = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { }
+		}
+		X16 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		X17 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		effect = {
+			randomize_weather = 22345 # <-Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

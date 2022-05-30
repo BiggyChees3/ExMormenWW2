@@ -1,0 +1,24 @@
+
+state={
+	id=496
+	name="STATE_496"
+	resources={
+		oil=0.000
+	}
+	impassable = yes
+
+	history={
+		owner = X10
+		add_core_of = CHI
+		add_claim_by = X06
+	}
+
+	provinces={
+		8237 10979 12915 12936 
+	}
+	manpower=34534
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=465
+	name="STATE_465"
+	resources={
+		rubber=140.000
+		steel=3.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			7408 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7408 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1281 1308 1337 1394 1427 4312 4319 4348 4371 4388 4392 7367 7408 7587 10193 10221 10250 12122 12201 12220 
+	}
+	manpower=371079
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

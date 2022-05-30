@@ -1,0 +1,23 @@
+
+state={
+	id=601
+	name="STATE_601"
+	resources={
+		steel=0.000
+	}
+	impassable = yes
+
+	history={
+		owner = SCA
+		add_core_of = SCA
+	}
+
+	provinces={
+		2068 10868 
+	}
+	manpower=2574
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

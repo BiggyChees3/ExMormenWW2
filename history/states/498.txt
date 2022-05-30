@@ -1,0 +1,37 @@
+
+state={
+	id=498
+	name="STATE_498"
+	resources={
+		aluminium=14.000
+		chromium=2.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			12990 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8243 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_claim_by = X06
+	}
+
+	provinces={
+		1526 1652 2157 2191 5175 7453 8130 8200 8228 8243 10969 10997 11011 12948 12962 12976 12990 
+	}
+	manpower=346640
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

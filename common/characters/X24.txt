@@ -1,0 +1,16 @@
+characters={
+	X24_thomas_dannemand={
+		name=X24_thomas_dannemand
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/portrait_fra_maurice_thorez.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

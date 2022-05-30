@@ -1,0 +1,36 @@
+
+state={
+	id=176
+	name="STATE_176"
+	resources={
+		aluminium=2.000
+		oil=31.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			1562 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			8119 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		823 1562 1892 1904 7517 7964 7986 8119 12374 12461 12736 12859 13215 13216 
+	}
+	manpower=145590
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

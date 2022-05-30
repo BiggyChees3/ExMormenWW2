@@ -1,0 +1,33 @@
+
+state={
+	id=161
+	name="STATE_161"
+
+	history={
+		owner = CHI
+		victory_points = {
+			8461 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8461 = {
+				naval_base = 1
+
+			}
+			air_base = 1
+
+		}
+		add_core_of = X12
+
+	}
+
+	provinces={
+		1703 1766 1943 1970 2015 2074 4682 4828 4973 5016 5042 5087 7790 7949 8042 8086 8112 10315 10885 10911 12119 12864 
+	}
+	manpower=272313
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=10.000
+}

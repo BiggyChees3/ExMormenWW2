@@ -1,0 +1,37 @@
+
+state={
+	id=480
+	name="STATE_480"
+	resources={
+		chromium=1.000
+		steel=1.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			4334 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			4334 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		1248 1285 1300 1328 1400 1605 4334 4363 4405 7238 7271 7347 7380 10162 10180 10232 12109 12176 12204 
+	}
+	manpower=69715
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

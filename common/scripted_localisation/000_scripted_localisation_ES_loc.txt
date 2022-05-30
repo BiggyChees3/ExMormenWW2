@@ -1,0 +1,4828 @@
+defined_text = {
+	name = ESGetAdjMS
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = communism
+		}
+		localization_key = CHI_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = fascism
+		}
+		localization_key = CHI_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = neutrality
+		}
+		localization_key = CHI_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = radical
+		}
+		localization_key = CHI_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = communism
+		}
+		localization_key = COL_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = fascism
+		}
+		localization_key = COL_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = neutrality
+		}
+		localization_key = COL_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = radical
+		}
+		localization_key = COL_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = communism
+		}
+		localization_key = ETH_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = fascism
+		}
+		localization_key = ETH_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = neutrality
+		}
+		localization_key = ETH_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = radical
+		}
+		localization_key = ETH_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = communism
+		}
+		localization_key = GER_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = fascism
+		}
+		localization_key = GER_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = neutrality
+		}
+		localization_key = GER_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = radical
+		}
+		localization_key = GER_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = communism
+		}
+		localization_key = HOL_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = fascism
+		}
+		localization_key = HOL_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = neutrality
+		}
+		localization_key = HOL_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = radical
+		}
+		localization_key = HOL_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = communism
+		}
+		localization_key = ITA_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = fascism
+		}
+		localization_key = ITA_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = neutrality
+		}
+		localization_key = ITA_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = radical
+		}
+		localization_key = ITA_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = communism
+		}
+		localization_key = JAP_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = fascism
+		}
+		localization_key = JAP_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = neutrality
+		}
+		localization_key = JAP_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = radical
+		}
+		localization_key = JAP_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = communism
+		}
+		localization_key = KOR_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = fascism
+		}
+		localization_key = KOR_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = neutrality
+		}
+		localization_key = KOR_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = radical
+		}
+		localization_key = KOR_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = communism
+		}
+		localization_key = SCA_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = fascism
+		}
+		localization_key = SCA_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = neutrality
+		}
+		localization_key = SCA_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = radical
+		}
+		localization_key = SCA_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = communism
+		}
+		localization_key = SOV_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = fascism
+		}
+		localization_key = SOV_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = neutrality
+		}
+		localization_key = SOV_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = radical
+		}
+		localization_key = SOV_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = communism
+		}
+		localization_key = SPR_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = fascism
+		}
+		localization_key = SPR_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = neutrality
+		}
+		localization_key = SPR_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = radical
+		}
+		localization_key = SPR_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = communism
+		}
+		localization_key = TUR_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = fascism
+		}
+		localization_key = TUR_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = neutrality
+		}
+		localization_key = TUR_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = radical
+		}
+		localization_key = TUR_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = communism
+		}
+		localization_key = UZB_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = fascism
+		}
+		localization_key = UZB_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = neutrality
+		}
+		localization_key = UZB_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = radical
+		}
+		localization_key = UZB_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = communism
+		}
+		localization_key = X00_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = fascism
+		}
+		localization_key = X00_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = neutrality
+		}
+		localization_key = X00_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = radical
+		}
+		localization_key = X00_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = communism
+		}
+		localization_key = X01_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = fascism
+		}
+		localization_key = X01_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = neutrality
+		}
+		localization_key = X01_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = radical
+		}
+		localization_key = X01_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = communism
+		}
+		localization_key = X02_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = fascism
+		}
+		localization_key = X02_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = neutrality
+		}
+		localization_key = X02_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = radical
+		}
+		localization_key = X02_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = communism
+		}
+		localization_key = X03_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = fascism
+		}
+		localization_key = X03_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = neutrality
+		}
+		localization_key = X03_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = radical
+		}
+		localization_key = X03_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = communism
+		}
+		localization_key = X04_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = fascism
+		}
+		localization_key = X04_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = neutrality
+		}
+		localization_key = X04_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = radical
+		}
+		localization_key = X04_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = communism
+		}
+		localization_key = X05_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = fascism
+		}
+		localization_key = X05_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = neutrality
+		}
+		localization_key = X05_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = radical
+		}
+		localization_key = X05_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = communism
+		}
+		localization_key = X06_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = fascism
+		}
+		localization_key = X06_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = neutrality
+		}
+		localization_key = X06_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = radical
+		}
+		localization_key = X06_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = communism
+		}
+		localization_key = X07_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = fascism
+		}
+		localization_key = X07_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = neutrality
+		}
+		localization_key = X07_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = radical
+		}
+		localization_key = X07_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = communism
+		}
+		localization_key = X08_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = fascism
+		}
+		localization_key = X08_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = neutrality
+		}
+		localization_key = X08_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = radical
+		}
+		localization_key = X08_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = communism
+		}
+		localization_key = X09_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = fascism
+		}
+		localization_key = X09_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = neutrality
+		}
+		localization_key = X09_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = radical
+		}
+		localization_key = X09_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = communism
+		}
+		localization_key = X10_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = fascism
+		}
+		localization_key = X10_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = neutrality
+		}
+		localization_key = X10_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = radical
+		}
+		localization_key = X10_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = communism
+		}
+		localization_key = X11_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = fascism
+		}
+		localization_key = X11_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = neutrality
+		}
+		localization_key = X11_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = radical
+		}
+		localization_key = X11_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = communism
+		}
+		localization_key = X12_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = fascism
+		}
+		localization_key = X12_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = neutrality
+		}
+		localization_key = X12_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = radical
+		}
+		localization_key = X12_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = communism
+		}
+		localization_key = X13_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = fascism
+		}
+		localization_key = X13_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = neutrality
+		}
+		localization_key = X13_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = radical
+		}
+		localization_key = X13_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = communism
+		}
+		localization_key = X14_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = fascism
+		}
+		localization_key = X14_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = neutrality
+		}
+		localization_key = X14_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = radical
+		}
+		localization_key = X14_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = communism
+		}
+		localization_key = X15_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = fascism
+		}
+		localization_key = X15_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = neutrality
+		}
+		localization_key = X15_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = radical
+		}
+		localization_key = X15_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = communism
+		}
+		localization_key = X16_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = fascism
+		}
+		localization_key = X16_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = neutrality
+		}
+		localization_key = X16_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = radical
+		}
+		localization_key = X16_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = communism
+		}
+		localization_key = X17_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = fascism
+		}
+		localization_key = X17_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = neutrality
+		}
+		localization_key = X17_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = radical
+		}
+		localization_key = X17_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = communism
+		}
+		localization_key = X18_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = fascism
+		}
+		localization_key = X18_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = neutrality
+		}
+		localization_key = X18_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = radical
+		}
+		localization_key = X18_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = communism
+		}
+		localization_key = X19_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = fascism
+		}
+		localization_key = X19_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = neutrality
+		}
+		localization_key = X19_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = radical
+		}
+		localization_key = X19_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = communism
+		}
+		localization_key = X20_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = fascism
+		}
+		localization_key = X20_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = neutrality
+		}
+		localization_key = X20_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = radical
+		}
+		localization_key = X20_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = communism
+		}
+		localization_key = X21_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = fascism
+		}
+		localization_key = X21_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = neutrality
+		}
+		localization_key = X21_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = radical
+		}
+		localization_key = X21_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = communism
+		}
+		localization_key = X22_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = fascism
+		}
+		localization_key = X22_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = neutrality
+		}
+		localization_key = X22_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = radical
+		}
+		localization_key = X22_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = communism
+		}
+		localization_key = X23_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = fascism
+		}
+		localization_key = X23_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = neutrality
+		}
+		localization_key = X23_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = radical
+		}
+		localization_key = X23_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = communism
+		}
+		localization_key = X24_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = fascism
+		}
+		localization_key = X24_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = neutrality
+		}
+		localization_key = X24_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = radical
+		}
+		localization_key = X24_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = communism
+		}
+		localization_key = X25_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = fascism
+		}
+		localization_key = X25_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = neutrality
+		}
+		localization_key = X25_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = radical
+		}
+		localization_key = X25_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = communism
+		}
+		localization_key = X26_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = fascism
+		}
+		localization_key = X26_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = neutrality
+		}
+		localization_key = X26_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = radical
+		}
+		localization_key = X26_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = communism
+		}
+		localization_key = X27_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = fascism
+		}
+		localization_key = X27_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = neutrality
+		}
+		localization_key = X27_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = radical
+		}
+		localization_key = X27_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = communism
+		}
+		localization_key = X28_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = fascism
+		}
+		localization_key = X28_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = neutrality
+		}
+		localization_key = X28_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = radical
+		}
+		localization_key = X28_radical_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = communism
+		}
+		localization_key = X29_communism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = fascism
+		}
+		localization_key = X29_fascism_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = neutrality
+		}
+		localization_key = X29_neutrality_ADJ_MS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = radical
+		}
+		localization_key = X29_radical_ADJ_MS_ES
+	}
+}
+defined_text = {
+	name = ESGetAdjMP
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = communism
+		}
+		localization_key = CHI_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = fascism
+		}
+		localization_key = CHI_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = neutrality
+		}
+		localization_key = CHI_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = radical
+		}
+		localization_key = CHI_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = communism
+		}
+		localization_key = COL_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = fascism
+		}
+		localization_key = COL_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = neutrality
+		}
+		localization_key = COL_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = radical
+		}
+		localization_key = COL_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = communism
+		}
+		localization_key = ETH_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = fascism
+		}
+		localization_key = ETH_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = neutrality
+		}
+		localization_key = ETH_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = radical
+		}
+		localization_key = ETH_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = communism
+		}
+		localization_key = GER_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = fascism
+		}
+		localization_key = GER_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = neutrality
+		}
+		localization_key = GER_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = radical
+		}
+		localization_key = GER_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = communism
+		}
+		localization_key = HOL_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = fascism
+		}
+		localization_key = HOL_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = neutrality
+		}
+		localization_key = HOL_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = radical
+		}
+		localization_key = HOL_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = communism
+		}
+		localization_key = ITA_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = fascism
+		}
+		localization_key = ITA_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = neutrality
+		}
+		localization_key = ITA_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = radical
+		}
+		localization_key = ITA_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = communism
+		}
+		localization_key = JAP_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = fascism
+		}
+		localization_key = JAP_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = neutrality
+		}
+		localization_key = JAP_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = radical
+		}
+		localization_key = JAP_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = communism
+		}
+		localization_key = KOR_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = fascism
+		}
+		localization_key = KOR_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = neutrality
+		}
+		localization_key = KOR_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = radical
+		}
+		localization_key = KOR_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = communism
+		}
+		localization_key = SCA_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = fascism
+		}
+		localization_key = SCA_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = neutrality
+		}
+		localization_key = SCA_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = radical
+		}
+		localization_key = SCA_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = communism
+		}
+		localization_key = SOV_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = fascism
+		}
+		localization_key = SOV_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = neutrality
+		}
+		localization_key = SOV_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = radical
+		}
+		localization_key = SOV_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = communism
+		}
+		localization_key = SPR_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = fascism
+		}
+		localization_key = SPR_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = neutrality
+		}
+		localization_key = SPR_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = radical
+		}
+		localization_key = SPR_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = communism
+		}
+		localization_key = TUR_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = fascism
+		}
+		localization_key = TUR_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = neutrality
+		}
+		localization_key = TUR_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = radical
+		}
+		localization_key = TUR_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = communism
+		}
+		localization_key = UZB_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = fascism
+		}
+		localization_key = UZB_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = neutrality
+		}
+		localization_key = UZB_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = radical
+		}
+		localization_key = UZB_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = communism
+		}
+		localization_key = X00_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = fascism
+		}
+		localization_key = X00_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = neutrality
+		}
+		localization_key = X00_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = radical
+		}
+		localization_key = X00_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = communism
+		}
+		localization_key = X01_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = fascism
+		}
+		localization_key = X01_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = neutrality
+		}
+		localization_key = X01_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = radical
+		}
+		localization_key = X01_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = communism
+		}
+		localization_key = X02_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = fascism
+		}
+		localization_key = X02_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = neutrality
+		}
+		localization_key = X02_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = radical
+		}
+		localization_key = X02_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = communism
+		}
+		localization_key = X03_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = fascism
+		}
+		localization_key = X03_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = neutrality
+		}
+		localization_key = X03_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = radical
+		}
+		localization_key = X03_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = communism
+		}
+		localization_key = X04_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = fascism
+		}
+		localization_key = X04_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = neutrality
+		}
+		localization_key = X04_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = radical
+		}
+		localization_key = X04_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = communism
+		}
+		localization_key = X05_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = fascism
+		}
+		localization_key = X05_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = neutrality
+		}
+		localization_key = X05_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = radical
+		}
+		localization_key = X05_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = communism
+		}
+		localization_key = X06_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = fascism
+		}
+		localization_key = X06_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = neutrality
+		}
+		localization_key = X06_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = radical
+		}
+		localization_key = X06_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = communism
+		}
+		localization_key = X07_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = fascism
+		}
+		localization_key = X07_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = neutrality
+		}
+		localization_key = X07_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = radical
+		}
+		localization_key = X07_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = communism
+		}
+		localization_key = X08_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = fascism
+		}
+		localization_key = X08_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = neutrality
+		}
+		localization_key = X08_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = radical
+		}
+		localization_key = X08_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = communism
+		}
+		localization_key = X09_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = fascism
+		}
+		localization_key = X09_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = neutrality
+		}
+		localization_key = X09_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = radical
+		}
+		localization_key = X09_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = communism
+		}
+		localization_key = X10_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = fascism
+		}
+		localization_key = X10_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = neutrality
+		}
+		localization_key = X10_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = radical
+		}
+		localization_key = X10_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = communism
+		}
+		localization_key = X11_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = fascism
+		}
+		localization_key = X11_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = neutrality
+		}
+		localization_key = X11_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = radical
+		}
+		localization_key = X11_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = communism
+		}
+		localization_key = X12_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = fascism
+		}
+		localization_key = X12_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = neutrality
+		}
+		localization_key = X12_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = radical
+		}
+		localization_key = X12_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = communism
+		}
+		localization_key = X13_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = fascism
+		}
+		localization_key = X13_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = neutrality
+		}
+		localization_key = X13_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = radical
+		}
+		localization_key = X13_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = communism
+		}
+		localization_key = X14_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = fascism
+		}
+		localization_key = X14_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = neutrality
+		}
+		localization_key = X14_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = radical
+		}
+		localization_key = X14_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = communism
+		}
+		localization_key = X15_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = fascism
+		}
+		localization_key = X15_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = neutrality
+		}
+		localization_key = X15_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = radical
+		}
+		localization_key = X15_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = communism
+		}
+		localization_key = X16_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = fascism
+		}
+		localization_key = X16_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = neutrality
+		}
+		localization_key = X16_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = radical
+		}
+		localization_key = X16_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = communism
+		}
+		localization_key = X17_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = fascism
+		}
+		localization_key = X17_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = neutrality
+		}
+		localization_key = X17_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = radical
+		}
+		localization_key = X17_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = communism
+		}
+		localization_key = X18_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = fascism
+		}
+		localization_key = X18_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = neutrality
+		}
+		localization_key = X18_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = radical
+		}
+		localization_key = X18_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = communism
+		}
+		localization_key = X19_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = fascism
+		}
+		localization_key = X19_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = neutrality
+		}
+		localization_key = X19_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = radical
+		}
+		localization_key = X19_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = communism
+		}
+		localization_key = X20_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = fascism
+		}
+		localization_key = X20_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = neutrality
+		}
+		localization_key = X20_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = radical
+		}
+		localization_key = X20_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = communism
+		}
+		localization_key = X21_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = fascism
+		}
+		localization_key = X21_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = neutrality
+		}
+		localization_key = X21_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = radical
+		}
+		localization_key = X21_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = communism
+		}
+		localization_key = X22_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = fascism
+		}
+		localization_key = X22_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = neutrality
+		}
+		localization_key = X22_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = radical
+		}
+		localization_key = X22_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = communism
+		}
+		localization_key = X23_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = fascism
+		}
+		localization_key = X23_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = neutrality
+		}
+		localization_key = X23_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = radical
+		}
+		localization_key = X23_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = communism
+		}
+		localization_key = X24_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = fascism
+		}
+		localization_key = X24_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = neutrality
+		}
+		localization_key = X24_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = radical
+		}
+		localization_key = X24_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = communism
+		}
+		localization_key = X25_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = fascism
+		}
+		localization_key = X25_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = neutrality
+		}
+		localization_key = X25_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = radical
+		}
+		localization_key = X25_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = communism
+		}
+		localization_key = X26_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = fascism
+		}
+		localization_key = X26_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = neutrality
+		}
+		localization_key = X26_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = radical
+		}
+		localization_key = X26_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = communism
+		}
+		localization_key = X27_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = fascism
+		}
+		localization_key = X27_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = neutrality
+		}
+		localization_key = X27_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = radical
+		}
+		localization_key = X27_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = communism
+		}
+		localization_key = X28_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = fascism
+		}
+		localization_key = X28_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = neutrality
+		}
+		localization_key = X28_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = radical
+		}
+		localization_key = X28_radical_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = communism
+		}
+		localization_key = X29_communism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = fascism
+		}
+		localization_key = X29_fascism_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = neutrality
+		}
+		localization_key = X29_neutrality_ADJ_MP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = radical
+		}
+		localization_key = X29_radical_ADJ_MP_ES
+	}
+}
+defined_text = {
+	name = ESGetAdjFS
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = communism
+		}
+		localization_key = CHI_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = fascism
+		}
+		localization_key = CHI_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = neutrality
+		}
+		localization_key = CHI_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = radical
+		}
+		localization_key = CHI_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = communism
+		}
+		localization_key = COL_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = fascism
+		}
+		localization_key = COL_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = neutrality
+		}
+		localization_key = COL_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = radical
+		}
+		localization_key = COL_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = communism
+		}
+		localization_key = ETH_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = fascism
+		}
+		localization_key = ETH_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = neutrality
+		}
+		localization_key = ETH_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = radical
+		}
+		localization_key = ETH_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = communism
+		}
+		localization_key = GER_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = fascism
+		}
+		localization_key = GER_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = neutrality
+		}
+		localization_key = GER_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = radical
+		}
+		localization_key = GER_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = communism
+		}
+		localization_key = HOL_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = fascism
+		}
+		localization_key = HOL_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = neutrality
+		}
+		localization_key = HOL_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = radical
+		}
+		localization_key = HOL_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = communism
+		}
+		localization_key = ITA_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = fascism
+		}
+		localization_key = ITA_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = neutrality
+		}
+		localization_key = ITA_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = radical
+		}
+		localization_key = ITA_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = communism
+		}
+		localization_key = JAP_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = fascism
+		}
+		localization_key = JAP_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = neutrality
+		}
+		localization_key = JAP_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = radical
+		}
+		localization_key = JAP_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = communism
+		}
+		localization_key = KOR_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = fascism
+		}
+		localization_key = KOR_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = neutrality
+		}
+		localization_key = KOR_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = radical
+		}
+		localization_key = KOR_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = communism
+		}
+		localization_key = SCA_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = fascism
+		}
+		localization_key = SCA_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = neutrality
+		}
+		localization_key = SCA_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = radical
+		}
+		localization_key = SCA_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = communism
+		}
+		localization_key = SOV_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = fascism
+		}
+		localization_key = SOV_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = neutrality
+		}
+		localization_key = SOV_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = radical
+		}
+		localization_key = SOV_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = communism
+		}
+		localization_key = SPR_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = fascism
+		}
+		localization_key = SPR_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = neutrality
+		}
+		localization_key = SPR_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = radical
+		}
+		localization_key = SPR_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = communism
+		}
+		localization_key = TUR_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = fascism
+		}
+		localization_key = TUR_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = neutrality
+		}
+		localization_key = TUR_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = radical
+		}
+		localization_key = TUR_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = communism
+		}
+		localization_key = UZB_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = fascism
+		}
+		localization_key = UZB_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = neutrality
+		}
+		localization_key = UZB_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = radical
+		}
+		localization_key = UZB_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = communism
+		}
+		localization_key = X00_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = fascism
+		}
+		localization_key = X00_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = neutrality
+		}
+		localization_key = X00_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = radical
+		}
+		localization_key = X00_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = communism
+		}
+		localization_key = X01_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = fascism
+		}
+		localization_key = X01_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = neutrality
+		}
+		localization_key = X01_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = radical
+		}
+		localization_key = X01_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = communism
+		}
+		localization_key = X02_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = fascism
+		}
+		localization_key = X02_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = neutrality
+		}
+		localization_key = X02_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = radical
+		}
+		localization_key = X02_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = communism
+		}
+		localization_key = X03_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = fascism
+		}
+		localization_key = X03_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = neutrality
+		}
+		localization_key = X03_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = radical
+		}
+		localization_key = X03_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = communism
+		}
+		localization_key = X04_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = fascism
+		}
+		localization_key = X04_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = neutrality
+		}
+		localization_key = X04_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = radical
+		}
+		localization_key = X04_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = communism
+		}
+		localization_key = X05_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = fascism
+		}
+		localization_key = X05_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = neutrality
+		}
+		localization_key = X05_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = radical
+		}
+		localization_key = X05_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = communism
+		}
+		localization_key = X06_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = fascism
+		}
+		localization_key = X06_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = neutrality
+		}
+		localization_key = X06_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = radical
+		}
+		localization_key = X06_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = communism
+		}
+		localization_key = X07_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = fascism
+		}
+		localization_key = X07_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = neutrality
+		}
+		localization_key = X07_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = radical
+		}
+		localization_key = X07_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = communism
+		}
+		localization_key = X08_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = fascism
+		}
+		localization_key = X08_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = neutrality
+		}
+		localization_key = X08_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = radical
+		}
+		localization_key = X08_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = communism
+		}
+		localization_key = X09_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = fascism
+		}
+		localization_key = X09_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = neutrality
+		}
+		localization_key = X09_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = radical
+		}
+		localization_key = X09_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = communism
+		}
+		localization_key = X10_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = fascism
+		}
+		localization_key = X10_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = neutrality
+		}
+		localization_key = X10_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = radical
+		}
+		localization_key = X10_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = communism
+		}
+		localization_key = X11_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = fascism
+		}
+		localization_key = X11_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = neutrality
+		}
+		localization_key = X11_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = radical
+		}
+		localization_key = X11_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = communism
+		}
+		localization_key = X12_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = fascism
+		}
+		localization_key = X12_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = neutrality
+		}
+		localization_key = X12_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = radical
+		}
+		localization_key = X12_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = communism
+		}
+		localization_key = X13_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = fascism
+		}
+		localization_key = X13_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = neutrality
+		}
+		localization_key = X13_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = radical
+		}
+		localization_key = X13_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = communism
+		}
+		localization_key = X14_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = fascism
+		}
+		localization_key = X14_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = neutrality
+		}
+		localization_key = X14_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = radical
+		}
+		localization_key = X14_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = communism
+		}
+		localization_key = X15_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = fascism
+		}
+		localization_key = X15_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = neutrality
+		}
+		localization_key = X15_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = radical
+		}
+		localization_key = X15_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = communism
+		}
+		localization_key = X16_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = fascism
+		}
+		localization_key = X16_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = neutrality
+		}
+		localization_key = X16_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = radical
+		}
+		localization_key = X16_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = communism
+		}
+		localization_key = X17_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = fascism
+		}
+		localization_key = X17_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = neutrality
+		}
+		localization_key = X17_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = radical
+		}
+		localization_key = X17_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = communism
+		}
+		localization_key = X18_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = fascism
+		}
+		localization_key = X18_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = neutrality
+		}
+		localization_key = X18_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = radical
+		}
+		localization_key = X18_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = communism
+		}
+		localization_key = X19_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = fascism
+		}
+		localization_key = X19_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = neutrality
+		}
+		localization_key = X19_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = radical
+		}
+		localization_key = X19_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = communism
+		}
+		localization_key = X20_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = fascism
+		}
+		localization_key = X20_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = neutrality
+		}
+		localization_key = X20_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = radical
+		}
+		localization_key = X20_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = communism
+		}
+		localization_key = X21_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = fascism
+		}
+		localization_key = X21_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = neutrality
+		}
+		localization_key = X21_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = radical
+		}
+		localization_key = X21_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = communism
+		}
+		localization_key = X22_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = fascism
+		}
+		localization_key = X22_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = neutrality
+		}
+		localization_key = X22_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = radical
+		}
+		localization_key = X22_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = communism
+		}
+		localization_key = X23_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = fascism
+		}
+		localization_key = X23_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = neutrality
+		}
+		localization_key = X23_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = radical
+		}
+		localization_key = X23_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = communism
+		}
+		localization_key = X24_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = fascism
+		}
+		localization_key = X24_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = neutrality
+		}
+		localization_key = X24_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = radical
+		}
+		localization_key = X24_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = communism
+		}
+		localization_key = X25_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = fascism
+		}
+		localization_key = X25_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = neutrality
+		}
+		localization_key = X25_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = radical
+		}
+		localization_key = X25_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = communism
+		}
+		localization_key = X26_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = fascism
+		}
+		localization_key = X26_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = neutrality
+		}
+		localization_key = X26_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = radical
+		}
+		localization_key = X26_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = communism
+		}
+		localization_key = X27_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = fascism
+		}
+		localization_key = X27_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = neutrality
+		}
+		localization_key = X27_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = radical
+		}
+		localization_key = X27_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = communism
+		}
+		localization_key = X28_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = fascism
+		}
+		localization_key = X28_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = neutrality
+		}
+		localization_key = X28_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = radical
+		}
+		localization_key = X28_radical_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = communism
+		}
+		localization_key = X29_communism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = fascism
+		}
+		localization_key = X29_fascism_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = neutrality
+		}
+		localization_key = X29_neutrality_ADJ_FS_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = radical
+		}
+		localization_key = X29_radical_ADJ_FS_ES
+	}
+}
+defined_text = {
+	name = ESGetAdjFP
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = communism
+		}
+		localization_key = CHI_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = fascism
+		}
+		localization_key = CHI_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = neutrality
+		}
+		localization_key = CHI_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = CHI original_tag = CHI }
+			has_government = radical
+		}
+		localization_key = CHI_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = communism
+		}
+		localization_key = COL_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = fascism
+		}
+		localization_key = COL_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = neutrality
+		}
+		localization_key = COL_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = COL original_tag = COL }
+			has_government = radical
+		}
+		localization_key = COL_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = communism
+		}
+		localization_key = ETH_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = fascism
+		}
+		localization_key = ETH_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = neutrality
+		}
+		localization_key = ETH_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ETH original_tag = ETH }
+			has_government = radical
+		}
+		localization_key = ETH_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = communism
+		}
+		localization_key = GER_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = fascism
+		}
+		localization_key = GER_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = neutrality
+		}
+		localization_key = GER_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = GER original_tag = GER }
+			has_government = radical
+		}
+		localization_key = GER_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = communism
+		}
+		localization_key = HOL_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = fascism
+		}
+		localization_key = HOL_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = neutrality
+		}
+		localization_key = HOL_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = HOL original_tag = HOL }
+			has_government = radical
+		}
+		localization_key = HOL_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = communism
+		}
+		localization_key = ITA_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = fascism
+		}
+		localization_key = ITA_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = neutrality
+		}
+		localization_key = ITA_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = ITA original_tag = ITA }
+			has_government = radical
+		}
+		localization_key = ITA_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = communism
+		}
+		localization_key = JAP_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = fascism
+		}
+		localization_key = JAP_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = neutrality
+		}
+		localization_key = JAP_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = JAP original_tag = JAP }
+			has_government = radical
+		}
+		localization_key = JAP_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = communism
+		}
+		localization_key = KOR_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = fascism
+		}
+		localization_key = KOR_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = neutrality
+		}
+		localization_key = KOR_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = KOR original_tag = KOR }
+			has_government = radical
+		}
+		localization_key = KOR_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = communism
+		}
+		localization_key = SCA_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = fascism
+		}
+		localization_key = SCA_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = neutrality
+		}
+		localization_key = SCA_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SCA original_tag = SCA }
+			has_government = radical
+		}
+		localization_key = SCA_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = communism
+		}
+		localization_key = SOV_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = fascism
+		}
+		localization_key = SOV_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = neutrality
+		}
+		localization_key = SOV_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SOV original_tag = SOV }
+			has_government = radical
+		}
+		localization_key = SOV_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = communism
+		}
+		localization_key = SPR_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = fascism
+		}
+		localization_key = SPR_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = neutrality
+		}
+		localization_key = SPR_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = SPR original_tag = SPR }
+			has_government = radical
+		}
+		localization_key = SPR_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = communism
+		}
+		localization_key = TUR_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = fascism
+		}
+		localization_key = TUR_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = neutrality
+		}
+		localization_key = TUR_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = TUR original_tag = TUR }
+			has_government = radical
+		}
+		localization_key = TUR_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = communism
+		}
+		localization_key = UZB_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = fascism
+		}
+		localization_key = UZB_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = neutrality
+		}
+		localization_key = UZB_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = UZB original_tag = UZB }
+			has_government = radical
+		}
+		localization_key = UZB_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = communism
+		}
+		localization_key = X00_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = fascism
+		}
+		localization_key = X00_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = neutrality
+		}
+		localization_key = X00_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X00 original_tag = X00 }
+			has_government = radical
+		}
+		localization_key = X00_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = communism
+		}
+		localization_key = X01_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = fascism
+		}
+		localization_key = X01_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = neutrality
+		}
+		localization_key = X01_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X01 original_tag = X01 }
+			has_government = radical
+		}
+		localization_key = X01_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = communism
+		}
+		localization_key = X02_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = fascism
+		}
+		localization_key = X02_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = neutrality
+		}
+		localization_key = X02_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X02 original_tag = X02 }
+			has_government = radical
+		}
+		localization_key = X02_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = communism
+		}
+		localization_key = X03_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = fascism
+		}
+		localization_key = X03_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = neutrality
+		}
+		localization_key = X03_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X03 original_tag = X03 }
+			has_government = radical
+		}
+		localization_key = X03_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = communism
+		}
+		localization_key = X04_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = fascism
+		}
+		localization_key = X04_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = neutrality
+		}
+		localization_key = X04_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X04 original_tag = X04 }
+			has_government = radical
+		}
+		localization_key = X04_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = communism
+		}
+		localization_key = X05_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = fascism
+		}
+		localization_key = X05_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = neutrality
+		}
+		localization_key = X05_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X05 original_tag = X05 }
+			has_government = radical
+		}
+		localization_key = X05_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = communism
+		}
+		localization_key = X06_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = fascism
+		}
+		localization_key = X06_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = neutrality
+		}
+		localization_key = X06_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X06 original_tag = X06 }
+			has_government = radical
+		}
+		localization_key = X06_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = communism
+		}
+		localization_key = X07_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = fascism
+		}
+		localization_key = X07_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = neutrality
+		}
+		localization_key = X07_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X07 original_tag = X07 }
+			has_government = radical
+		}
+		localization_key = X07_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = communism
+		}
+		localization_key = X08_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = fascism
+		}
+		localization_key = X08_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = neutrality
+		}
+		localization_key = X08_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X08 original_tag = X08 }
+			has_government = radical
+		}
+		localization_key = X08_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = communism
+		}
+		localization_key = X09_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = fascism
+		}
+		localization_key = X09_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = neutrality
+		}
+		localization_key = X09_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X09 original_tag = X09 }
+			has_government = radical
+		}
+		localization_key = X09_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = communism
+		}
+		localization_key = X10_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = fascism
+		}
+		localization_key = X10_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = neutrality
+		}
+		localization_key = X10_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X10 original_tag = X10 }
+			has_government = radical
+		}
+		localization_key = X10_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = communism
+		}
+		localization_key = X11_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = fascism
+		}
+		localization_key = X11_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = neutrality
+		}
+		localization_key = X11_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X11 original_tag = X11 }
+			has_government = radical
+		}
+		localization_key = X11_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = communism
+		}
+		localization_key = X12_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = fascism
+		}
+		localization_key = X12_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = neutrality
+		}
+		localization_key = X12_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X12 original_tag = X12 }
+			has_government = radical
+		}
+		localization_key = X12_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = communism
+		}
+		localization_key = X13_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = fascism
+		}
+		localization_key = X13_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = neutrality
+		}
+		localization_key = X13_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X13 original_tag = X13 }
+			has_government = radical
+		}
+		localization_key = X13_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = communism
+		}
+		localization_key = X14_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = fascism
+		}
+		localization_key = X14_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = neutrality
+		}
+		localization_key = X14_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X14 original_tag = X14 }
+			has_government = radical
+		}
+		localization_key = X14_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = communism
+		}
+		localization_key = X15_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = fascism
+		}
+		localization_key = X15_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = neutrality
+		}
+		localization_key = X15_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X15 original_tag = X15 }
+			has_government = radical
+		}
+		localization_key = X15_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = communism
+		}
+		localization_key = X16_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = fascism
+		}
+		localization_key = X16_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = neutrality
+		}
+		localization_key = X16_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X16 original_tag = X16 }
+			has_government = radical
+		}
+		localization_key = X16_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = communism
+		}
+		localization_key = X17_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = fascism
+		}
+		localization_key = X17_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = neutrality
+		}
+		localization_key = X17_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X17 original_tag = X17 }
+			has_government = radical
+		}
+		localization_key = X17_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = communism
+		}
+		localization_key = X18_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = fascism
+		}
+		localization_key = X18_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = neutrality
+		}
+		localization_key = X18_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X18 original_tag = X18 }
+			has_government = radical
+		}
+		localization_key = X18_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = communism
+		}
+		localization_key = X19_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = fascism
+		}
+		localization_key = X19_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = neutrality
+		}
+		localization_key = X19_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X19 original_tag = X19 }
+			has_government = radical
+		}
+		localization_key = X19_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = communism
+		}
+		localization_key = X20_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = fascism
+		}
+		localization_key = X20_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = neutrality
+		}
+		localization_key = X20_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X20 original_tag = X20 }
+			has_government = radical
+		}
+		localization_key = X20_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = communism
+		}
+		localization_key = X21_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = fascism
+		}
+		localization_key = X21_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = neutrality
+		}
+		localization_key = X21_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X21 original_tag = X21 }
+			has_government = radical
+		}
+		localization_key = X21_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = communism
+		}
+		localization_key = X22_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = fascism
+		}
+		localization_key = X22_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = neutrality
+		}
+		localization_key = X22_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X22 original_tag = X22 }
+			has_government = radical
+		}
+		localization_key = X22_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = communism
+		}
+		localization_key = X23_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = fascism
+		}
+		localization_key = X23_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = neutrality
+		}
+		localization_key = X23_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X23 original_tag = X23 }
+			has_government = radical
+		}
+		localization_key = X23_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = communism
+		}
+		localization_key = X24_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = fascism
+		}
+		localization_key = X24_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = neutrality
+		}
+		localization_key = X24_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X24 original_tag = X24 }
+			has_government = radical
+		}
+		localization_key = X24_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = communism
+		}
+		localization_key = X25_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = fascism
+		}
+		localization_key = X25_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = neutrality
+		}
+		localization_key = X25_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X25 original_tag = X25 }
+			has_government = radical
+		}
+		localization_key = X25_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = communism
+		}
+		localization_key = X26_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = fascism
+		}
+		localization_key = X26_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = neutrality
+		}
+		localization_key = X26_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X26 original_tag = X26 }
+			has_government = radical
+		}
+		localization_key = X26_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = communism
+		}
+		localization_key = X27_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = fascism
+		}
+		localization_key = X27_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = neutrality
+		}
+		localization_key = X27_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X27 original_tag = X27 }
+			has_government = radical
+		}
+		localization_key = X27_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = communism
+		}
+		localization_key = X28_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = fascism
+		}
+		localization_key = X28_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = neutrality
+		}
+		localization_key = X28_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X28 original_tag = X28 }
+			has_government = radical
+		}
+		localization_key = X28_radical_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = communism
+		}
+		localization_key = X29_communism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = fascism
+		}
+		localization_key = X29_fascism_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = neutrality
+		}
+		localization_key = X29_neutrality_ADJ_FP_ES
+	}
+	text = {
+		trigger = {
+			OR = { tag = X29 original_tag = X29 }
+			has_government = radical
+		}
+		localization_key = X29_radical_ADJ_FP_ES
+	}
+}

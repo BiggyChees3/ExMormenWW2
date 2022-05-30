@@ -1,0 +1,32 @@
+
+state={
+	id=217
+	name="STATE_217"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			12917 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		2111 2142 2147 2204 5148 8175 8211 10982 11010 12917 12939 12973 
+	}
+	manpower=79328
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

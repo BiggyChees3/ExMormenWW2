@@ -1,0 +1,246 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 957
+		task_force = {
+			name = "2nd Fleet"
+			location = 957
+			ship = { name = "Rurik" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 957
+		task_force = {
+			name = "4th Fleet"
+			location = 957
+			ship = { name = "Bayan" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "5th Fleet"
+			location = 1434
+			ship = { name = "Izmail" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Almaz" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Volga" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Rurik 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Kinburn" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Asia" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Dnepr" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "7th Fleet"
+			location = 8282
+			ship = { name = "3rd Onega Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Azov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Sevastopol Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Novorossiysk Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Odessa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Rostov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Izmail Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Azov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Novorossiysk Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Vityaz" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Navarin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Rostov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Diana" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Azov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Novorossiysk Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Sevastopol Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "11th Fleet"
+			location = 7227
+			ship = { name = "Novaya Zemlya" definition = light_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 9248
+		task_force = {
+			name = "6th Fleet"
+			location = 9248
+			ship = { name = "1st Onega Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "9th Fleet"
+			location = 1434
+			ship = { name = "1st Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "3rd Fleet"
+			location = 1434
+			ship = { name = "Pamiyat Azova" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "8th Fleet"
+			location = 1434
+			ship = { name = "Nakhimov" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "1st Fleet"
+			location = 7227
+			ship = { name = "Oleg" definition = light_cruiser start_experience_factor = 0.20134 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "General-Admiral" definition = light_cruiser start_experience_factor = 0.1859 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Novaya Zemlya 2" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Admiral Kornilov" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Aurora" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Admiral Kornilov 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gromoboi" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Volga 2" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Azov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Desna" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Zarya" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Novorossiysk Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Azov Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Sevastopol Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Rostov Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Onega Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Azov Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Odessa Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gromoboi 2" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Odessa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Rostov Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Azov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Almaz 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Asia 2" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Aurora 2" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Dnepr 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Azov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Zarya 2" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Rostov Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Odessa Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Rostov Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Pallada" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Askold" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Novik" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Boyarin" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bogatyr" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Varyag" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Odessa Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Alexander Nevski" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Azov Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Sevastopol Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Novorossiysk Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Odessa Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Izmail Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Rostov Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "12th Fleet"
+			location = 1434
+			ship = { name = "6th Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "10th Fleet"
+			location = 1434
+			ship = { name = "8th Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 9248
+		task_force = {
+			name = "13th Fleet"
+			location = 9248
+			ship = { name = "4th Onega Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 9248
+		task_force = {
+			name = "15th Fleet"
+			location = 9248
+			ship = { name = "5th Onega Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 9248
+		task_force = {
+			name = "16th Fleet"
+			location = 9248
+			ship = { name = "6th Onega Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 7227
+		task_force = {
+			name = "14th Fleet"
+			location = 7227
+			ship = { name = "11th Nyenschantz Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SOV"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "SOV"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

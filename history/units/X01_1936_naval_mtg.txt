@@ -1,0 +1,359 @@
+units = {
+	fleet = {
+		name = "47th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "47th Fleet"
+			location = 5304
+			ship = { name = "5th Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.12673 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "2nd Fleet"
+			location = 13035
+			ship = { name = "23rd Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "31st Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Olivier Brunel" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Albert Dorville" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Louis Boisot" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "30th Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Jessé de Forest" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "François Pelsaert" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Hekla" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Heimdal" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Hekla 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Louis Boisot 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "31st Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "34th Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "31st San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "35th Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "33rd São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "33rd Port-Royal Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd Vierset Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd Cap Valois Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "35th Nouvelle Bruges Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "35th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "3rd Fleet"
+			location = 13035
+			ship = { name = "33rd San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.29382 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "34th São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.29113 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.29582 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.29761 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "4th Fleet"
+			location = 13035
+			ship = { name = "20th Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.28208 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.28292 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "18th Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.28377 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Nouvelle Bruges Cruiser" definition = light_cruiser start_experience_factor = 0.28404 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Port-Royal Cruiser" definition = light_cruiser start_experience_factor = 0.28404 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.29144 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.29553 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.2979 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "16th Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.2991 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.2997 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Nouvelle Bruges Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "17th Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "17th Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "15th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "12th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Herluf Trolle" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Susåen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Valkyrien" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Gudenåen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Jacob Mahu" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Jacob Mahu 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Fyen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Melchior van den Kerckhove" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "18th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "16th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Geiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "18th Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "18th Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "6th Fleet"
+			location = 13035
+			ship = { name = "24th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.2982 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.2988 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "34th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.2918 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "St. Thomas" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "31st Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.29585 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Valkyrien 2" definition = light_cruiser start_experience_factor = 0.29731 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.2985 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Herluf Trolle 2" definition = light_cruiser start_experience_factor = 0.29209 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Søeormen" definition = light_cruiser start_experience_factor = 0.2997 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.29585 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Susåen 2" definition = light_cruiser start_experience_factor = 0.29731 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Gudenåen 2" definition = light_cruiser start_experience_factor = 0.29151 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "33rd Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.2994 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.2997 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "30th San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.29585 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "31st São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.29761 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.2988 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.2994 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.29239 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "14th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.28159 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "15th Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.28464 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "16th Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.28405 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.28404 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Cap Valois Cruiser" definition = light_cruiser start_experience_factor = 0.28404 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "17th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.28178 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.29144 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "15th Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.28016 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "7th Fleet"
+			location = 2729
+			ship = { name = "22nd Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.28892 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.29263 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.29496 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Simon de Cordes" definition = light_cruiser start_experience_factor = 0.2988 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "33rd Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.29702 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.29035 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "30th Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.29408 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "30th São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.29642 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.2988 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.2994 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Louis Hennepin" definition = light_cruiser start_experience_factor = 0.2985 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.29151 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.29496 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.29791 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "8th Fleet"
+			location = 2455
+			ship = { name = "29th Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.28415 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.28864 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.29121 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.29294 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.29439 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.29527 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "9th Fleet"
+			location = 2256
+			ship = { name = "27th Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.27507 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.28017 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.28372 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.2988 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.28678 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.28872 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.29013 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "10th Fleet"
+			location = 4212
+			ship = { name = "24th Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Geiser 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "St. Thomas 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Fyen 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "François Pelsaert 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Jessé de Forest 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "18th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "33rd Nouvelle Bruges Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "31st Vierset Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "31st Cap Valois Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd Port-Royal Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "30th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "23rd Nouvelle Orléans Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "26th San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "11th Fleet"
+			location = 8418
+			ship = { name = "25th Hamina Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Frælsarborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Tollvik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th Talahasi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "17th Stugvall Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "32nd Nouvelle Bruges Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Dahlborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Porto Dandolo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "19th Eyjafjallajøkull Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "30th Vierset Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "30th Cap Valois Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "31st Port-Royal Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "12th Fleet"
+			location = 4662
+			ship = { name = "30th Port-Royal Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Søeormen 2" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "24th San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "25th São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "22nd Bermuda Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "28th Cap Bon Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "20th San Cristóbal y Nieves Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "13th Fleet"
+			location = 8393
+			ship = { name = "23rd Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th Vierset Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "29th Cap Valois Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "14th Fleet"
+			location = 8367
+			ship = { name = "25th Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st Eendrachtsland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "21st São Vicente Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+			ship = { name = "27th Prøvestenen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 13035
+		task_force = {
+			name = "17th Fleet"
+			location = 13035
+			ship = { name = "34th Nouvelle Bruges Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X01 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X01"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X01"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

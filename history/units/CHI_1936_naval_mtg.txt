@@ -1,0 +1,278 @@
+units = {
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 7221
+		task_force = {
+			name = "13th Fleet"
+			location = 4676
+			ship = { name = "1st Ngaanyatjarra Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7221
+		task_force = {
+			name = "2nd Fleet"
+			location = 7221
+			ship = { name = "15th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Nanning Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.2638 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.24359 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ying Ching" definition = light_cruiser start_experience_factor = 0.24359 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Pao Nim" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ton Chi" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hai Yung" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hai Shew" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hai Shen" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Chao Ho" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ying Swei" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Fei Hung" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hai Chi" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ning Hai" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.24474 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Canton Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ping Hai" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Chung king" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25123 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Canton Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.20039 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25144 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Canton Cruiser" definition = light_cruiser start_experience_factor = 0.24359 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.24359 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.24919 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Nan Shin" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.23926 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Fuzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Nanning Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Dalian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Nanning Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.23199 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Canton Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Haeju Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Chonchon Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Wuding Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Huaian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Shanghai Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Tongzhou Cruiser" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Ningbo Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Shaoxing Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Nanning Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Nanning Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Waizao Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Nanning Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 7221
+		task_force = {
+			name = "18th Fleet"
+			location = 2734
+			ship = { name = "16th Weihaiwei Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 7221
+		task_force = {
+			name = "19th Fleet"
+			location = 2734
+			ship = { name = "15th Shuntian Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "CHI"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "CHI"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

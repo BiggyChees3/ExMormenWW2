@@ -1,0 +1,2520 @@
+﻿add_namespace = election
+
+country_event = {
+	id = election.2
+	title = election.2.t
+	desc = election.2.d
+	picture = GFX_report_event_airplane_factory
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			OR = {
+				has_war = yes
+				any_neighbor_country = {
+					has_war = yes
+				}
+				any_allied_country = {
+					has_war = yes
+				}
+			}
+		}
+		has_idea = partial_economic_mobilisation
+	}
+
+	option = {
+		name = election.2.a
+		ai_chance = {
+			base = 1
+		}
+		add_ideas = low_economic_mobilisation
+
+	}
+
+	option = {
+		name = election.2.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				can_lose_unity = yes
+			}
+		}
+		add_stability = -0.05
+
+		add_war_support = -0.05
+
+	}
+}
+
+country_event = {
+	id = election.4
+	title = election.4.t
+	desc = election.4.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = CHI
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.4a
+		set_party_name = { ideology = neutrality long_name = CHI_conservative_2_party name = CHI_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.4b
+		set_party_name = { ideology = neutrality long_name = CHI_conservative_5_party name = CHI_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.4c
+		set_party_name = { ideology = neutrality long_name = CHI_liberal_1_party name = CHI_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.4d
+		set_party_name = { ideology = neutrality long_name = CHI_liberal_4_party name = CHI_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.4e
+		set_party_name = { ideology = neutrality long_name = CHI_socialist_3_party name = CHI_socialist_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.4f
+		set_party_name = { ideology = neutrality long_name = CHI_socialist_4_party name = CHI_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.5
+	title = election.5.t
+	desc = election.5.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = COL
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.5a
+		set_party_name = { ideology = neutrality long_name = COL_conservative_5_party name = COL_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.5b
+		set_party_name = { ideology = neutrality long_name = COL_liberal_2_party name = COL_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.5c
+		set_party_name = { ideology = neutrality long_name = COL_socialist_4_party name = COL_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.5d
+		set_party_name = { ideology = neutrality long_name = COL_conservative_party name = COL_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.5e
+		set_party_name = { ideology = neutrality long_name = COL_liberal_party name = COL_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.6
+	title = election.6.t
+	desc = election.6.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ETH
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.6a
+		set_party_name = { ideology = neutrality long_name = ETH_conservative_1_party name = ETH_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.6b
+		set_party_name = { ideology = neutrality long_name = ETH_conservative_5_party name = ETH_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.6c
+		set_party_name = { ideology = neutrality long_name = ETH_liberal_2_party name = ETH_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.6d
+		set_party_name = { ideology = neutrality long_name = ETH_liberal_5_party name = ETH_liberal_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.6e
+		set_party_name = { ideology = neutrality long_name = ETH_socialist_1_party name = ETH_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.6f
+		set_party_name = { ideology = neutrality long_name = ETH_socialist_3_party name = ETH_socialist_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.7
+	title = election.7.t
+	desc = election.7.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GER
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.7a
+		set_party_name = { ideology = neutrality long_name = GER_conservative_party name = GER_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.7b
+		set_party_name = { ideology = neutrality long_name = GER_conservative_2_party name = GER_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.7c
+		set_party_name = { ideology = neutrality long_name = GER_liberal_party name = GER_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.7d
+		set_party_name = { ideology = neutrality long_name = GER_liberal_2_party name = GER_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.7e
+		set_party_name = { ideology = neutrality long_name = GER_socialist_party name = GER_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.7f
+		set_party_name = { ideology = neutrality long_name = GER_liberal_party name = GER_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.8
+	title = election.8.t
+	desc = election.8.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = HOL
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.8a
+		set_party_name = { ideology = neutrality long_name = HOL_conservative_party name = HOL_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.8b
+		set_party_name = { ideology = neutrality long_name = HOL_conservative_2_party name = HOL_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.8c
+		set_party_name = { ideology = neutrality long_name = HOL_conservative_3_party name = HOL_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.8d
+		set_party_name = { ideology = neutrality long_name = HOL_liberal_party name = HOL_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.8e
+		set_party_name = { ideology = neutrality long_name = HOL_liberal_2_party name = HOL_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.8f
+		set_party_name = { ideology = neutrality long_name = HOL_liberal_3_party name = HOL_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.8g
+		set_party_name = { ideology = neutrality long_name = HOL_liberal_4_party name = HOL_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.8h
+		set_party_name = { ideology = neutrality long_name = HOL_socialist_party name = HOL_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.9
+	title = election.9.t
+	desc = election.9.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = ITA
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.9a
+		set_party_name = { ideology = neutrality long_name = ITA_liberal_3_party name = ITA_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.9b
+		set_party_name = { ideology = neutrality long_name = ITA_liberal_4_party name = ITA_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.9c
+		set_party_name = { ideology = neutrality long_name = ITA_socialist_1_party name = ITA_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.9d
+		set_party_name = { ideology = neutrality long_name = ITA_socialist_4_party name = ITA_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.9e
+		set_party_name = { ideology = neutrality long_name = ITA_GER_conservative_1_party name = ITA_GER_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.9f
+		set_party_name = { ideology = neutrality long_name = ITA_GER_conservative_2_party name = ITA_GER_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.9g
+		set_party_name = { ideology = neutrality long_name = ITA_GER_liberal_1_party name = ITA_GER_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.10
+	title = election.10.t
+	desc = election.10.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = JAP
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.10a
+		set_party_name = { ideology = neutrality long_name = JAP_conservative_3_party name = JAP_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.10b
+		set_party_name = { ideology = neutrality long_name = JAP_conservative_5_party name = JAP_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.10c
+		set_party_name = { ideology = neutrality long_name = JAP_liberal_5_party name = JAP_liberal_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.10d
+		set_party_name = { ideology = neutrality long_name = JAP_socialist_1_party name = JAP_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.10e
+		set_party_name = { ideology = neutrality long_name = JAP_socialist_2_party name = JAP_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.11
+	title = election.11.t
+	desc = election.11.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = KOR
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.11a
+		set_party_name = { ideology = neutrality long_name = KOR_conservative_3_party name = KOR_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.11b
+		set_party_name = { ideology = neutrality long_name = KOR_conservative_5_party name = KOR_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.11c
+		set_party_name = { ideology = neutrality long_name = KOR_liberal_2_party name = KOR_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.11d
+		set_party_name = { ideology = neutrality long_name = KOR_liberal_3_party name = KOR_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.11e
+		set_party_name = { ideology = neutrality long_name = KOR_socialist_1_party name = KOR_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.11f
+		set_party_name = { ideology = neutrality long_name = KOR_socialist_5_party name = KOR_socialist_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.12
+	title = election.12.t
+	desc = election.12.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SCA
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.12a
+		set_party_name = { ideology = neutrality long_name = SCA_ur_conservative_1_party name = SCA_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.12b
+		set_party_name = { ideology = neutrality long_name = SCA_ur_conservative_2_party name = SCA_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.12c
+		set_party_name = { ideology = neutrality long_name = SCA_ur_liberal_1_party name = SCA_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.12d
+		set_party_name = { ideology = neutrality long_name = SCA_liberal_2_party name = SCA_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.12e
+		set_party_name = { ideology = neutrality long_name = SCA_social_liberal_party name = SCA_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.12f
+		set_party_name = { ideology = neutrality long_name = SCA_socialist_1_party name = SCA_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.12g
+		set_party_name = { ideology = neutrality long_name = SCA_socialist_2_party name = SCA_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.13
+	title = election.13.t
+	desc = election.13.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SOV
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.13a
+		set_party_name = { ideology = neutrality long_name = SOV_socialist_party name = SOV_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.13b
+		set_party_name = { ideology = neutrality long_name = SOV_conservative_party name = SOV_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.13c
+		set_party_name = { ideology = neutrality long_name = SOV_conservative_2_party name = SOV_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.13d
+		set_party_name = { ideology = neutrality long_name = SOV_liberal_party name = SOV_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.13e
+		set_party_name = { ideology = neutrality long_name = SOV_socialist_party name = SOV_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.14
+	title = election.14.t
+	desc = election.14.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SPR
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.14a
+		set_party_name = { ideology = neutrality long_name = SPR_conservative_1_party name = SPR_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.14b
+		set_party_name = { ideology = neutrality long_name = SPR_conservative_3_party name = SPR_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.14c
+		set_party_name = { ideology = neutrality long_name = SPR_liberal_3_party name = SPR_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.14d
+		set_party_name = { ideology = neutrality long_name = SPR_liberal_4_party name = SPR_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.14e
+		set_party_name = { ideology = neutrality long_name = SPR_socialist_2_party name = SPR_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.14f
+		set_party_name = { ideology = neutrality long_name = SPR_socialist_4_party name = SPR_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.15
+	title = election.15.t
+	desc = election.15.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = TUR
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.15a
+		set_party_name = { ideology = neutrality long_name = TUR_conservative_2_party name = TUR_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.15b
+		set_party_name = { ideology = neutrality long_name = TUR_conservative_4_party name = TUR_conservative_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.15c
+		set_party_name = { ideology = neutrality long_name = TUR_liberal_2_party name = TUR_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.15d
+		set_party_name = { ideology = neutrality long_name = TUR_liberal_4_party name = TUR_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.15e
+		set_party_name = { ideology = neutrality long_name = TUR_conservative_2_party name = TUR_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.15f
+		set_party_name = { ideology = neutrality long_name = TUR_socialist_party name = TUR_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.16
+	title = election.16.t
+	desc = election.16.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UZB
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.16a
+		set_party_name = { ideology = neutrality long_name = UZB_socialist_3_party name = UZB_socialist_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.16b
+		set_party_name = { ideology = neutrality long_name = UZB_socialist_5_party name = UZB_socialist_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.16c
+		set_party_name = { ideology = neutrality long_name = UZB_conservative_party name = UZB_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.16d
+		set_party_name = { ideology = neutrality long_name = UZB_liberal_party name = UZB_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.17
+	title = election.17.t
+	desc = election.17.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X00
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.17a
+		set_party_name = { ideology = neutrality long_name = X00_conservative_1_party name = X00_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.17b
+		set_party_name = { ideology = neutrality long_name = X00_conservative_5_party name = X00_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.17c
+		set_party_name = { ideology = neutrality long_name = X00_liberal_4_party name = X00_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.17d
+		set_party_name = { ideology = neutrality long_name = X00_liberal_5_party name = X00_liberal_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.17e
+		set_party_name = { ideology = neutrality long_name = X00_socialist_4_party name = X00_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.17f
+		set_party_name = { ideology = neutrality long_name = X00_socialist_5_party name = X00_socialist_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.18
+	title = election.18.t
+	desc = election.18.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X01
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.18a
+		set_party_name = { ideology = neutrality long_name = X01_conservative_1_party name = X01_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.18b
+		set_party_name = { ideology = neutrality long_name = X01_conservative_2_party name = X01_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.18c
+		set_party_name = { ideology = neutrality long_name = X01_liberal_1_party name = X01_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.18d
+		set_party_name = { ideology = neutrality long_name = X01_liberal_2_party name = X01_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.18e
+		set_party_name = { ideology = neutrality long_name = X01_social_liberal_party name = X01_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.18f
+		set_party_name = { ideology = neutrality long_name = X01_socialist_1_party name = X01_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.18g
+		set_party_name = { ideology = neutrality long_name = X01_socialist_2_party name = X01_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.19
+	title = election.19.t
+	desc = election.19.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X02
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.19a
+		set_party_name = { ideology = neutrality long_name = X02_conservative_1_party name = X02_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.19b
+		set_party_name = { ideology = neutrality long_name = X02_conservative_2_party name = X02_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.19c
+		set_party_name = { ideology = neutrality long_name = X02_liberal_1_party name = X02_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.19d
+		set_party_name = { ideology = neutrality long_name = X02_liberal_2_party name = X02_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.19e
+		set_party_name = { ideology = neutrality long_name = X02_social_liberal_party name = X02_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.19f
+		set_party_name = { ideology = neutrality long_name = X02_socialist_1_party name = X02_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.19g
+		set_party_name = { ideology = neutrality long_name = X02_socialist_2_party name = X02_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.20
+	title = election.20.t
+	desc = election.20.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X03
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.20a
+		set_party_name = { ideology = neutrality long_name = X03_conservative_1_party name = X03_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.20b
+		set_party_name = { ideology = neutrality long_name = X03_conservative_4_party name = X03_conservative_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.20c
+		set_party_name = { ideology = neutrality long_name = X03_liberal_1_party name = X03_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.20d
+		set_party_name = { ideology = neutrality long_name = X03_liberal_5_party name = X03_liberal_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.20e
+		set_party_name = { ideology = neutrality long_name = X03_socialist_2_party name = X03_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.20f
+		set_party_name = { ideology = neutrality long_name = X03_socialist_4_party name = X03_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.21
+	title = election.21.t
+	desc = election.21.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X04
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.21a
+		set_party_name = { ideology = neutrality long_name = X04_conservative_1_party name = X04_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.21b
+		set_party_name = { ideology = neutrality long_name = X04_conservative_2_party name = X04_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.21c
+		set_party_name = { ideology = neutrality long_name = X04_liberal_1_party name = X04_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.21d
+		set_party_name = { ideology = neutrality long_name = X04_liberal_2_party name = X04_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.21e
+		set_party_name = { ideology = neutrality long_name = X04_social_liberal_party name = X04_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.21f
+		set_party_name = { ideology = neutrality long_name = X04_socialist_1_party name = X04_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.21g
+		set_party_name = { ideology = neutrality long_name = X04_socialist_2_party name = X04_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.22
+	title = election.22.t
+	desc = election.22.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X05
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.22a
+		set_party_name = { ideology = neutrality long_name = X05_conservative_3_party name = X05_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.22b
+		set_party_name = { ideology = neutrality long_name = X05_conservative_4_party name = X05_conservative_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.22c
+		set_party_name = { ideology = neutrality long_name = X05_liberal_2_party name = X05_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.22d
+		set_party_name = { ideology = neutrality long_name = X05_liberal_4_party name = X05_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.22e
+		set_party_name = { ideology = neutrality long_name = X05_socialist_1_party name = X05_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.22f
+		set_party_name = { ideology = neutrality long_name = X05_socialist_2_party name = X05_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.23
+	title = election.23.t
+	desc = election.23.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X06
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.23a
+		set_party_name = { ideology = neutrality long_name = X06_conservative_2_party name = X06_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.23b
+		set_party_name = { ideology = neutrality long_name = X06_liberal_2_party name = X06_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.23c
+		set_party_name = { ideology = neutrality long_name = X06_social_liberal_party name = X06_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.23d
+		set_party_name = { ideology = neutrality long_name = X06_socialist_2_party name = X06_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.24
+	title = election.24.t
+	desc = election.24.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X07
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.24a
+		set_party_name = { ideology = neutrality long_name = X07_GER_conservative_1_party name = X07_GER_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.24b
+		set_party_name = { ideology = neutrality long_name = X07_GER_conservative_2_party name = X07_GER_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.24c
+		set_party_name = { ideology = neutrality long_name = X07_GER_liberal_1_party name = X07_GER_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.24d
+		set_party_name = { ideology = neutrality long_name = X07_GER_liberal_2_party name = X07_GER_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.24e
+		set_party_name = { ideology = neutrality long_name = X07_GER_socialist_1_party name = X07_GER_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.24f
+		set_party_name = { ideology = neutrality long_name = X07_GER_socialist_2_party name = X07_GER_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.24g
+		set_party_name = { ideology = neutrality long_name = X07_social_liberal_party name = X07_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.25
+	title = election.25.t
+	desc = election.25.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X08
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.25a
+		set_party_name = { ideology = neutrality long_name = X08_social_liberal_party name = X08_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.25b
+		set_party_name = { ideology = neutrality long_name = X08_conservative_party name = X08_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.25c
+		set_party_name = { ideology = neutrality long_name = X08_liberal_party name = X08_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.25d
+		set_party_name = { ideology = neutrality long_name = X08_socialist_party name = X08_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.26
+	title = election.26.t
+	desc = election.26.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X09
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.26a
+		set_party_name = { ideology = neutrality long_name = X09_conservative_3_party name = X09_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.26b
+		set_party_name = { ideology = neutrality long_name = X09_conservative_5_party name = X09_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.26c
+		set_party_name = { ideology = neutrality long_name = X09_liberal_1_party name = X09_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.26d
+		set_party_name = { ideology = neutrality long_name = X09_liberal_4_party name = X09_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.26e
+		set_party_name = { ideology = neutrality long_name = X09_socialist_2_party name = X09_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.26f
+		set_party_name = { ideology = neutrality long_name = X09_socialist_5_party name = X09_socialist_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.27
+	title = election.27.t
+	desc = election.27.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X10
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.27a
+		set_party_name = { ideology = neutrality long_name = X10_conservative_3_party name = X10_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.27b
+		set_party_name = { ideology = neutrality long_name = X10_conservative_4_party name = X10_conservative_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.27c
+		set_party_name = { ideology = neutrality long_name = X10_liberal_3_party name = X10_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.27d
+		set_party_name = { ideology = neutrality long_name = X10_liberal_4_party name = X10_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.27e
+		set_party_name = { ideology = neutrality long_name = X10_socialist_3_party name = X10_socialist_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.27f
+		set_party_name = { ideology = neutrality long_name = X10_socialist_4_party name = X10_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.28
+	title = election.28.t
+	desc = election.28.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X11
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.28a
+		set_party_name = { ideology = neutrality long_name = X11_conservative_2_party name = X11_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.28b
+		set_party_name = { ideology = neutrality long_name = X11_conservative_5_party name = X11_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.28c
+		set_party_name = { ideology = neutrality long_name = X11_liberal_2_party name = X11_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.28d
+		set_party_name = { ideology = neutrality long_name = X11_liberal_3_party name = X11_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.28e
+		set_party_name = { ideology = neutrality long_name = X11_socialist_2_party name = X11_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.28f
+		set_party_name = { ideology = neutrality long_name = X11_socialist_3_party name = X11_socialist_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.29
+	title = election.29.t
+	desc = election.29.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X12
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.29a
+		set_party_name = { ideology = neutrality long_name = X12_conservative_party name = X12_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.29b
+		set_party_name = { ideology = neutrality long_name = X12_liberal_party name = X12_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.29c
+		set_party_name = { ideology = neutrality long_name = X12_socialist_party name = X12_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.30
+	title = election.30.t
+	desc = election.30.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X13
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.30a
+		set_party_name = { ideology = neutrality long_name = X13_conservative_party name = X13_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.30b
+		set_party_name = { ideology = neutrality long_name = X13_liberal_party name = X13_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.30c
+		set_party_name = { ideology = neutrality long_name = X13_socialist_party name = X13_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.30d
+		set_party_name = { ideology = neutrality long_name = X13_conservative_party name = X13_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.30e
+		set_party_name = { ideology = neutrality long_name = X13_liberal_party name = X13_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.31
+	title = election.31.t
+	desc = election.31.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X14
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.31a
+		set_party_name = { ideology = neutrality long_name = X14_conservative_5_party name = X14_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.31b
+		set_party_name = { ideology = neutrality long_name = X14_liberal_2_party name = X14_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.31c
+		set_party_name = { ideology = neutrality long_name = X14_socialist_4_party name = X14_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.31d
+		set_party_name = { ideology = neutrality long_name = X14_conservative_party name = X14_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.31e
+		set_party_name = { ideology = neutrality long_name = X14_liberal_party name = X14_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.32
+	title = election.32.t
+	desc = election.32.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X15
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.32a
+		set_party_name = { ideology = neutrality long_name = X15_conservative_party name = X15_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.32b
+		set_party_name = { ideology = neutrality long_name = X15_conservative_2_party name = X15_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.32c
+		set_party_name = { ideology = neutrality long_name = X15_conservative_3_party name = X15_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.32d
+		set_party_name = { ideology = neutrality long_name = X15_liberal_party name = X15_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.32e
+		set_party_name = { ideology = neutrality long_name = X15_liberal_2_party name = X15_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.32f
+		set_party_name = { ideology = neutrality long_name = X15_liberal_3_party name = X15_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.32g
+		set_party_name = { ideology = neutrality long_name = X15_liberal_4_party name = X15_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.32h
+		set_party_name = { ideology = neutrality long_name = X15_socialist_party name = X15_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.33
+	title = election.33.t
+	desc = election.33.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X16
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.33a
+		set_party_name = { ideology = neutrality long_name = X16_liberal_3_party name = X16_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.33b
+		set_party_name = { ideology = neutrality long_name = X16_liberal_4_party name = X16_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.33c
+		set_party_name = { ideology = neutrality long_name = X16_socialist_1_party name = X16_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.33d
+		set_party_name = { ideology = neutrality long_name = X16_socialist_4_party name = X16_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.33e
+		set_party_name = { ideology = neutrality long_name = X16_GER_conservative_1_party name = X16_GER_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.33f
+		set_party_name = { ideology = neutrality long_name = X16_GER_conservative_2_party name = X16_GER_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.33g
+		set_party_name = { ideology = neutrality long_name = X16_GER_liberal_1_party name = X16_GER_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.34
+	title = election.34.t
+	desc = election.34.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X17
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.34a
+		set_party_name = { ideology = neutrality long_name = X17_liberal_3_party name = X17_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.34b
+		set_party_name = { ideology = neutrality long_name = X17_liberal_4_party name = X17_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.34c
+		set_party_name = { ideology = neutrality long_name = X17_socialist_1_party name = X17_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.34d
+		set_party_name = { ideology = neutrality long_name = X17_socialist_4_party name = X17_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.34e
+		set_party_name = { ideology = neutrality long_name = X17_GER_conservative_1_party name = X17_GER_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.34f
+		set_party_name = { ideology = neutrality long_name = X17_GER_conservative_2_party name = X17_GER_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.34g
+		set_party_name = { ideology = neutrality long_name = X17_GER_liberal_1_party name = X17_GER_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.35
+	title = election.35.t
+	desc = election.35.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X18
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.35a
+		set_party_name = { ideology = neutrality long_name = X18_liberal_3_party name = X18_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.35b
+		set_party_name = { ideology = neutrality long_name = X18_liberal_4_party name = X18_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.35c
+		set_party_name = { ideology = neutrality long_name = X18_socialist_1_party name = X18_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.35d
+		set_party_name = { ideology = neutrality long_name = X18_socialist_4_party name = X18_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.35e
+		set_party_name = { ideology = neutrality long_name = X18_GER_conservative_1_party name = X18_GER_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.35f
+		set_party_name = { ideology = neutrality long_name = X18_GER_conservative_2_party name = X18_GER_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.35g
+		set_party_name = { ideology = neutrality long_name = X18_GER_liberal_1_party name = X18_GER_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.36
+	title = election.36.t
+	desc = election.36.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X19
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.36a
+		set_party_name = { ideology = neutrality long_name = X19_liberal_3_party name = X19_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.36b
+		set_party_name = { ideology = neutrality long_name = X19_liberal_4_party name = X19_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.36c
+		set_party_name = { ideology = neutrality long_name = X19_socialist_1_party name = X19_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.36d
+		set_party_name = { ideology = neutrality long_name = X19_socialist_4_party name = X19_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.36e
+		set_party_name = { ideology = neutrality long_name = X19_GER_conservative_1_party name = X19_GER_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.36f
+		set_party_name = { ideology = neutrality long_name = X19_GER_conservative_2_party name = X19_GER_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.36g
+		set_party_name = { ideology = neutrality long_name = X19_GER_liberal_1_party name = X19_GER_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+}
+
+country_event = {
+	id = election.37
+	title = election.37.t
+	desc = election.37.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X20
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.37a
+		set_party_name = { ideology = neutrality long_name = X20_ur_conservative_1_party name = X20_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.37b
+		set_party_name = { ideology = neutrality long_name = X20_ur_conservative_2_party name = X20_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.37c
+		set_party_name = { ideology = neutrality long_name = X20_ur_liberal_1_party name = X20_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.37d
+		set_party_name = { ideology = neutrality long_name = X20_liberal_2_party name = X20_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.37e
+		set_party_name = { ideology = neutrality long_name = X20_social_liberal_party name = X20_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.37f
+		set_party_name = { ideology = neutrality long_name = X20_socialist_1_party name = X20_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.37g
+		set_party_name = { ideology = neutrality long_name = X20_socialist_2_party name = X20_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.38
+	title = election.38.t
+	desc = election.38.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X21
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.38a
+		set_party_name = { ideology = neutrality long_name = X21_ur_conservative_1_party name = X21_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.38b
+		set_party_name = { ideology = neutrality long_name = X21_ur_conservative_2_party name = X21_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.38c
+		set_party_name = { ideology = neutrality long_name = X21_ur_liberal_1_party name = X21_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.38d
+		set_party_name = { ideology = neutrality long_name = X21_liberal_2_party name = X21_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.38e
+		set_party_name = { ideology = neutrality long_name = X21_social_liberal_party name = X21_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.38f
+		set_party_name = { ideology = neutrality long_name = X21_socialist_1_party name = X21_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.38g
+		set_party_name = { ideology = neutrality long_name = X21_socialist_2_party name = X21_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.39
+	title = election.39.t
+	desc = election.39.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X22
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.39a
+		set_party_name = { ideology = neutrality long_name = X22_ur_conservative_1_party name = X22_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.39b
+		set_party_name = { ideology = neutrality long_name = X22_ur_conservative_2_party name = X22_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.39c
+		set_party_name = { ideology = neutrality long_name = X22_ur_liberal_1_party name = X22_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.39d
+		set_party_name = { ideology = neutrality long_name = X22_liberal_2_party name = X22_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.39e
+		set_party_name = { ideology = neutrality long_name = X22_social_liberal_party name = X22_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.39f
+		set_party_name = { ideology = neutrality long_name = X22_socialist_1_party name = X22_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.39g
+		set_party_name = { ideology = neutrality long_name = X22_socialist_2_party name = X22_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.40
+	title = election.40.t
+	desc = election.40.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X23
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.40a
+		set_party_name = { ideology = neutrality long_name = X23_ur_conservative_1_party name = X23_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.40b
+		set_party_name = { ideology = neutrality long_name = X23_ur_conservative_2_party name = X23_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.40c
+		set_party_name = { ideology = neutrality long_name = X23_ur_liberal_1_party name = X23_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.40d
+		set_party_name = { ideology = neutrality long_name = X23_liberal_2_party name = X23_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.40e
+		set_party_name = { ideology = neutrality long_name = X23_social_liberal_party name = X23_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.40f
+		set_party_name = { ideology = neutrality long_name = X23_socialist_1_party name = X23_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.40g
+		set_party_name = { ideology = neutrality long_name = X23_socialist_2_party name = X23_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.41
+	title = election.41.t
+	desc = election.41.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X24
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.41a
+		set_party_name = { ideology = neutrality long_name = X24_ur_conservative_1_party name = X24_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.41b
+		set_party_name = { ideology = neutrality long_name = X24_ur_conservative_2_party name = X24_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.41c
+		set_party_name = { ideology = neutrality long_name = X24_ur_liberal_1_party name = X24_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.41d
+		set_party_name = { ideology = neutrality long_name = X24_liberal_2_party name = X24_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.41e
+		set_party_name = { ideology = neutrality long_name = X24_social_liberal_party name = X24_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.41f
+		set_party_name = { ideology = neutrality long_name = X24_socialist_1_party name = X24_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.41g
+		set_party_name = { ideology = neutrality long_name = X24_socialist_2_party name = X24_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.42
+	title = election.42.t
+	desc = election.42.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X25
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.42a
+		set_party_name = { ideology = neutrality long_name = X25_ur_conservative_1_party name = X25_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.42b
+		set_party_name = { ideology = neutrality long_name = X25_ur_conservative_2_party name = X25_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.42c
+		set_party_name = { ideology = neutrality long_name = X25_ur_liberal_1_party name = X25_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.42d
+		set_party_name = { ideology = neutrality long_name = X25_liberal_2_party name = X25_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.42e
+		set_party_name = { ideology = neutrality long_name = X25_social_liberal_party name = X25_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.42f
+		set_party_name = { ideology = neutrality long_name = X25_socialist_1_party name = X25_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.42g
+		set_party_name = { ideology = neutrality long_name = X25_socialist_2_party name = X25_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.43
+	title = election.43.t
+	desc = election.43.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X26
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.43a
+		set_party_name = { ideology = neutrality long_name = X26_ur_conservative_1_party name = X26_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.43b
+		set_party_name = { ideology = neutrality long_name = X26_ur_conservative_2_party name = X26_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.43c
+		set_party_name = { ideology = neutrality long_name = X26_ur_liberal_1_party name = X26_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.43d
+		set_party_name = { ideology = neutrality long_name = X26_liberal_2_party name = X26_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.43e
+		set_party_name = { ideology = neutrality long_name = X26_social_liberal_party name = X26_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.43f
+		set_party_name = { ideology = neutrality long_name = X26_socialist_1_party name = X26_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.43g
+		set_party_name = { ideology = neutrality long_name = X26_socialist_2_party name = X26_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.44
+	title = election.44.t
+	desc = election.44.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X27
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.44a
+		set_party_name = { ideology = neutrality long_name = X27_ur_conservative_1_party name = X27_ur_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.44b
+		set_party_name = { ideology = neutrality long_name = X27_ur_conservative_2_party name = X27_ur_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.44c
+		set_party_name = { ideology = neutrality long_name = X27_ur_liberal_1_party name = X27_ur_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.44d
+		set_party_name = { ideology = neutrality long_name = X27_liberal_2_party name = X27_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.44e
+		set_party_name = { ideology = neutrality long_name = X27_social_liberal_party name = X27_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.44f
+		set_party_name = { ideology = neutrality long_name = X27_socialist_1_party name = X27_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.44g
+		set_party_name = { ideology = neutrality long_name = X27_socialist_2_party name = X27_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.45
+	title = election.45.t
+	desc = election.45.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X28
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.45a
+		set_party_name = { ideology = neutrality long_name = X28_conservative_1_party name = X28_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.45b
+		set_party_name = { ideology = neutrality long_name = X28_conservative_3_party name = X28_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.45c
+		set_party_name = { ideology = neutrality long_name = X28_liberal_3_party name = X28_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.45d
+		set_party_name = { ideology = neutrality long_name = X28_liberal_4_party name = X28_liberal_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.45e
+		set_party_name = { ideology = neutrality long_name = X28_socialist_2_party name = X28_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.45f
+		set_party_name = { ideology = neutrality long_name = X28_socialist_4_party name = X28_socialist_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}
+
+country_event = {
+	id = election.46
+	title = election.46.t
+	desc = election.46.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X29
+		neutrality > 0.5
+	}
+
+	option = {
+		name = election.46a
+		set_party_name = { ideology = neutrality long_name = X29_conservative_1_party name = X29_conservative_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.46b
+		set_party_name = { ideology = neutrality long_name = X29_conservative_2_party name = X29_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism_neutral
+	}
+
+	option = {
+		name = election.46c
+		set_party_name = { ideology = neutrality long_name = X29_liberal_1_party name = X29_liberal_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.46d
+		set_party_name = { ideology = neutrality long_name = X29_liberal_2_party name = X29_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.46e
+		set_party_name = { ideology = neutrality long_name = X29_social_liberal_party name = X29_social_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism_neutral
+	}
+
+	option = {
+		name = election.46f
+		set_party_name = { ideology = neutrality long_name = X29_socialist_1_party name = X29_socialist_1_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+
+	option = {
+		name = election.46g
+		set_party_name = { ideology = neutrality long_name = X29_socialist_2_party name = X29_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism_neutral
+	}
+}

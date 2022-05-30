@@ -1,0 +1,281 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.1
+	title = "[GER.GetName] Demands [SCA.GetName]!"
+	desc = "[GER.GetName] has recently been making claims to our bordering states, saying that these states are full of [GER.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [GER.GetAdjective] people in the recent years, we cannot give up our lands because a few [GER.GetAdjective] settled down in our land. In response [GER.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [GER.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				GER = { has_army_size = { size > 39 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = NFEvents.2 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size < 30 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = NFEvents.3 }
+			if = {
+				limit = { is_in_faction_with = SCA }
+				remove_from_faction = SCA
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.3
+	title = "[SCA.GetName] Refuses!"
+	desc = "[SCA.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = SCA
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "[SCA.GetName] accepts!"
+	desc = "[SCA.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		579 = { add_core_of = GER }
+		GER = { transfer_state = 579 }
+		577 = { add_core_of = GER }
+		GER = { transfer_state = 577 }
+		set_country_flag = SCA_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.4
+	title = "[GER.GetName] Demands [TUR.GetName]!"
+	desc = "[GER.GetName] has recently been making claims to our bordering states, saying that these states are full of [GER.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [GER.GetAdjective] people in the recent years, we cannot give up our lands because a few [GER.GetAdjective] settled down in our land. In response [GER.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [GER.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				GER = { has_army_size = { size > 39 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = NFEvents.5 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size < 30 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = NFEvents.6 }
+			if = {
+				limit = { is_in_faction_with = TUR }
+				remove_from_faction = TUR
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.6
+	title = "[TUR.GetName] Refuses!"
+	desc = "[TUR.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = TUR
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.5
+	title = "[TUR.GetName] accepts!"
+	desc = "[TUR.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		664 = { add_core_of = GER }
+		GER = { transfer_state = 664 }
+		666 = { add_core_of = GER }
+		GER = { transfer_state = 666 }
+		set_country_flag = TUR_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.7
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [SPR.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			SOV = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = SPR
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.8
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [COL.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			SOV = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = COL
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.9
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [SOV.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			SPR = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = SOV
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.10
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [COL.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			SPR = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = COL
+				}
+			}
+		}
+	}
+}

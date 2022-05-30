@@ -1,0 +1,34 @@
+
+state={
+	id=227
+	name="STATE_227"
+
+	history={
+		owner = COL
+		victory_points = {
+			4833 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			10707 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = COL
+		add_core_of = X06
+	}
+
+	provinces={
+		4833 4848 7884 10679 10707 13091 13202 13203 
+	}
+	manpower=102293
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

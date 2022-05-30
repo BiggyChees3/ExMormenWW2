@@ -1,0 +1,34 @@
+
+state={
+	id=628
+	name="STATE_628"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			4108 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			7069 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1102 1207 4108 4139 7069 10023 10107 11943 
+	}
+	manpower=233796
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

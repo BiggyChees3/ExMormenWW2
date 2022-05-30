@@ -1,0 +1,36 @@
+
+state={
+	id=557
+	name="STATE_557"
+	resources={
+		oil=4.000
+		rubber=53.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			1316 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			7227 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		1230 1304 1316 2170 2222 4279 4335 4409 7227 7424 8221 10282 10310 12129 12280 12955 
+	}
+	manpower=61881
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

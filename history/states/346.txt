@@ -1,0 +1,34 @@
+
+state={
+	id=346
+	name="STATE_346"
+	resources={
+		aluminium=11.000
+		chromium=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			3696 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		646 662 696 3649 3665 3696 6682 6697 9606 9619 9640 11592 11608 11622 
+	}
+	manpower=308332
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

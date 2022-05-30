@@ -1,0 +1,127 @@
+﻿capital = 700
+set_research_slots = 2
+
+oob = "UZB_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_central_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1931.3.14"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+add_opinion_modifier = { target = CHI modifier = negative_84 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = GER modifier = positive_25 }
+add_opinion_modifier = { target = HOL modifier = negative_10 }
+add_opinion_modifier = { target = ITA modifier = negative_35 }
+add_opinion_modifier = { target = JAP modifier = negative_35 }
+add_opinion_modifier = { target = SCA modifier = negative_10 }
+add_opinion_modifier = { target = SOV modifier = negative_7 }
+add_opinion_modifier = { target = SPR modifier = negative_10 }
+add_opinion_modifier = { target = TUR modifier = positive_42 }
+add_opinion_modifier = { target = X00 modifier = negative_45 }
+add_opinion_modifier = { target = X02 modifier = negative_10 }
+add_opinion_modifier = { target = X05 modifier = negative_10 }
+add_opinion_modifier = { target = X06 modifier = negative_10 }
+add_opinion_modifier = { target = X08 modifier = negative_10 }
+add_opinion_modifier = { target = X11 modifier = negative_30 }
+add_opinion_modifier = { target = X12 modifier = negative_120 }
+add_opinion_modifier = { target = X13 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	UZB_monarch
+	disarmed_nation
+	civilian_economy
+	export_focus
+	culture_kazak
+}
+set_stability = 0.60
+set_war_support = 0.64
+
+recruit_character = UZB_aryn_muhammad_uli
+recruit_character = UZB_aryn_beg
+recruit_character = UZB_aryn_muhammad_uli_1
+recruit_character = UZB_tenek_qasim_uli
+recruit_character = UZB_tenek_qasim_uli_1
+recruit_character = UZB_sadyk_kutebar_uli
+recruit_character = UZB_dulat_qasim_uli
+recruit_character = UZB_sarzhan_muhammad_uli
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Aina Beyeha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Aliya Ibragimova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Bibigul Kedryuka"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Bukei Kutebar uli"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Isatai Muhammad uli"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZB }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

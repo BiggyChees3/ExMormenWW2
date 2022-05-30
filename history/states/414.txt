@@ -1,0 +1,33 @@
+
+state={
+	id=414
+	name="STATE_414"
+
+	history={
+		owner = X17
+		victory_points = {
+			10052 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			1092 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = JAP
+		add_core_of = X17
+	}
+
+	provinces={
+		1092 1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 
+	}
+	manpower=238873
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

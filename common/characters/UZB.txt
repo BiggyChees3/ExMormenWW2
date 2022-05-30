@@ -1,0 +1,100 @@
+characters={
+	UZB_aryn_muhammad_uli={
+		name=UZB_aryn_muhammad_uli
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	UZB_aryn_beg={
+		name=UZB_aryn_beg
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UZB_aryn_muhammad_uli_1={
+		name=UZB_aryn_muhammad_uli_1
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UZB_tenek_qasim_uli={
+		name=UZB_tenek_qasim_uli
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UZB_tenek_qasim_uli_1={
+		name=UZB_tenek_qasim_uli_1
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UZB_sadyk_kutebar_uli={
+		name=UZB_sadyk_kutebar_uli
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UZB_dulat_qasim_uli={
+		name=UZB_dulat_qasim_uli
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	UZB_sarzhan_muhammad_uli={
+		name=UZB_sarzhan_muhammad_uli
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

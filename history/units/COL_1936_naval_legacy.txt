@@ -1,0 +1,904 @@
+units = {
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "5th Fleet"
+			location = 5733
+			ship = { name = "6th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Córdoba" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Cúcuta" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Aragua" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Amazonía" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Zulia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Sucre" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "3rd Fleet"
+			location = 2684
+			ship = { name = "Pasto" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Cumaná" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Restaurador" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Orinoco" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Casiquiare" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Galápagos" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Mestizo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "General Salom" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Bolívar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Oriente" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Santa Elena" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Bogotá" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "23rd Fleet"
+		naval_base = 5066
+		task_force = {
+			name = "23rd Fleet"
+			location = 5066
+			ship = { name = "19th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Yongle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "1st Fleet"
+			location = 8698
+			ship = { name = "6th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "2nd Fleet"
+			location = 8698
+			ship = { name = "2nd Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "6th Fleet"
+			location = 4611
+			ship = { name = "2nd Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "9th Fleet"
+			location = 5407
+			ship = { name = "9th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Medellin" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Yongle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Yongle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Maracaibo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Orellana" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Cali" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Patria" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "12th Fleet"
+			location = 4611
+			ship = { name = "10th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "17th Fleet"
+			location = 5555
+			ship = { name = "1st Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "21st Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "21st Fleet"
+			location = 5631
+			ship = { name = "10th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "24th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "24th Fleet"
+			location = 5681
+			ship = { name = "10th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "25th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "25th Fleet"
+			location = 5812
+			ship = { name = "10th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "26th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "26th Fleet"
+			location = 4611
+			ship = { name = "10th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "27th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "27th Fleet"
+			location = 4611
+			ship = { name = "10th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "28th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "28th Fleet"
+			location = 5864
+			ship = { name = "10th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "29th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "29th Fleet"
+			location = 5707
+			ship = { name = "10th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "30th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "30th Fleet"
+			location = 4611
+			ship = { name = "11th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "32nd Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "32nd Fleet"
+			location = 9049
+			ship = { name = "7th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "35th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "35th Fleet"
+			location = 4026
+			ship = { name = "5th David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Yongle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "6th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Luz de América" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Yongle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "9th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "33rd Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "33rd Fleet"
+			location = 5347
+			ship = { name = "Caroní" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "10th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "4th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "1st Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "3rd La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "2nd Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Cundinamarca" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "Santander" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "5th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "37th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "37th Fleet"
+			location = 787
+			ship = { name = "8th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "39th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "39th Fleet"
+			location = 4611
+			ship = { name = "8th Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "40th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "40th Fleet"
+			location = 4611
+			ship = { name = "6th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "41st Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "41st Fleet"
+			location = 225
+			ship = { name = "5th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "42nd Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "42nd Fleet"
+			location = 5394
+			ship = { name = "11th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "43rd Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "43rd Fleet"
+			location = 4611
+			ship = { name = "8th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "44th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "44th Fleet"
+			location = 2776
+			ship = { name = "11th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "45th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "45th Fleet"
+			location = 4694
+			ship = { name = "9th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "46th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "46th Fleet"
+			location = 5383
+			ship = { name = "3rd Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "7th Fleet"
+			location = 4611
+			ship = { name = "11th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "8th Fleet"
+			location = 5605
+			ship = { name = "12th Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "10th Fleet"
+			location = 5531
+			ship = { name = "8th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "11th Fleet"
+			location = 4611
+			ship = { name = "4th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "13th Fleet"
+			location = 5656
+			ship = { name = "12th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "14th Fleet"
+			location = 8918
+			ship = { name = "Libertad" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "15th Fleet"
+			location = 4611
+			ship = { name = "13th Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "18th Fleet"
+			location = 5284
+			ship = { name = "11th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "19th Fleet"
+			location = 8845
+			ship = { name = "12th Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "20th Fleet"
+		naval_base = 4611
+		task_force = {
+			name = "20th Fleet"
+			location = 8871
+			ship = { name = "12th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+	fleet = {
+		name = "36th Fleet"
+		naval_base = 5066
+		task_force = {
+			name = "36th Fleet"
+			location = 5066
+			ship = { name = "16th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "7th Yongle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "18th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "11th Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Porto Velho Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Mazatlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Esmeraldas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Buenaventura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Piura Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Cartagena de Indias Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Coro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Huaraz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "14th Guantanamo Bay Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Los Albaniles Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Caracas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Arequipa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Calama Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "20th Curiapo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Puerto Vallarta Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Essequibo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "22nd São Salvador Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th Bethléem Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "13th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th Macapa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Minatitlan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "22nd Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "22nd La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "16th David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "21st Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "22nd Havana Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "15th Ponta Grossa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "8th Yongle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "19th Limon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "12th Sant Jordi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+			ship = { name = "17th David Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = COL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "COL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "COL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

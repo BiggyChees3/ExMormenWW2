@@ -1,0 +1,182 @@
+focus_tree = {
+	id = CHI_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = Home_of_RevolutionCHI
+		icon = GFX_goal_support_communism
+		text = Home_of_Revolution
+		x = 26
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_ideas = communist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_SCA_CHI
+		icon = GFX_goal_generic_propaganda
+		text = Influence_SCA
+		prerequisite = { focus = Home_of_RevolutionCHI }
+		x = 26
+		y = 1
+		cost = 10
+		completion_reward = {
+			SCA = {
+				if = {
+					limit = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_SCA_CHI
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_SCA
+		prerequisite = { focus = Influence_SCA_CHI }
+		x = 0
+		y = 1
+		relative_position_id = Influence_SCA_CHI
+		cost = 10
+		available = {
+		SCA = { communism > 0.5 }
+	}
+		completion_reward = {
+		SCA = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = StrengthComCHI
+		icon = GFX_goal_support_communism
+		text = StrengthCom
+		x = 28
+		y = 0
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Inter_Com_PresCHI
+		icon = GFX_goal_generic_dangerous_deal
+		text = Inter_Com_Pres
+		prerequisite = { focus = StrengthComCHI }
+		x = 0
+		y = 1
+		relative_position_id = StrengthComCHI
+		cost = 10
+		available = {
+		date > 1937.1.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = Inter_Com_Pres }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = WarSCACHI
+		icon = GFX_goal_generic_major_war
+		text = WarSCA
+		prerequisite = { focus = Inter_Com_PresCHI }
+		bypass = {
+		has_war_with = SCA
+	}
+		x = 28
+		y = 2
+		cost = 10
+		available = {
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with Scandinavia" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = SCA
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = SCA ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
+			}
+		}
+	}
+	}
+
+}

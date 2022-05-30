@@ -1,0 +1,33 @@
+
+state={
+	id=606
+	name="STATE_606"
+	resources={
+		rubber=1.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			7161 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		1181 1950 2034 2073 2154 4941 6027 7161 10766 10858 11934 12783 12808 12847 
+	}
+	manpower=466077
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

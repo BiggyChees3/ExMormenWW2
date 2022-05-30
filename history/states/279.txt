@@ -1,0 +1,37 @@
+
+state={
+	id=279
+	name="STATE_279"
+	resources={
+		aluminium=16.000
+		oil=1.000
+	}
+
+	history={
+		owner = X08
+		victory_points = {
+			12321 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			1639 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = X08
+	}
+
+	provinces={
+		1596 1639 2149 4643 10375 10418 10935 12321 12409 12494 12998 
+	}
+	manpower=156130
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

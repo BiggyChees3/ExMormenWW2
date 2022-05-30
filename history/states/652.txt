@@ -1,0 +1,25 @@
+
+state={
+	id=652
+	name="STATE_652"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+		steel=2.000
+	}
+	impassable = yes
+
+	history={
+		owner = SPR
+		add_core_of = SPR
+	}
+
+	provinces={
+		1897 7943 10725 10771 
+	}
+	manpower=13808
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

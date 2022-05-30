@@ -1,0 +1,9 @@
+﻿l_german:
+ CHI_Naval_treaty_nation:0 "@CHI [CHI.GetName]"
+ COL_Naval_treaty_nation:0 "@COL [COL.GetName]"
+ GER_Naval_treaty_nation:0 "@GER [GER.GetName]"
+ ITA_Naval_treaty_nation:0 "@ITA [ITA.GetName]"
+ SOV_Naval_treaty_nation:0 "@SOV [SOV.GetName]"
+ SPR_Naval_treaty_nation:0 "@SPR [SPR.GetName]"
+ X01_Naval_treaty_nation:0 "@X01 [X01.GetName]"
+ X03_Naval_treaty_nation:0 "@X03 [X03.GetName]"

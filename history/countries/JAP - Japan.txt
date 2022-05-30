@@ -1,0 +1,453 @@
+﻿capital = 418
+set_research_slots = 3
+
+oob = "JAP_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "JAP_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "JAP_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	marines = 1
+	synth_oil_experiments = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+		smoke_generator = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_siberia
+set_convoys = 2
+
+
+set_politics = {
+    ruling_party = fascism
+    last_election = "1922.12.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 100
+}
+
+give_guarantee = X11
+diplomatic_relation = { country = X11 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = CHI modifier = negative_193 }
+set_truce = { target = CHI days = 277 }
+add_opinion_modifier = { target = COL modifier = negative_175 }
+add_opinion_modifier = { target = ETH modifier = negative_200 }
+add_opinion_modifier = { target = GER modifier = negative_191 }
+give_military_access = GER
+add_opinion_modifier = { target = HOL modifier = negative_200 }
+add_opinion_modifier = { target = ITA modifier = negative_195 }
+set_truce = { target = ITA days = 887 }
+add_opinion_modifier = { target = KOR modifier = negative_150 }
+add_opinion_modifier = { target = SCA modifier = negative_199 }
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+add_opinion_modifier = { target = SPR modifier = negative_200 }
+add_opinion_modifier = { target = TUR modifier = negative_160 }
+add_opinion_modifier = { target = UZB modifier = negative_35 }
+add_opinion_modifier = { target = X00 modifier = negative_35 }
+add_opinion_modifier = { target = X01 modifier = negative_195 }
+set_truce = { target = X01 days = 220 }
+add_opinion_modifier = { target = X02 modifier = positive_10 }
+add_opinion_modifier = { target = X03 modifier = negative_200 }
+set_truce = { target = X03 days = 277 }
+add_opinion_modifier = { target = X04 modifier = negative_150 }
+add_opinion_modifier = { target = X05 modifier = negative_200 }
+add_opinion_modifier = { target = X06 modifier = negative_25 }
+add_opinion_modifier = { target = X08 modifier = negative_191 }
+give_military_access = X08
+add_opinion_modifier = { target = X09 modifier = negative_55 }
+add_opinion_modifier = { target = X10 modifier = negative_200 }
+add_opinion_modifier = { target = X11 modifier = negative_200 }
+add_opinion_modifier = { target = X12 modifier = negative_200 }
+add_opinion_modifier = { target = X13 modifier = negative_200 }
+
+
+add_ideas = {
+	volunteer_only
+	partial_economic_mobilisation
+	limited_exports
+	culture_japanese
+}
+set_stability = 0.60
+set_war_support = 0.74
+
+recruit_character = JAP_sumiyoshi_osumi
+recruit_character = JAP_mitsue_ichinohe
+recruit_character = JAP_rokuro_uehara
+recruit_character = JAP_hayao_yamamoto
+recruit_character = JAP_kozo_kamimura
+recruit_character = JAP_iwao_shirakawa
+recruit_character = JAP_nariaki_yamaya
+recruit_character = JAP_yasuyoshi_ueda
+recruit_character = JAP_kagenori_omura
+recruit_character = JAP_toshiyoshi_shibayama
+recruit_character = JAP_masujiro_ichinohe
+recruit_character = JAP_yoshida_oku
+recruit_character = JAP_tadakuni_arisugawa
+recruit_character = JAP_iwao_araki
+recruit_character = JAP_taruhito_kido
+recruit_character = JAP_shichiro_itagaki
+recruit_character = JAP_taro_uryu
+recruit_character = JAP_taruhito_matsudaira
+recruit_character = JAP_shigeto_suzuki
+recruit_character = JAP_shichiro_togo
+recruit_character = JAP_hayao_tokugawa
+recruit_character = JAP_shigeru_dewa
+recruit_character = JAP_soroku_suzuki
+recruit_character = JAP_shichiro_kanin
+recruit_character = JAP_tomasaburo_oku
+recruit_character = JAP_yoshinori_ito
+recruit_character = JAP_sukeyuki_nakamuta
+recruit_character = JAP_shigeru_omura
+recruit_character = JAP_yoshimichi_hasegawa
+recruit_character = JAP_yasukata_katsura
+recruit_character = JAP_jiro_sakura
+recruit_character = JAP_mineo_kanin
+recruit_character = JAP_kageaki_yamashita
+recruit_character = JAP_toshiyoshi_sato
+recruit_character = JAP_yahachi_shirakawa
+recruit_character = JAP_takeaki_yui
+recruit_character = JAP_sukeyuki_tachibana
+recruit_character = JAP_yoshifuru_kawakami
+recruit_character = JAP_yahachi_kato
+recruit_character = JAP_tetsutaro_sakura
+recruit_character = JAP_soroku_honjo
+recruit_character = JAP_sotokichi_kawakami
+recruit_character = JAP_sukeyuki_yashiro
+recruit_character = JAP_hyoe_akiyama
+recruit_character = JAP_yusaku_kamio
+recruit_character = JAP_toshimichi_yamakawa
+recruit_character = JAP_mineo_nakamuta
+recruit_character = JAP_maresuke_araki
+recruit_character = JAP_nariaki_uryu
+recruit_character = JAP_jiro_akiyama
+recruit_character = JAP_kantaro_uehara
+recruit_character = JAP_shinsaku_ito
+recruit_character = JAP_rokuro_ito
+recruit_character = JAP_mitsuomi_terauchi
+recruit_character = JAP_koichiro_ugaki
+recruit_character = JAP_tomonosuke_kuroki
+recruit_character = JAP_taro_shibayama
+recruit_character = JAP_tetsutaro_omura
+recruit_character = JAP_sukeyuki_yashiro_1
+recruit_character = JAP_koichiro_yamagata
+recruit_character = JAP_yusaku_yashiro
+recruit_character = JAP_jinzaburo_tokugawa
+recruit_character = JAP_heihachiro_sakura
+recruit_character = JAP_mitsue_oku
+recruit_character = JAP_shoin_yamakawa
+recruit_character = JAP_takamori_tachibana
+recruit_character = JAP_takayoshi_uryu
+recruit_character = JAP_kageaki_masaki
+recruit_character = JAP_yoshimichi_omura
+recruit_character = JAP_sukeyuki_shibayama
+recruit_character = JAP_mitsuomi_shibayama
+recruit_character = JAP_gentaro_inoue
+recruit_character = JAP_kantaro_yamamoto
+recruit_character = JAP_sukeyuki_nire
+recruit_character = JAP_kuranosuke_takasugi
+recruit_character = JAP_jinzaburo_kawakami
+recruit_character = JAP_oyama_iwao
+recruit_character = JAP_mitsue_suzuki
+recruit_character = JAP_taro_takasugi
+recruit_character = JAP_shoin_enomoto
+recruit_character = JAP_yusaku_nozu
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Asami Arichi"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { JAP }
+	}
+
+	create_operative_leader = {
+		name = "Aimi Katsura"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { JAP }
+	}
+
+	create_operative_leader = {
+		name = "Asuka Honjo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { JAP }
+	}
+
+	create_operative_leader = {
+		name = "Shoin Yamakawa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { JAP }
+	}
+
+	create_operative_leader = {
+		name = "Sukenori Itagaki"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { JAP }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = JAP_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = JAP_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = JAP_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = JAP_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = JAP_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "GW Heavy Tank"
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Light Tank"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/gwtank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Medium Tank"
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
+	}
+}

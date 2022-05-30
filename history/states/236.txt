@@ -1,0 +1,32 @@
+
+state={
+	id=236
+	name="STATE_236"
+
+	history={
+		owner = COL
+		victory_points = {
+			12148 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12148 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		10188 12148 
+	}
+	manpower=1007
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

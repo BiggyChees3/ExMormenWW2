@@ -1,0 +1,39 @@
+
+state={
+	id=103
+	name="STATE_103"
+	resources={
+		chromium=1.000
+		steel=2.000
+	}
+
+	history={
+		owner = X03
+		victory_points = {
+			8098 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1179 = {
+				naval_base = 6
+
+			}
+			air_base = 1
+
+		}
+		add_core_of = X03
+		add_claim_by = JAP
+		add_claim_by = SOV
+
+	}
+
+	provinces={
+		1179 5043 5075 7917 8013 8066 8098 10813 12761 12774 
+	}
+	manpower=276870
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=10.000
+}

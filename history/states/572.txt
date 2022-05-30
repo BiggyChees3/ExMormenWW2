@@ -1,0 +1,33 @@
+
+state={
+	id=572
+	name="STATE_572"
+
+	history={
+		owner = SCA
+		victory_points = {
+			9279 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9279 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		3307 6120 6345 6412 9279 9300 9362 11160 11215 11327 11376 
+	}
+	manpower=175473
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

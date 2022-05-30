@@ -1,0 +1,142 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6389
+		task_force = {
+			name = "2nd Fleet"
+			location = 6389
+			ship = { name = "Amazone" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "5th Fleet"
+			location = 3326
+			ship = { name = "Arcona" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 241
+		task_force = {
+			name = "6th Fleet"
+			location = 241
+			ship = { name = "Ariadne" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 6282
+		task_force = {
+			name = "7th Fleet"
+			location = 6282
+			ship = { name = "Augsburg" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 6389
+		task_force = {
+			name = "8th Fleet"
+			location = 6389
+			ship = { name = "Bremen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 362
+		task_force = {
+			name = "9th Fleet"
+			location = 362
+			ship = { name = "Berlin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 6332
+		task_force = {
+			name = "10th Fleet"
+			location = 6332
+			ship = { name = "Blücher" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "11th Fleet"
+			location = 3326
+			ship = { name = "Bremse" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 241
+		task_force = {
+			name = "12th Fleet"
+			location = 241
+			ship = { name = "Breslau" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 6389
+		task_force = {
+			name = "13th Fleet"
+			location = 6389
+			ship = { name = "Condor" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 8244
+		task_force = {
+			name = "14th Fleet"
+			location = 8244
+			ship = { name = "Freya" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 3288
+		task_force = {
+			name = "15th Fleet"
+			location = 3288
+			ship = { name = "Blitz" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 6282
+		task_force = {
+			name = "16th Fleet"
+			location = 6282
+			ship = { name = "Brummer" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GER"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=140
+	name="STATE_140"
+	resources={
+		steel=1.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			3992 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1153 1628 3992 4038 4185 7653 10114 10501 11988 
+	}
+	manpower=469845
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

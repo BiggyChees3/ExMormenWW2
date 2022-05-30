@@ -1,0 +1,123 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 12029
+		task_force = {
+			name = "4th Fleet"
+			location = 12029
+			ship = { name = "3rd Mersin Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Beirut Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Acre Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Abadan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Qatif Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Abu Dhabi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Abha Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Lutf-i Humayun" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Yavuz Sultan Selim" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Samsun" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Medjidieh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Mukaddem-i Hayir" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Usküdar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Izmir" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Bursa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Edirne" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Midilli" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Konstantiniyye" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ancyra" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Corinth Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Burgas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Polygyros Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Adatepe" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Mehmet Selim" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Heibetnuma" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12029
+		task_force = {
+			name = "1st Fleet"
+			location = 7452
+			ship = { name = "3rd Bolu Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Qatif Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Mersin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Izmit Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Beirut Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Abu Dhabi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Acre Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Abadan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Canakkale Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Antioch Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Abha Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Bolu Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Qatif Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Beirut Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Mersin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Abu Dhabi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Acre Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Abadan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Antioch Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Abha Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Qatif Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Abu Dhabi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Abadan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Abha Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Qatif Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "5th Abu Dhabi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12029
+		task_force = {
+			name = "2nd Fleet"
+			location = 12029
+			ship = { name = "Abdul Hamid" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Izmit Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Canakkale Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Berkefsan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Tayyar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Bolu Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Muavanet-i Milliye" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Beirut Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Antioch Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Izmit" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Bolu Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Konya" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Mersin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Izmit Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Abu Dhabi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Beirut Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Abadan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Canakkale Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Acre Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Antioch Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Abha Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "Sevres" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Izmit Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Canakkale Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Mersin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUR } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "TUR"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "TUR"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=173
+	name="STATE_173"
+	resources={
+		steel=17.000
+		tungsten=41.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			4052 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11835 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = KOR
+		add_claim_by = JAP
+	}
+
+	provinces={
+		852 898 906 912 959 978 3803 3852 3860 3904 3912 3981 4052 6822 6922 6928 6944 6963 7171 9790 9795 9899 9918 10083 11770 11775 11828 11835 11878 11896 
+	}
+	manpower=481727
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

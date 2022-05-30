@@ -1,0 +1,39 @@
+
+state={
+	id=341
+	name="STATE_341"
+	resources={
+		aluminium=4.000
+		steel=12.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			362 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			362 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_core_of = X05
+		add_claim_by = SCA
+	}
+
+	provinces={
+		334 362 389 3324 9252 9263 11260 11288 
+	}
+	manpower=76541
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

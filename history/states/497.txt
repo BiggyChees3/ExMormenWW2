@@ -1,0 +1,38 @@
+
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		aluminium=4.000
+		chromium=0.000
+		oil=2.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			4645 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4645 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_claim_by = X06
+	}
+
+	provinces={
+		1498 1511 1540 4630 4645 5125 5170 7579 7608 8152 10949 10950 10971 10983 12323 12993 
+	}
+	manpower=106452
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

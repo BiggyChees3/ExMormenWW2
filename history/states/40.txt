@@ -1,0 +1,32 @@
+
+state={
+	id=40
+	name="STATE_40"
+
+	history={
+		owner = X01
+		victory_points = {
+			7123 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			379 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		379 7123 
+	}
+	manpower=35190
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

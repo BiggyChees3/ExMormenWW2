@@ -1,0 +1,401 @@
+﻿capital = 258
+set_research_slots = 3
+add_named_threat = { threat = 1.9573 name = infamy }
+
+oob = "X07_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X07_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X07_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+
+set_country_flag = conv_france
+set_convoys = 0
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 75 producer = X07 }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 31 producer = X07 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 306 producer = X07 }
+
+set_politics = {
+    ruling_party = fascism
+    last_election = "1904.4.8"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 79
+	neutrality = 21
+}
+
+give_guarantee = ETH
+diplomatic_relation = { country = ETH relation = non_aggression_pact }
+
+give_guarantee = GER
+diplomatic_relation = { country = GER relation = non_aggression_pact }
+
+give_guarantee = HOL
+diplomatic_relation = { country = HOL relation = non_aggression_pact }
+
+give_guarantee = ITA
+diplomatic_relation = { country = ITA relation = non_aggression_pact }
+
+give_guarantee = SPR
+diplomatic_relation = { country = SPR relation = non_aggression_pact }
+
+give_guarantee = X05
+diplomatic_relation = { country = X05 relation = non_aggression_pact }
+
+give_guarantee = X11
+diplomatic_relation = { country = X11 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = CHI modifier = negative_200 }
+set_truce = { target = CHI days = 1823 }
+add_opinion_modifier = { target = COL modifier = negative_200 }
+set_truce = { target = COL days = 1823 }
+add_opinion_modifier = { target = ETH modifier = positive_100 }
+add_opinion_modifier = { target = GER modifier = positive_100 }
+add_opinion_modifier = { target = HOL modifier = positive_103 }
+add_opinion_modifier = { target = ITA modifier = positive_132 }
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+set_truce = { target = SCA days = 1823 }
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+set_truce = { target = SOV days = 1823 }
+add_opinion_modifier = { target = SPR modifier = negative_136 }
+give_military_access = SPR
+add_opinion_modifier = { target = TUR modifier = negative_200 }
+set_truce = { target = TUR days = 1823 }
+add_opinion_modifier = { target = X01 modifier = negative_200 }
+set_truce = { target = X01 days = 1823 }
+add_opinion_modifier = { target = X03 modifier = negative_200 }
+set_truce = { target = X03 days = 1823 }
+add_opinion_modifier = { target = X04 modifier = negative_199 }
+set_truce = { target = X04 days = 580 }
+add_opinion_modifier = { target = X05 modifier = positive_98 }
+add_opinion_modifier = { target = X08 modifier = negative_200 }
+set_truce = { target = X08 days = 1823 }
+add_opinion_modifier = { target = X10 modifier = negative_200 }
+set_truce = { target = X10 days = 1823 }
+add_opinion_modifier = { target = X11 modifier = negative_40 }
+
+
+add_ideas = {
+	disarmed_nation
+	partial_economic_mobilisation
+	limited_exports
+	culture_anglois
+}
+set_stability = 0.60
+set_war_support = 0.54
+
+recruit_character = X07_matthieu_davout
+recruit_character = X07_elie_de_bourbon
+recruit_character = X07_thibaut_boulanger
+recruit_character = X07_pierre_franchet_d'esperey
+recruit_character = X07_nicolas_pellissier
+recruit_character = X07_eugene_gouraud
+recruit_character = X07_lucien_humbert
+recruit_character = X07_paul_cousin_mountauban
+recruit_character = X07_ettiene_harispe
+recruit_character = X07_daniel_harispe
+recruit_character = X07_napoleon_forey
+recruit_character = X07_joseph_hoche
+recruit_character = X07_jean_jaures
+recruit_character = X07_henri_forey
+recruit_character = X07_jules_joffre
+recruit_character = X07_achille_hamelin
+recruit_character = X07_guillaume_de_gaulle
+recruit_character = X07_amedee_de_langle_de_cary
+recruit_character = X07_hugo_foch
+recruit_character = X07_jules_boue_de_lapeyrere
+recruit_character = X07_denis_bugeaud
+recruit_character = X07_nicolas_gallieni
+recruit_character = X07_lazare_bouet_willaumez
+recruit_character = X07_jacques_humbert
+recruit_character = X07_gustave_de_saint_arnaud
+recruit_character = X07_achille_bosquet
+recruit_character = X07_louis_cousin_mountauban
+recruit_character = X07_august_harispe
+recruit_character = X07_adolphe_de_bourbon
+recruit_character = X07_fernand_bonaparte
+recruit_character = X07_philippe_de_langle_de_cary
+recruit_character = X07_ferdinand_foch
+recruit_character = X07_michel_foch
+recruit_character = X07_philippe_franchet_d'esperey
+recruit_character = X07_julien_baraguey_d'hilliers
+recruit_character = X07_francois_duchene
+recruit_character = X07_hugo_gallieni
+recruit_character = X07_armand_exelmans
+recruit_character = X07_georges_bonaparte
+recruit_character = X07_matthieu_duchene
+recruit_character = X07_armand_bouet_willaumez
+recruit_character = X07_edouard_de_bourbon
+recruit_character = X07_denis_canrobert
+recruit_character = X07_francois_jaures
+recruit_character = X07_ettiene_de_montaignac
+recruit_character = X07_eugene_bouet_willaumez
+recruit_character = X07_edouard_de_gaulle
+recruit_character = X07_denis_gouraud
+recruit_character = X07_felix_davout
+recruit_character = X07_edouard_joffre
+recruit_character = X07_elie_boulanger
+recruit_character = X07_patrice_murat
+recruit_character = X07_thomas_de_macmahon
+recruit_character = X07_alphonse_bourbaki
+recruit_character = X07_denis_gouraud_1
+recruit_character = X07_denis_gallieni
+recruit_character = X07_georges_bazaine
+recruit_character = X07_daniel_dubail
+recruit_character = X07_edouard_jaures
+recruit_character = X07_nicolas_vaillant
+recruit_character = X07_matthieu_humbert
+recruit_character = X07_leroy_canrobert
+recruit_character = X07_thibaut_foch
+recruit_character = X07_paul_hoche
+recruit_character = X07_georges_de_montaignac
+recruit_character = X07_amedee_foch
+recruit_character = X07_pierre_bosquet
+recruit_character = X07_augustin_hoche
+recruit_character = X07_leopold_de_saint_arnaud
+recruit_character = X07_michel_bourbaki
+recruit_character = X07_joseph_guillaumat
+recruit_character = X07_daniel_hoche
+recruit_character = X07_leopold_bourbaki
+recruit_character = X07_michel_forey
+recruit_character = X07_ettiene_cousin_mountauban
+recruit_character = X07_louis_de_saint_arnaud
+recruit_character = X07_adrien_caillard
+recruit_character = X07_fernand_murat
+recruit_character = X07_thomas_gallieni
+recruit_character = X07_felix_bugeaud
+recruit_character = X07_henri_nivelle
+recruit_character = X07_adrien_de_bourbon
+recruit_character = X07_charles_hoche
+recruit_character = X07_elie_de_macmahon
+recruit_character = X07_patrice_de_saint_arnaud
+recruit_character = X07_guillaume_lebouef
+recruit_character = X07_georges_canrobert
+recruit_character = X07_robert_canrobert
+recruit_character = X07_louis_gallieni
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Antoine d'Orleans"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X07 }
+	}
+
+	create_operative_leader = {
+		name = "Philippe Humbert"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X07 }
+	}
+
+	create_operative_leader = {
+		name = "Michel Caillard"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X07 }
+	}
+
+	create_operative_leader = {
+		name = "Guillaume Exelmans"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X07 }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Forey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X07 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X07_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X07_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X07_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=213
+	name="STATE_213"
+	resources={
+		oil=3.000
+		steel=0.000
+		tungsten=29.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			5230 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		5188 5230 8157 8225 8240 10996 13195 
+	}
+	manpower=249919
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

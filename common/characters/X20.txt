@@ -1,0 +1,16 @@
+characters={
+	X20_thomas_dannemand={
+		name=X20_thomas_dannemand
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_Canada_Tim_Buck.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

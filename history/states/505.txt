@@ -1,0 +1,36 @@
+
+state={
+	id=505
+	name="STATE_505"
+	resources={
+		aluminium=5.000
+		chromium=5.000
+		oil=0.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			8249 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_claim_by = X06
+	}
+
+	provinces={
+		1570 1667 2114 2116 2146 2163 2221 4453 4478 4500 4658 4836 5134 5161 5227 7471 7533 7649 8234 8249 10455 10682 10941 10977 10991 11006 11019 12377 12934 12968 
+	}
+	manpower=77503
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

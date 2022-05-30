@@ -1,0 +1,400 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7798
+		task_force = {
+			name = "1st Fleet"
+			location = 2441
+			ship = { name = "24th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Sorong Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "8th Qui Nhon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Palembang Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Surabaya Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7798
+		task_force = {
+			name = "1st Fleet"
+			location = 7798
+			ship = { name = "1st Brunei Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Palembang Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Inderagiri Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Banda Aceh Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Batavia Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Cirebon Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Surabaya Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Probolinggo Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Tarakan Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Kota Waringin Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Pallo Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Bulon Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Bali Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Annbom Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Fort St. James Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Johor Bahru Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Sandakan Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Thonburi Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Moulmein Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Djokjakarta" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Surabaya Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Krakatau" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Tundo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Sangiang" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Panjang" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Surabaya Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Sebuku" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Sabesi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Serang" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Tangerang" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Palembang Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Kujang" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Selat Sunda" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Palembang Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "8th Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Surabaya Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Panjang 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Krakatau 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Djokjakarta 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Surabaya Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Sangiang 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Palembang Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Palembang Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Pandeglang" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Tundo 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "8th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Palembang Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Sorong Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Xiang Qundao Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Tacloban Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Bali Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Cirebon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Surabaya Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Probolinggo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Deli" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Lebak" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Panaitan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "12th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "13th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Kanaky Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Kanaky Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "3rd Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Qui Nhon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Kanaky Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Qui Nhon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "14th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "8th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Kanaky Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "15th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Moulmein Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Thonburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "16th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "8th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Kanaky Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Qui Nhon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "17th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "8th Hue Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "9th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Chanthaburi Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "5th Qui Nhon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Kampot Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "18th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "10th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Johor Bahru Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "22nd Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Qui Nhon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Brunei Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "11th Prey Nokor Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "22nd Inderagiri Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "2nd Sorong Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "22nd Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Sandakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "22nd Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Qui Nhon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Tarakan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "19th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "22nd Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "20th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "4th Sorong Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "22nd Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Kota Waringin Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "21st Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Pallo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Bulon Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Annbom Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "22nd Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "24th Fort St. James Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "6th Sorong Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "23rd Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7798
+		task_force = {
+			name = "2nd Fleet"
+			location = 4466
+			ship = { name = "Cilegon" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "Tinjal" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Kampot Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "1st Hue Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X10 } } }
+			ship = { name = "25th Ipoh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X10 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X10"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X10"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=139
+	name="STATE_139"
+	resources={
+		aluminium=10.000
+		steel=10.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			10076 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 1
+			dockyard = 1
+			4091 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1089 4091 10034 10076 11982 12052 
+	}
+	manpower=645538
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

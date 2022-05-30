@@ -1,0 +1,33 @@
+
+state={
+	id=334
+	name="STATE_334"
+	resources={
+		steel=148.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9503 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_core_of = X05
+	}
+
+	provinces={
+		549 678 1346 6529 9503 
+	}
+	manpower=161878
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

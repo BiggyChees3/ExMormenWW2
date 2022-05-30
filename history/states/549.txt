@@ -1,0 +1,30 @@
+
+state={
+	id=549
+	name="STATE_549"
+
+	history={
+		owner = SOV
+		victory_points = {
+			1714 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = JAP
+		add_claim_by = SOV
+
+	}
+
+	provinces={
+		1714 1878 4798 4878 7746 7817 10589 10641 10701 12623 
+	}
+	manpower=65661
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=10.000
+}

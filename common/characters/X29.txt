@@ -1,0 +1,16 @@
+characters={
+	X29_jules_berthels={
+		name=X29_jules_berthels
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

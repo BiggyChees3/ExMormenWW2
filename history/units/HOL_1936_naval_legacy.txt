@@ -1,0 +1,147 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6598
+		task_force = {
+			name = "2nd Fleet"
+			location = 6598
+			ship = { name = "Gerrit Maritz" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "6th Gundersborg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "19th Nieuwe Antwerpen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Louis Trichardt" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "9th Swakopmund Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "11th Gundersborg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "20th Nieuwe Antwerpen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "11th Groningen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "10th Rotterdam Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "13th Angra Pequena Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Bloys van Treslong" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Jan van Brakel" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Van Amstel" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "12th Groningen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Banckert" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Van Ghent" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Tjerk Hiddes" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "5th Fleet"
+			location = 9498
+			ship = { name = "12th Rotterdam Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "4th Fleet"
+			location = 6446
+			ship = { name = "Willem van der Zaan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 9431
+		task_force = {
+			name = "6th Fleet"
+			location = 9431
+			ship = { name = "7th Middelburg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 9335
+		task_force = {
+			name = "7th Fleet"
+			location = 9335
+			ship = { name = "13th Groningen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 4696
+		task_force = {
+			name = "8th Fleet"
+			location = 4696
+			ship = { name = "Van Galen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Anna Paulowna" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "9th Augustaborg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "26th Nieuwe Antwerpen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Zoutman" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Johan Willem Friso" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "18th Gundersborg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Van Kinsbergen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "19th Swakopmund Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Pieter Florisz" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "27th Nieuwe Antwerpen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "29th Swellendam Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "28th Ylnerdam Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "19th Gundersborg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "28th Reimerdam Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Philips van Almonde" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "20th Swakopmund Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "24th eThekwini Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "24th Angra Pequena Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "10th Fleet"
+			location = 6446
+			ship = { name = "6th Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 12958
+		task_force = {
+			name = "9th Fleet"
+			location = 12958
+			ship = { name = "10th Augustaborg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 2229
+		task_force = {
+			name = "13th Fleet"
+			location = 2229
+			ship = { name = "23rd Angra Pequena Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "11th Fleet"
+			location = 6446
+			ship = { name = "7th Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "HOL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "HOL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

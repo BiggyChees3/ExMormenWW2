@@ -1,0 +1,32 @@
+
+state={
+	id=444
+	name="STATE_444"
+	resources={
+		rubber=8.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			4515 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		191 1516 1817 1929 1968 4515 12795 12907 
+	}
+	manpower=352364
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

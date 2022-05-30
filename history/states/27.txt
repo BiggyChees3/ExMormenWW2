@@ -1,0 +1,33 @@
+
+state={
+	id=27
+	name="STATE_27"
+	resources={
+		aluminium=19.000
+	}
+
+	history={
+		owner = X01
+		victory_points = {
+			4567 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X01
+		add_claim_by = COL
+	}
+
+	provinces={
+		1441 1523 1534 1564 1621 4449 4540 4567 4569 4597 7449 7586 7607 10370 12346 12361 12463 
+	}
+	manpower=139542
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,149 @@
+units = {
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 9780
+		task_force = {
+			name = "17th Fleet"
+			location = 9780
+			ship = { name = "Brindisi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 4188
+		task_force = {
+			name = "18th Fleet"
+			location = 4188
+			ship = { name = "Bari" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 9780
+		task_force = {
+			name = "19th Fleet"
+			location = 9780
+			ship = { name = "Trieste" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "23rd Fleet"
+		naval_base = 9780
+		task_force = {
+			name = "23rd Fleet"
+			location = 609
+			ship = { name = "General Garibaldi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9957
+		task_force = {
+			name = "3rd Fleet"
+			location = 9957
+			ship = { name = "Amalfi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 9780
+		task_force = {
+			name = "4th Fleet"
+			location = 9780
+			ship = { name = "Pisa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 10919
+		task_force = {
+			name = "7th Fleet"
+			location = 10919
+			ship = { name = "San Giorgio" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 4952
+		task_force = {
+			name = "9th Fleet"
+			location = 4952
+			ship = { name = "San Marco" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 4952
+		task_force = {
+			name = "5th Fleet"
+			location = 4952
+			ship = { name = "Nino Bixio" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 4952
+		task_force = {
+			name = "6th Fleet"
+			location = 4952
+			ship = { name = "Marsala" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 9780
+		task_force = {
+			name = "8th Fleet"
+			location = 9780
+			ship = { name = "General San Martin" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 9780
+		task_force = {
+			name = "11th Fleet"
+			location = 9780
+			ship = { name = "General Pueyrredon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 9780
+		task_force = {
+			name = "12th Fleet"
+			location = 9780
+			ship = { name = "1st Shkoder Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 4952
+		task_force = {
+			name = "13th Fleet"
+			location = 4952
+			ship = { name = "Taranto" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ITA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ITA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "ITA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

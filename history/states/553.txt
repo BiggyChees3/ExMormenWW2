@@ -1,0 +1,35 @@
+
+state={
+	id=553
+	name="STATE_553"
+	resources={
+		chromium=20.000
+		oil=1.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			3686 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			3686 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		429 472 568 588 705 721 737 767 3399 3573 3686 3722 3767 6596 6704 6724 6771 9571 9677 9680 9712 9718 9729 11405 11649 11700 
+	}
+	manpower=119622
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

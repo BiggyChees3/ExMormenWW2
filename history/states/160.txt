@@ -1,0 +1,37 @@
+
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		aluminium=3.000
+		chromium=3.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			12406 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			12406 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		1537 1611 1861 4673 4763 4864 7450 7496 7520 7664 7859 10388 10427 10458 10500 12406 12435 12532 12560 
+	}
+	manpower=386768
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

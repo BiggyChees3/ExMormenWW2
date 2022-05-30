@@ -1,0 +1,1135 @@
+﻿CHI = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+COL = {
+	male = {
+		names = {
+			"Adrián" "Agustín" "Álvaro" "Anastasio" "Andrés" "Ángel" "Antonio" "Bernardo" "Emiliano" "Emilio"
+			"Enrique" "Ernesto" "Felipe" "Félix" "Francisco" "Francisco Javier" "Gabriel" "Gaspar" "Gregorio" "Ignacio"
+			"Jerónimo" "Joaquín" "José" "José Manuel" "José María" "Juan" "Juan Bautista" "Justo" "Lázaro" "Manuel"
+			"Mariano" "Martín" "Melchor" "Miguel" "Nicolás" "Pablo" "Pascual" "Pedro" "Porfirio" "Ramón"
+			"Ricardo" "Rómulo" "Salvador" "Sebastián" "Tomás" "Valentín" "Valeriano" "Venustiano" "Vicente" "Victoriano"
+		}
+	}
+	female = {
+		names = {
+			"Juana" "Catalina" "Leonor" "Blanca"
+		}
+	}
+	surnames = {
+		"Almonte" "Álvarez" "Arista" "Barragán" "Bocanegra" "Bravo" "Bustamante" "Canalizo" "Carranza" "Caserta"
+		"Cervantes" "Corona" "Corra" "de Ampudia" "de Cos" "de Itúrbide" "Díaz" "Echeverría" "Escandón" "Escobedo"
+		"Fagoaga" "Fernández del Valle" "Flores" "Gómez" "González" "Guerrero" "Huerta" "Kosterlitzky" "López de Santa Ana" "Lozada"
+		"Martínez del Río" "Mejía" "Miramón" "Múzquiz" "Obregón" "Pedraza" "Pimentel" "Reyes" "Rincón Gallardo" "Robles"
+		"Ruíz" "Salas" "Sánchez" "Sarmaniego del Castillo" "Vázquez de la Cadena" "Villa" "Woll" "Zapata" "Zaragoza" "Zuloaga"
+	}
+	callsigns = {
+		"Azteca" "Pizarro" "Conquistador" "Tequila" "Calavera"
+	}
+}
+ETH = {
+	male = {
+		names = {
+			"Amare" "Bekele" "Berhanu" "Saleh" "Haile" "Berihun" "Demissie" "Desta" "Geteye" "Girma"
+			"Kelile" "Negasi" "Abebe" "Fakirta" "Adis" "Kassa" "Menelik"
+		}
+	}
+	female = {
+		names = {
+			"Habesha" "Abeba" "Abrihet" "Adanech" "Adina" "Alaworld" "Alitash" "Amhara" "Ayana" "Bathsheba"
+			"Bekele" "Belkis" "Berhane" "Berta" "Cheren" "China" "Debre" "Debtera" "Desse"
+		}
+	}
+	surnames = {
+		"Selassie" "Mikael" "Mariam" "Melekot" "Seged" "Wossen" "Makonnen" "Mengitsu" "Abbaba" "Dingil"
+		"Hailu" "Giorgis"
+	}
+	callsigns = {
+		"Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" "Abateid" "Sabraid"
+		"Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" "Daw" "Alwa"
+		"Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos"
+		"Merkourios" "Shamumun" "Desta"
+	}
+}
+GER = {
+	male = {
+		names = {
+			"Adolf" "Albrecht" "Alexander" "Alfons" "Alois" "Anton" "Arthur" "Bernhard" "Christian" "Edmund"
+			"Eduard" "Engelbert" "Ernst" "Erwin" "Ferdinand" "Franz" "Friedrich" "Gebhard" "Gerhard" "Gottfried"
+			"Günther" "Gustav" "Heinrich" "Hermann" "Horst" "Jakob" "Joachim" "Johann" "Joseph" "Julius"
+			"Karl" "Konrad" "Kurt" "Leonhard" "Leopold" "Lorenz" "Lothar" "Ludwig" "Maximilian" "Michael"
+			"Otto" "Reinhold" "Rudolf" "Stefan" "Theodor" "Viktor" "Walter" "Werner" "Wilhelm"
+		}
+	}
+	female = {
+		names = {
+			"Jessica" "Emma" "Hanna" "Sofia" "Marie" "Sandra"
+		}
+	}
+	surnames = {
+		"Beck-Rzikowsky" "Blos" "Dankl" "Eisner" "Geiss" "Goering" "Hainisch" "Haus" "Held" "Hellpach"
+		"Hoffmann" "Hummel" "Köhler" "Mergenthaler" "Miklas" "Remmele" "Schmitt" "Schobber" "Seitz" "Steeb"
+		"Stolzer" "Trunk" "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
+		"von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
+		"von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" "Wagner" "Wittmann" "zu Hohenlohe"
+	}
+	callsigns = {
+		"Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer"
+		"The Red knight" "Reeste"
+	}
+}
+HOL = {
+	male = {
+		names = {
+			"Adolf" "Adriaan" "Alexander" "Andreas" "Antoon" "Andries" "Antonius" "Abraham" "Barthout" "Casimir"
+			"Constantijn" "Cornelis" "Christiaan" "Christoffel" "Daniël" "David" "Dominicus" "Daniel" "Dirk" "Elias"
+			"Ernst" "Erwin" "Eise" "Frans" "Frederik" "Gijsbert" "Godfried" "Gustaaf" "Gaspar" "Gabriel"
+			"Gerard" "Gerben" "Hendrik" "Hans" "Hugo" "Isaac" "Johan" "Jurgen" "Jacob" "Jeroen"
+			"Jan" "Joost" "Karel" "Kasper" "Luuk" "Lodewijk" "Laurens" "Marius" "Matthijs" "Maximiliaam"
+			"Merkus" "Moritz" "Maurits" "Nikolaas" "Pauwel" "Paul" "Pieter" "Quinten" "Rafaël" "Ruben"
+			"Rudolf" "Roeland" "Rogier" "Rutger" "Stefan" "Simon" "Thomas" "Victor" "Willem" "Vincent"
+			"Zacharias"
+		}
+	}
+	female = {
+		names = {
+			"Coba" "Corrie" "Frieda" "Hannie" "Helena" "Ina" "Jet" "Joke" "Miep" "Reina"
+			"Truus"
+		}
+	}
+	surnames = {
+		"van der Aa" "van Assendelft" "Boetge" "Boumeester" "van Bronkhorst" "Batenburg" "Bentinck" "Boreel" "Brandt" "van Brederode"
+		"Brouwer" "Buyskes" "van Braam Houckgeest" "van der Capellen" "Chassé" "Cochius" "Coops" "de Casembroot" "Cleerens" "Coehoorn"
+		"Coen" "de Constant Rebecque" "Crijnssen" "van Culemborg" "Duycker" "de Eerens" "de Kock" "Deijkerhoff" "den Beer Poortugael" "Daendels"
+		"van Diemen" "van der Does" "van Duivenvoorde" "Ellis" "Engels" "Engelvaart" "van Egmont" "Evertzen" "Fabius" "Gregory"
+		"van Galen" "de Grouwe" "van Geen" "van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek"
+		"van Ilpendam" "Janssens" "Köhler" "Kool" "Kruys" "Kater" "van Keppel" "Kortenaer" "List" "Lucas"
+		"Michiels" "van Marnix" "Martena" "de Moor" "Melvill van Carnbee" "Nepveu" "Nachtegaal" "van Nieuwenaar" "van Noort" "Ongerboer"
+		"van Pallandt" "Rijk" "Röell" "van Raephorst" "van Rechteren" "Reijersen" "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
+		"Sabron" "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" "Staal" "Stokhuyzen" "Schouten" "Schenk" "Spiegel" "Steltman"
+		"Stuyvesant" "Tasman" "van Troyen" "Trip" "van Dambenoy" "van den Bosch" "van der Heijden" "van Hoensbroeck" "van Oranje-Nassau" "van Swieten"
+		"van Vredenburch" "Verspijck" "Vetter" "Weitzel" "Van Utenhove" "van Walbeeck" "van Wassenaer" "van der Werff" "van Wesembeke" "van Wingle"
+		"van der Wijck" "van Wijngaarden" "de Winter" "Wolterbeek"
+	}
+	callsigns = {
+		"the Dutch" "Amsterdam" "420" "Nassau" "Orange"
+	}
+}
+ITA = {
+	male = {
+		names = {
+			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
+			"Cesare" "Costanzo" "Davide" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando"
+			"Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo"
+			"Luigi" "Marco" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero"
+			"Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Anna"
+		}
+	}
+	surnames = {
+		"Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello"
+		"Caviglia" "Ceccherini" "Cialdini" "Cusani" "d'Absburgo-Toscana" "d'Austria-Este" "Dezza" "di Borbone di Parma" "di Robilant" "di Savoia"
+		"di Savoia-Aosta" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Govone" "La Màrmora" "Mambretti"
+		"Menabrea" "Orengo" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pelloux" "Perruchetti" "Pianelli" "Porro"
+		"Presbitero" "Ramorino" "Ricotti-Magnani" "Sacchi" "Saletta" "Sanna" "Solari" "Thaon di Revel" "Vaccari" "Zupelli"
+	}
+	callsigns = {
+		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
+		"Raven" "Two Shot" "Rosso"
+	}
+}
+JAP = {
+	male = {
+		names = {
+			"Aritomo" "Goro" "Gentaro" "Gonnohyoe" "Heihachiro" "Hiroshi" "Hikonojo" "Hyoe" "Hayao" "Iwao"
+			"Jiro" "Jinzaburo" "Kiyotaka" "Kuranosuke" "Kozo" "Kantaro" "Koichiro" "Kagenori" "Kageaki" "Kotohito"
+			"Keisuke" "Kazushige" "Kenkichi" "Maresuke" "Masujiro" "Michisura" "Masatake" "Mitsuomi" "Mitsue" "Mineo"
+			"Nariaki" "Nobuyoshi" "Rokuro" "Sukeyuki" "Sukenori" "Shoin" "Sumiyoshi" "Samata" "Soroku" "Shichiro"
+			"Shigeto" "Sotokichi" "Shigeru" "Sadao" "Shinsaku" "Takayoshi" "Takamori" "Toshimichi" "Tsugumichi" "Tadakuni"
+			"Tomonosuke" "Taro" "Toshiyoshi" "Tetsutaro" "Taruhito" "Takeaki" "Tamemoto" "Tomasaburo" "Yoshika" "Yoshinobu"
+			"Yoshimichi" "Yoshida" "Yasukata" "Yahachi" "Yusaku" "Yoshifuru" "Yoshinori" "Yasuyoshi"
+		}
+	}
+	female = {
+		names = {
+			"Aimi" "Asami" "Asuka"
+		}
+	}
+	surnames = {
+		"Arisugawa" "Arichi" "Akiyama" "Araki" "Dewa" "Enomoto" "Hasegawa" "Honjo" "Ito" "Inoue"
+		"Ichinohe" "Itagaki" "Kido" "Kuroda" "Katsura" "Kodama" "Kabayama" "Kawamura" "Kuroki" "Kawakami"
+		"Kamimura" "Kataoka" "Kamio" "Kato" "Kanin" "Katsu" "Makino" "Muto" "Minami" "Masaki"
+		"Matsudaira" "Nakamuta" "Nogi" "Nire" "Nozu" "Okubo" "Oyama" "Omura" "Oku" "Okada"
+		"Osumi" "Saigo" "Suzuki" "Sato" "Sakura" "Shibayama" "Shimamura" "Shirakawa" "Togo" "Takashima"
+		"Tsuboi" "Tachibana" "Terauchi" "Tamon" "Takasugi" "Tokugawa" "Uehara" "Uryu" "Ugaki" "Ueda"
+		"Yamagata" "Yamamoto" "Yamakawa" "Yashiro" "Yui" "Yamashita" "Yamaya"
+	}
+	callsigns = {
+		"Viper" "Lightning" "Devil" "Dragon" "Fury" "Bat" "Beer" "Sake" "Demon" "Dirty"
+		"Lance" "Panther" "Shogun" "Vampire" "War Lord"
+	}
+}
+KOR = {
+	male = {
+		names = {
+			"Yi" "Jo" "Bak" "Yun" "Sim" "Kim" "Hong" "Seo" "Jeong" "Kwon"
+			"Han"
+		}
+	}
+	female = {
+		names = {
+			"Ae-jung" "Areum" "Bit-na" "Bo-young" "Bora" "Chae-won" "Chae-young" "Chun-hwa" "Chun-ja" "Da-hee"
+			"Do-hee" "Eun-ah" "Eun-bi"
+		}
+	}
+	surnames = {
+		"Hwan" "Chung" "Hyong" "Shinjong" "Haung" "Ch'ok" "Taek" "Seon" "Si" "Jip"
+		"Guk" "Mok" "Bo" "Yong" "Sun" "Gyu" "Hu"
+	}
+	callsigns = {
+		"Hangug-eo" "Pyeong-yang" "Haegmugi" "Jung-gugmal" "Ilbon-eo" "Agma"
+	}
+}
+SCA = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+SOV = {
+	male = {
+		names = {
+			"Aleksandr" "Alexei" "Andrei" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Giorgi" "Grigoriy"
+			"Igor" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maxim" "Mikhail" "Nikita"
+			"Nikolai" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergei" "Valery" "Vasily" "Viktor"
+			"Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yuri"
+		}
+		surnames = {
+		"Alexseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov"
+		"Golivin" "Grishin" "Gurko" "Ivanov" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev"
+		"Makarov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolaevich" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky"
+		"Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko"
+		}
+	}
+	female = {
+		names = {
+			"Jelena" "Ludmila"
+		}
+		surnames = {
+		"Aleksseyeva" "Antonova" "Azarova" "Badanova" "Brusilova" "Budonnaya" "Chibisova" "Denikina" "Dragomirova" "Frolova"
+		"Golivina" "Grishina" "Gurkova" "Ivanova" "Koneva" "Konstantinova" "Kornilova" "Kolchakova" "Kuropatkina" "Lazareva"
+		"Makarova" "Men'shikova" "Nakhimova" "Nebogatova" "Nikolayevicha" "Ostrovskaya" "Pavlova" "Putyatina" "Romanova" "Rozhestvenskaya"
+		"Skobeleva" "Shuvalova" "Surkova" "Tukhachevskaya" "Yegorova" "Yudenicha" "Vorontsova" "Voroshilova" "Zavoyko"
+	}
+	}
+	callsigns = {
+		"Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon"
+		"Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky"
+		"Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka"
+	}
+}
+SPR = {
+	male = {
+		names = {
+			"Agustín" "Alberto" "Alejandro" "Alfonso" "Álvaro" "Antonio" "Antonio María" "Arsenio" "Augusto" "Baldomero"
+			"Baltasar" "Benito" "Bernardino" "Bernardo" "Calixto" "Carlos" "Celestino" "Claudio" "Cristobal" "Dámaso"
+			"Diego" "Dionisio" "Eduardo" "Emilio" "Estanislao" "Federico" "Felipe" "Félix" "Fernando" "Francisco"
+			"Francisco Javier" "Gabino" "Gabriel" "Gaspar" "Genaro" "Gonzalo" "Ignacio" "Isidro" "Jacobo" "Jaime"
+			"Joaquín" "José" "José Antonio" "José Manuel" "José María" "Juan" "Juan Bautista" "Julio" "Leopoldo" "Lorenzo"
+			"Luis" "Manuel" "Marcelo" "Mariano" "Mateo" "Melchor" "Miguel" "Nicolás" "Pablo" "Pascual"
+			"Pedro" "Rafael" "Raimundo" "Ramón" "Ricardo" "Santiago" "Sebastián" "Segismundo" "Valeriano" "Vicente"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Acuña" "Aguirre" "Alcalá-Zamora" "Allendesalazar" "Alonso" "Álvarez" "Álvarez de Toledo" "Aranda" "Argüelles-Meres" "Asensio"
+		"Aznar" "Barradas" "Bugallal" "Cabrera" "Cagigal de la Vega" "Cano" "Cervera" "de Albornoz" "de Borbón" "de Carvajal"
+		"de la Fuente" "de Orleans" "Díaz" "Espartero" "Fernández" "Fernández de Córdoba" "Fitz-James Stuart" "Franco" "García" "García de la Noceda"
+		"González" "Heredia" "Hernández" "Herrera" "Hevia" "Hidalgo de Cisneros" "Linares" "López" "Maroto" "Márquez"
+		"Martínez-Campos" "Maura" "Menéndez" "Miaja" "Millán-Astray" "Mina" "Mola" "Muñoz" "Narváez" "O'Donnell"
+		"Ortega" "Pavía" "Pérez" "Primo de Rivera" "Queipo de Llano" "Rodríguez" "Rojo" "Ruiz" "Sanjurjo" "Serrano"
+		"Silvestre" "Topete" "Valdés" "Varela" "Villapol" "Villar" "Weyler" "Yagüe"
+	}
+	callsigns = {
+	}
+}
+TUR = {
+	male = {
+		names = {
+			"Abdullah" "Abdulhamid" "Abdulkerim" "Abdulrahim" "Ahmet" "Akif" "Ali" "Arif" "Bahaeddin" "Bekir"
+			"Cemal" "Cevad" "Celaleddin" "Cevdet" "Daud" "Edhem" "Emin" "Enver" "Fahri" "Fevzi"
+			"Ferid" "Fuat" "Hafiz" "Hamza" "Halil" "Halim" "Hasan" "Hayrullah" "Husrev" "Ibrahim"
+			"Iskender" "Ismet" "Izzet" "Kamil" "Kazim" "Kemal" "Lutfi" "Mahmut" "Mehmet" "Mithat"
+			"Muhtar" "Murat" "Musa" "Mustafa" "Namik" "Nazim" "Nurettin" "Nuri" "Numan" "Omar"
+			"Osman" "Pertev" "Rauf" "Receb" "Reshad" "Refet" "Rifat" "Riza" "Sabaheddin" "Said"
+			"Selim" "Shevket" "Shukru" "Suleyman" "Talat" "Tevfik" "Vefik" "Yusuf" "Yunus" "Ziya"
+			"Ziyauddin"
+		}
+	}
+	female = {
+		names = {
+			"Çiçek" "Çilen" "Çiltanesi" "Özgul" "Özlem" "Akgul"
+		}
+	}
+	surnames = {
+		"Bey" "Pasha" "Hoca" "Efendi"
+	}
+	callsigns = {
+		"Türk" "Kebap" "Selçuklu" "Yunan" "1453"
+	}
+}
+UZB = {
+	male = {
+		names = {
+			"Ablai" "Abu al-Khayr" "Aryn" "Bukei" "Chokan" "Dulat" "Ibirai" "Isatai" "Ishim" "Jangir"
+			"Kenisary" "Mashur" "Murat" "Nur Ali" "Qayip" "Sadyk" "Sirim" "Sarzhan" "Tenek" "Tolshan"
+			"Vali"
+		}
+		surnames = {
+		"Beg" "Khan" "Konanbai uli" "Kutebar uli" "Muhammad uli" "Qasim uli"
+		}
+	}
+	female = {
+		names = {
+			"Aiday" "Aiman" "Aina" "Aliya" "Anar" "Anara" "Anargul" "Aruzhan" "Ayaulym" "Ayna"
+			"Aynur" "Bibigul" "Gulnar" "Gulnara" "Gulnaz" "Inkar" "Inzhu" "Madina" "Saltanat" "Sezim"
+			"Zhuldyz"
+		}
+		surnames = {
+		"Beyeha" "Khanin" "Konanbai uli" "Kutebar uli" "Muhammad uli" "Qasim uli" "Abdulayeva" "Abdulina" "Abdullayeva" "Abdulova"
+		"Aitmukhambetova" "Aliyeva" "Aronova" "Bayžanova" "Ibragimova" "Karimova" "Kedryuka" "Nabiyeva" "Niyazova" "Usenova"
+		"Žakiyanova" "Nazarbayeva"
+	}
+	}
+	callsigns = {
+		"Orısşa" "Satwşı" "Jibek" "Qazaqşa" "Özbekşa" "Täjik" "Türkimen" "Qırğızşa"
+	}
+}
+X00 = {
+	male = {
+		names = {
+			"Abbas" "Abolghasem" "Abdolhossein" "Abdolsamad" "Abdolazim" "Ahmad" "Ali" "Bahram" "Ebrahim" "Esmail"
+			"Fath Ali" "Fazlollah" "Hamzeh" "Hasan" "Hossein" "Kamran" "Karim" "Lotf Ali" "Mahmoud" "Massoud"
+			"Mohammad" "Moin ed-Din" "Mozzafer ed-Din" "Murad" "Muhsin" "Naser ed-Din" "Nosret" "Reza"
+		}
+	}
+	female = {
+		names = {
+			"Mehrnaz" "Farnaz"
+		}
+	}
+	surnames = {
+		"Airom" "Ansari" "Ayrum" "Buzarjomehri" "Davallu" "Esfahani" "Farhani" "Jahanbani" "Kashani" "Khan"
+		"Khuzai" "Meshhedi" "Nakhchevani" "Pesyan" "Rokni" "Shafaei" "Shahbakhti" "Shirazi" "Tabrizi" "Tahmasebi"
+		"Zahedi"
+	}
+	callsigns = {
+		"Farsa" "Awnana" "'Erb"
+	}
+}
+X01 = {
+	male = {
+		names = {
+			"Albert" "Alexandre" "Alexis" "Alphonse" "André" "Antoine" "Auguste" "Barthélémy" "Baudouin" "Blaise"
+			"Camille" "Clément" "Charles" "Constant" "Damien" "David" "Désiré" "Didier" "Edmond" "Édouard"
+			"Emmanuel" "Émile" "Etienne" "Eugène" "Félix" "Fernand" "Feullien" "Florent" "François" "Frédéric"
+			"Georges" "Gérard" "Gilles" "Guillaume" "Gustave" "Henri" "Hercule" "Hubert" "Ignace" "Isidore"
+			"Jacques" "Jean" "Jean-Baptiste" "Jean-François" "Jean-Louis" "Jean-Jacques" "Joseph" "Jules" "Lambert" "Laurent"
+			"Léon" "Léonard" "Léopold" "Louis" "Lucien" "Mathieu" "Maxime" "Maximilien" "Nicolas" "Olivier"
+			"Pascal" "Patrice" "Paul" "Philippe" "Philippe-Joseph" "Pierre" "Pierre-Guillaume" "Sébastien" "Sylvain" "Théophile"
+			"Victor" "Vincent" "Werner"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Allard" "Barbanson" "Barthélémy" "Baugniet" "Beaucarne" "Berger" "Berthels" "Beyts" "Biver" "Blargnies"
+		"Brialmont" "Bredart" "Cauvin" "Collet" "Cols" "Claus" "Clerix" "Coquilhat" "d'Arenberg" "d'Huart"
+		"d'Omalius" "d'Oreye" "d'Oultremont" "David" "Davignon" "de Baillet" "de Beaufort" "de Behr" "de Bocarmé" "de Bousies"
+		"de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen" "de Croÿ" "de Decker" "de Dixmude" "de Gerlache"
+		"de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" "de Mérode" "de Pelichy" "de Quarre"
+		"de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies"
+		"de Trooz" "de Viron" "de Waha" "Defacqz" "Deguise" "Delacroix" "Desmanet de Biesme" "Destriveaux" "Dethier" "Devaux"
+		"Deville" "Dewandre" "Dhanis" "Dreze" "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" "Dumont" "Fallon"
+		"Fendius" "Figeys" "Fleury-Dubay" "Fleussu" "Forgeur" "Frison" "Fuchs" "Gendebien" "Goffint" "Henry"
+		"Huysman d'Annecroix" "Jacques" "Joos" "Jottrand" "Lahure" "Lardinois" "le Cocq" "le Hon" "Lebeau" "Leclercq"
+		"Lefebvre" "Leman" "Malou" "Marcq" "Marlet" "Masbourg" "Nagelmackers" "Nalinne" "Nothomb" "Orban"
+		"Pétillon" "Picquet" "Pirmez" "Pirson" "Raikem" "Roeser" "Rogier" "Rouen" "Rouppe" "Seron"
+		"Thonus" "Thorn" "van Snick" "Wahis" "Wangermée" "Wyvekens" "Zoude"
+	}
+	callsigns = {
+	}
+}
+X02 = {
+	male = {
+		names = {
+			"Albert" "Alexandre" "Alexis" "Alphonse" "André" "Antoine" "Auguste" "Barthélémy" "Baudouin" "Blaise"
+			"Camille" "Clément" "Charles" "Constant" "Damien" "David" "Désiré" "Didier" "Edmond" "Édouard"
+			"Emmanuel" "Émile" "Etienne" "Eugène" "Félix" "Fernand" "Feullien" "Florent" "François" "Frédéric"
+			"Georges" "Gérard" "Gilles" "Guillaume" "Gustave" "Henri" "Hercule" "Hubert" "Ignace" "Isidore"
+			"Jacques" "Jean" "Jean-Baptiste" "Jean-François" "Jean-Louis" "Jean-Jacques" "Joseph" "Jules" "Lambert" "Laurent"
+			"Léon" "Léonard" "Léopold" "Louis" "Lucien" "Mathieu" "Maxime" "Maximilien" "Nicolas" "Olivier"
+			"Pascal" "Patrice" "Paul" "Philippe" "Philippe-Joseph" "Pierre" "Pierre-Guillaume" "Sébastien" "Sylvain" "Théophile"
+			"Victor" "Vincent" "Werner" "Aníbal" "Augusto" "Bento" "Bernardo" "César" "Daniel" "Donato"
+			"Duarte" "Ernesto" "Estevão" "Fernando" "Francisco" "Gabriel" "Graciano" "Hugo" "João" "Julio"
+			"Leopoldo" "Lucas" "Miguel" "Nuno" "Óscar" "Rafael" "Roberto" "Sebastião" "Sergio" "Simão"
+			"Vasco" "Zeferino"
+		}
+	}
+	female = {
+		names = {
+			"Aldara" "Alduara" "Aldonça" "Aldonza" "Beatriz" "Beatrice" "Berengária" "Berengaria" "Branca" "Blanche"
+			"Constance" "Dórdia" "Elvira" "Elvira" "Estevainha" "Stephania" "Fruilhe" "Fronilde" "Gontinha" "Gontroda"
+			"Guiomar" "Inês" "Agnes" "Joana" "Joan" "Leonor" "Eleanor" "Mafalda" "Matilda" "Margarida"
+			"Margaret" "Maria" "Marinha" "Marine" "Mor" "Mayor" "Ouroana" "Sancha" "Sancha" "Teresa"
+			"Teresa" "Urraca" "Urraca" "Gotruda" "Constança"
+		}
+	}
+	surnames = {
+		"Allard" "Barbanson" "Barthélémy" "Baugniet" "Beaucarne" "Berger" "Berthels" "Beyts" "Biver" "Blargnies"
+		"Brialmont" "Bredart" "Cauvin" "Collet" "Cols" "Claus" "Clerix" "Coquilhat" "d'Arenberg" "d'Huart"
+		"d'Omalius" "d'Oreye" "d'Oultremont" "David" "Davignon" "de Baillet" "de Beaufort" "de Behr" "de Bocarmé" "de Bousies"
+		"de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen" "de Croÿ" "de Decker" "de Dixmude" "de Gerlache"
+		"de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" "de Mérode" "de Pelichy" "de Quarre"
+		"de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies"
+		"de Trooz" "de Viron" "de Waha" "Defacqz" "Deguise" "Delacroix" "Desmanet de Biesme" "Destriveaux" "Dethier" "Devaux"
+		"Deville" "Dewandre" "Dhanis" "Dreze" "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" "Dumont" "Fallon"
+		"Fendius" "Figeys" "Fleury-Dubay" "Fleussu" "Forgeur" "Frison" "Fuchs" "Gendebien" "Goffint" "Henry"
+		"Huysman d'Annecroix" "Jacques" "Joos" "Jottrand" "Lahure" "Lardinois" "le Cocq" "le Hon" "Lebeau" "Leclercq"
+		"Lefebvre" "Leman" "Malou" "Marcq" "Marlet" "Masbourg" "Nagelmackers" "Nalinne" "Nothomb" "Orban"
+		"Pétillon" "Picquet" "Pirmez" "Pirson" "Raikem" "Roeser" "Rogier" "Rouen" "Rouppe" "Seron"
+		"Thonus" "Thorn" "van Snick" "Wahis" "Wangermée" "Wyvekens" "Zoude" "Arawá" "Arawak" "Bororo"
+		"Garifuna" "Gê" "Guayaná" "Jeikó" "Kaingang" "Kalinago" "Kamakán" "Karajá" "Kayapó" "Matsés"
+		"Maxakalí" "Purí" "Timbira" "Xavante" "Xerente" "Xokieng" "Yanomamö"
+	}
+	callsigns = {
+		"Álvares" "Ayres Gomes" "Borges do Canto" "da Costa" "da Silva" "de Amorim" "de Melo" "de Mendonça" "dos Reis" "dos Santos"
+		"Freire de Andrade" "Gonzaga" "Lopes" "Maciel" "Melo" "Nascimento" "Nunes Viana" "Peixoto" "Rolim" "Santos Pedroso"
+		"Tavares" "Torres" "Veiga" "Vieira" "Xavier"
+	}
+}
+X03 = {
+	male = {
+		names = {
+			"Venkatji" "Shahuji" "Pratapsinha" "Rajaram" "Shivaji" "Shambhaji" "Balaji" "Bajirao" "Madhava" "Narayan"
+			"Raghunath" "Sawai"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Appa Sahib" "Bowa Sahib" "Phadnis" "Narayan" "Rao" "Ballal" "Baji Rao" "Bhat"
+	}
+	callsigns = {
+	}
+}
+X04 = {
+	male = {
+		names = {
+			"Albert" "Alexandre" "Alexis" "Alphonse" "André" "Antoine" "Auguste" "Barthélémy" "Baudouin" "Blaise"
+			"Camille" "Clément" "Charles" "Constant" "Damien" "David" "Désiré" "Didier" "Edmond" "Édouard"
+			"Emmanuel" "Émile" "Etienne" "Eugène" "Félix" "Fernand" "Feullien" "Florent" "François" "Frédéric"
+			"Georges" "Gérard" "Gilles" "Guillaume" "Gustave" "Henri" "Hercule" "Hubert" "Ignace" "Isidore"
+			"Jacques" "Jean" "Jean-Baptiste" "Jean-François" "Jean-Louis" "Jean-Jacques" "Joseph" "Jules" "Lambert" "Laurent"
+			"Léon" "Léonard" "Léopold" "Louis" "Lucien" "Mathieu" "Maxime" "Maximilien" "Nicolas" "Olivier"
+			"Pascal" "Patrice" "Paul" "Philippe" "Philippe-Joseph" "Pierre" "Pierre-Guillaume" "Sébastien" "Sylvain" "Théophile"
+			"Victor" "Vincent" "Werner"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Allard" "Barbanson" "Barthélémy" "Baugniet" "Beaucarne" "Berger" "Berthels" "Beyts" "Biver" "Blargnies"
+		"Brialmont" "Bredart" "Cauvin" "Collet" "Cols" "Claus" "Clerix" "Coquilhat" "d'Arenberg" "d'Huart"
+		"d'Omalius" "d'Oreye" "d'Oultremont" "David" "Davignon" "de Baillet" "de Beaufort" "de Behr" "de Bocarmé" "de Bousies"
+		"de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen" "de Croÿ" "de Decker" "de Dixmude" "de Gerlache"
+		"de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" "de Mérode" "de Pelichy" "de Quarre"
+		"de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies"
+		"de Trooz" "de Viron" "de Waha" "Defacqz" "Deguise" "Delacroix" "Desmanet de Biesme" "Destriveaux" "Dethier" "Devaux"
+		"Deville" "Dewandre" "Dhanis" "Dreze" "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" "Dumont" "Fallon"
+		"Fendius" "Figeys" "Fleury-Dubay" "Fleussu" "Forgeur" "Frison" "Fuchs" "Gendebien" "Goffint" "Henry"
+		"Huysman d'Annecroix" "Jacques" "Joos" "Jottrand" "Lahure" "Lardinois" "le Cocq" "le Hon" "Lebeau" "Leclercq"
+		"Lefebvre" "Leman" "Malou" "Marcq" "Marlet" "Masbourg" "Nagelmackers" "Nalinne" "Nothomb" "Orban"
+		"Pétillon" "Picquet" "Pirmez" "Pirson" "Raikem" "Roeser" "Rogier" "Rouen" "Rouppe" "Seron"
+		"Thonus" "Thorn" "van Snick" "Wahis" "Wangermée" "Wyvekens" "Zoude"
+	}
+	callsigns = {
+	}
+}
+X05 = {
+	male = {
+		names = {
+			"Abraham" "Alexander" "Alfred" "Alois" "Antonín" "August" "Bedrich" "Benedikt" "Borivoj" "Cenek"
+			"Dávid" "Drahoslav" "Edvard" "Emanuel" "Emil" "Evzen" "Frantisek" "Frantisek Josef" "Frantisek Xaver" "Hermenegild"
+			"Ján" "Ján Krtitel" "Ján Nepomuk" "Jaroslav" "Jindrich" "Jirí" "Josef" "Kajetan" "Karel" "Konstantin"
+			"Ladislav" "Luvík" "Matyas" "Maxmilián" "Mikulás" "Olbram" "Otakar" "Pavel" "Petr" "Radola"
+			"Rafael" "Tomás" "Václav" "Vincenc" "Vitezslav" "Vlastimil" "Vojtech" "Vratislav" "Zdenek"
+		}
+		surnames = {
+		"Albert" "Balaban" "Basch" "Breisky" "Celovský" "Dvorák" "Fibich" "Gajda" "Gellner" "Hálek"
+		"Hrdlicka" "Jirecek" "Kadlec" "Kafka" "Koller" "Krízkovský" "Kucera" "Kuchar" "Lederer" "Makosky"
+		"Mik" "Morávec" "Nemecek" "Neruda" "Novácek" "Novotný" "Popper" "Radecký" "Rokytanský" "Safárik"
+		"Safránek" "Schack" "Schubert" "Skoda" "Skuherský" "Smetana" "Snejdárek" "Suk" "Svoboda" "Syrový"
+		"Tomásek" "Tyl" "Vitásek" "von Mittrowitz-Nettolitzky" "Vorisek" "Wankel" "Weber" "Zíbrt" "Zívr" "Zoubek"
+		}
+	}
+	female = {
+		names = {
+			"Marie" "Anna" "Hana" "Božena" "Alžběta" "Marta"
+		}
+		surnames = {
+		"Albertová" "Balabánová" "Baschová" "Breisková" "Čelovská" "Dvoráková" "Fibichová" "Gajdová" "Gellnerová" "Háleková"
+		"Hrdličková" "Jirečková" "Kadlecová" "Kafková" "Kollerová" "Křížkovská" "Kucerová" "Kucharová" "Ledererová" "Makosková"
+		"Miková" "Morávecová" "Němečková" "Neruda" "Nováčková" "Novotná" "Popperová" "Radecká" "Rokytanská" "Šafáriková"
+		"Šafráneková" "Schacková" "Schubertová" "Škodová" "Skuherská" "Smetanová" "Šnejdárek" "Suková" "Svobodová" "Syrová"
+		"Tomášková" "Tylová" "Vitáseková" "von Mittrowitz-Nettolitzková" "Voříšeková" "Wankelová" "Weberová" "Zíbrtová" "Zívrová" "Zoubeková"
+	}
+	}
+	callsigns = {
+		"Němec" "Žid" "Ďábel" "Maďarština" "Česky"
+	}
+}
+X06 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+	}
+}
+X07 = {
+	male = {
+		names = {
+			"Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Amédée" "Antoine" "Armand" "August" "Augustin"
+			"Charles" "Daniel" "Denis" "Édouard" "Elie" "Éttiene" "Eugène" "Félicien" "Félix" "Fernand"
+			"François" "Frédéric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean"
+			"Joseph" "Jules" "Julien" "Lazare" "Léopold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel"
+			"Napoléon" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Anthoine" "Baraguey d'Hilliers" "Bazaine" "Billot" "Bonaparte" "Bosquet" "Boué de Lapeyrère" "Bouët-Willaumez" "Boulanger" "Bourbaki"
+		"Bugeaud" "Caillard" "Canrobert" "Courbet" "Cousin-Mountauban" "Davout" "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle"
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" "d'Orleans" "Dubail" "Dubois" "Duchêne" "Dupetit-Thouars" "Exelmans"
+		"Foch" "Forey" "Franchet d'Espèrey" "Gallieni" "Gouraud" "Guillaumat" "Hamelin" "Harispe" "Hoche" "Humbert"
+		"Jaurès" "Joffre" "Lebouef" "Lyautey" "Murat" "Ney d'Elchingen" "Nivelle" "Péllissier" "Petain" "Vaillant"
+	}
+	callsigns = {
+	}
+}
+X08 = {
+	male = {
+		names = {
+			"Albert" "Alexander" "Alfred" "Archibald" "Arthur" "Augustus" "Benjamin" "Bernard" "Charles" "Colbert"
+			"Colin" "Cyril" "David" "Donald" "Douglas" "Edmund" "Edwar" "Fairfax" "Ferdinand" "Francis"
+			"Frederick" "Geoffrey" "George" "Graham" "Henrey" "Herbert" "Horatio" "Hubert" "Hugh" "Ian"
+			"James" "Jeremy" "John" "Joseph" "Leopold" "Lester" "Louis" "Martin" "Nigel" "Oswald"
+			"Percy" "Reginald" "Richard" "Robert" "Stanley" "Thomas" "Wallace" "William" "Winston" "Zachary"
+		}
+	}
+	female = {
+		names = {
+			"Elizabeth" "Anne"
+		}
+	}
+	surnames = {
+		"Allenby" "Battemberg" "Beatty" "Beresford" "Brown" "Buller" "Butler" "Campbell" "Cardigan" "Churchill"
+		"Cochrane" "Cockburn" "de Robeck" "Dundas" "Fisher" "French" "Gough" "Grant" "Grenfell" "Haig"
+		"Hamilton" "Hardinge" "Havelock" "Hope" "Jellicoe" "Kitchener" "Lyons" "Madden" "Milne" "Montgomery"
+		"Moresby" "Mundy" "Napier" "of Hannover" "of Saxe-Coburg-Gotha" "Plummer" "Ragland" "Roberts" "Seaton" "Seymour"
+		"Smith" "Smith-Dorrien" "Stewart" "Thesiger" "Tyron" "Tyrwhitt" "Williams" "Windsor" "Wolseley" "Wood"
+	}
+	callsigns = {
+		"Stubborn" "Arrow" "The King" "Eagle" "Hangover" "Striker" "Chase" "One Wing" "Pickle" "Thief"
+		"Thunder" "Lightning" "Storm" "Target" "Hawk" "Fox" "Dog" "Sparrow" "Sunrise" "Night Owl"
+		"Butcher" "Cocky" "Hawkeye" "Killer" "Mick" "Brandy" "The Baron"
+	}
+}
+X09 = {
+	male = {
+		names = {
+			"Abdal" "Abdulkarim" "Bedr" "Hafid" "Ihsan" "Mahmud" "Mohammed" "Qazi" "Reshid" "Said"
+			"Ubaydallah"
+		}
+	}
+	female = {
+		names = {
+			"Šîwen" "Atiya"
+		}
+	}
+	surnames = {
+		"Badirkhan" "Barzani" "Khan" "Shilak"
+	}
+	callsigns = {
+		"Kurdî" "Ermenî" "Tirkî" "Pêşmerge"
+	}
+}
+X10 = {
+	male = {
+		names = {
+			"Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin"
+			"Tuanku" "Yusuf" "Idris" "Jalil" "Isandar" "Aziz"
+		}
+	}
+	female = {
+		names = {
+			"Azura" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Raja Inu" "al-Marhum" "Raja Ahmad" "Riayat Shah" "al-Khairat" "Muadzam" "Bendahara" "Aadzam" "Murshidul"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
+X11 = {
+	male = {
+		names = {
+			"Bhimsen" "Amar" "Ranjur" "Bhakti" "Jang" "Renaudip" "Shamsher" "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher"
+			"Bhim Shamsher"
+		}
+	}
+	female = {
+		names = {
+			"Indira"
+		}
+	}
+	surnames = {
+		"Thapa" "Singh Thapa" "Singh" "Rana" "Bahadur Rana"
+	}
+	callsigns = {
+		"Hindi" "Asamiya" "Bangalee" "Bihaaree" "Manipuree" "Nepaalee" "Oriya" "Sinhalee" "Avadhee" "Kanauji"
+		"Panjaabee" "Kashmeeree" "Gujaraatee" "Maraathee" "Sindee" "Raajapoot" "Kannad" "Malayaalam" "Taamil" "Telegu"
+	}
+}
+X12 = {
+	male = {
+		names = {
+			"Khara" "Batur" "Erdeni" "Tsewang" "Galdan" "Tseren" "Esen" "Amarsana"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Khan" "Genden" "Amar" "Tserendorj" "Tomorbaatar" "Damdinbazar" "Bodoo" "Sukhbaatar"
+	}
+	callsigns = {
+	}
+}
+X13 = {
+	male = {
+		names = {
+			"Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik"
+			"Elmar" "Ernst" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Ivari" "Otto" "Jaan"
+			"Jakob" "Johannes" "Joosep" "Juhan" "Julius" "Jüri" "Kaarel" "Zigfrids" "Lennart" "Ludvig"
+			"Madis" "Mart" "Mikhel" "Nigul" "Olev" "Peeter" "Pent" "Siiri" "Sven" "Tarmo"
+			"Tõnis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar" "Aleksanteri" "Anders" "Aukusti" "Edvard"
+			"Eemil" "Erkki" "Erno" "Fabian" "Konstantin" "Fredrik" "Fridolf" "Georg" "Gösta" "Harald"
+			"Hjalmar" "Hugo" "Juho" "Kaarlo" "Kalev" "Kurt" "Lars" "Martti" "Mikko" "Paavo"
+			"Petteri" "Rudolf" "Väinö" "Viktor" "Vilho" "Aaron" "Abrams" "Alberts" "Aleksandrs" "Aloisz"
+			"Andrejs" "Arkadij" "Armands" "Arnolds" "Atis" "Brunis" "Bruno" "Eduards" "Eliass" "Elmars"
+			"Emils" "Evgenijs" "Filips" "Fricis" "Gustavs" "Leo" "Mark" "Martins" "Mihails" "Mikelis"
+			"Nikolajs" "Oskars" "Pauls" "Peteris" "Rihards" "Roberts" "Romans" "Sandis" "Sergejs" "Valdemars"
+			"Valerians" "Valter" "Vilis" "Vladimirs" "Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "Bernhard"
+			"Burkhard" "Dieter" "Edwin" "Erwin" "Erich" "Florian" "Franz" "Friedrich" "Fritz" "Günther"
+			"Hasso" "Heinrich" "Helmuth" "Hermann" "Joachim" "Johann" "Jürgen" "Karl" "Konrad" "Leonhard"
+			"Leopold" "Ludwig" "Lukas" "Manfred" "Maximilian" "Michael" "Nikolaus" "Pascal" "Paul" "Peter"
+			"Reinhard" "Ruprecht" "Stefan" "Theodor" "Wilhelm" "Wolfgang"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornhöhe" "Eenpalu" "Hint" "Claus" "Jaakson"
+		"Kangro" "Kint" "Klaasen" "Koern" "Kõiv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik"
+		"Orkivu" "Päts" "Perna" "Piiper" "Poska" "Puusepp" "Ostwald" "Rei" "Reinman" "Siinmaa"
+		"Von Biron" "von Benckendorff" "von Laudon" "Von Ungern-Sternberg" "von Osten-Sacken" "von Plettenberg" "von Buxhoeveden" "Rembert von Berg" "Wrangel" "Keyserling"
+		"Budberg" "Sikkar" "Sirk" "Tõnisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexküll"
+		"Warma" "Nesselrode" "Abakovskis" "Apsenieks" "Balodis" "Baumanis" "Berkis" "Berzin" "Betins" "Braons"
+		"Caks" "Cakste" "Caps" "Celmins" "Dalins" "Dambitis" "Darzins" "de Kolongs" "Desslers" "Eizenteins"
+		"Goppers" "Halsmans" "Irbitis" "Kalnins" "Kalpaks" "Kucis" "Kovalevskis" "Krogzems" "Kronvalds" "Kuks"
+		"Kviesis" "Lacis" "Maters" "Matisons" "Meierovics" "Mihelssons" "Milenbahs" "Millers" "Needra" "Ozolins"
+		"Petrovs" "Pauckers" "Pumpurs" "Rothko" "Simanis" "Stucka" "Tumins" "Wesel" "Veidenbaums"
+	}
+	callsigns = {
+	}
+}
+X14 = {
+	male = {
+		names = {
+			"Adrián" "Agustín" "Álvaro" "Anastasio" "Andrés" "Ángel" "Antonio" "Bernardo" "Emiliano" "Emilio"
+			"Enrique" "Ernesto" "Felipe" "Félix" "Francisco" "Francisco Javier" "Gabriel" "Gaspar" "Gregorio" "Ignacio"
+			"Jerónimo" "Joaquín" "José" "José Manuel" "José María" "Juan" "Juan Bautista" "Justo" "Lázaro" "Manuel"
+			"Mariano" "Martín" "Melchor" "Miguel" "Nicolás" "Pablo" "Pascual" "Pedro" "Porfirio" "Ramón"
+			"Ricardo" "Rómulo" "Salvador" "Sebastián" "Tomás" "Valentín" "Valeriano" "Venustiano" "Vicente" "Victoriano"
+		}
+	}
+	female = {
+		names = {
+			"Juana" "Catalina" "Leonor" "Blanca"
+		}
+	}
+	surnames = {
+		"Almonte" "Álvarez" "Arista" "Barragán" "Bocanegra" "Bravo" "Bustamante" "Canalizo" "Carranza" "Caserta"
+		"Cervantes" "Corona" "Corra" "de Ampudia" "de Cos" "de Itúrbide" "Díaz" "Echeverría" "Escandón" "Escobedo"
+		"Fagoaga" "Fernández del Valle" "Flores" "Gómez" "González" "Guerrero" "Huerta" "Kosterlitzky" "López de Santa Ana" "Lozada"
+		"Martínez del Río" "Mejía" "Miramón" "Múzquiz" "Obregón" "Pedraza" "Pimentel" "Reyes" "Rincón Gallardo" "Robles"
+		"Ruíz" "Salas" "Sánchez" "Sarmaniego del Castillo" "Vázquez de la Cadena" "Villa" "Woll" "Zapata" "Zaragoza" "Zuloaga"
+	}
+	callsigns = {
+		"Azteca" "Pizarro" "Conquistador" "Tequila" "Calavera"
+	}
+}
+X15 = {
+	male = {
+		names = {
+			"Adolf" "Adriaan" "Alexander" "Andreas" "Antoon" "Andries" "Antonius" "Abraham" "Barthout" "Casimir"
+			"Constantijn" "Cornelis" "Christiaan" "Christoffel" "Daniël" "David" "Dominicus" "Daniel" "Dirk" "Elias"
+			"Ernst" "Erwin" "Eise" "Frans" "Frederik" "Gijsbert" "Godfried" "Gustaaf" "Gaspar" "Gabriel"
+			"Gerard" "Gerben" "Hendrik" "Hans" "Hugo" "Isaac" "Johan" "Jurgen" "Jacob" "Jeroen"
+			"Jan" "Joost" "Karel" "Kasper" "Luuk" "Lodewijk" "Laurens" "Marius" "Matthijs" "Maximiliaam"
+			"Merkus" "Moritz" "Maurits" "Nikolaas" "Pauwel" "Paul" "Pieter" "Quinten" "Rafaël" "Ruben"
+			"Rudolf" "Roeland" "Rogier" "Rutger" "Stefan" "Simon" "Thomas" "Victor" "Willem" "Vincent"
+			"Zacharias"
+		}
+	}
+	female = {
+		names = {
+			"Coba" "Corrie" "Frieda" "Hannie" "Helena" "Ina" "Jet" "Joke" "Miep" "Reina"
+			"Truus"
+		}
+	}
+	surnames = {
+		"van der Aa" "van Assendelft" "Boetge" "Boumeester" "van Bronkhorst" "Batenburg" "Bentinck" "Boreel" "Brandt" "van Brederode"
+		"Brouwer" "Buyskes" "van Braam Houckgeest" "van der Capellen" "Chassé" "Cochius" "Coops" "de Casembroot" "Cleerens" "Coehoorn"
+		"Coen" "de Constant Rebecque" "Crijnssen" "van Culemborg" "Duycker" "de Eerens" "de Kock" "Deijkerhoff" "den Beer Poortugael" "Daendels"
+		"van Diemen" "van der Does" "van Duivenvoorde" "Ellis" "Engels" "Engelvaart" "van Egmont" "Evertzen" "Fabius" "Gregory"
+		"van Galen" "de Grouwe" "van Geen" "van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek"
+		"van Ilpendam" "Janssens" "Köhler" "Kool" "Kruys" "Kater" "van Keppel" "Kortenaer" "List" "Lucas"
+		"Michiels" "van Marnix" "Martena" "de Moor" "Melvill van Carnbee" "Nepveu" "Nachtegaal" "van Nieuwenaar" "van Noort" "Ongerboer"
+		"van Pallandt" "Rijk" "Röell" "van Raephorst" "van Rechteren" "Reijersen" "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
+		"Sabron" "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" "Staal" "Stokhuyzen" "Schouten" "Schenk" "Spiegel" "Steltman"
+		"Stuyvesant" "Tasman" "van Troyen" "Trip" "van Dambenoy" "van den Bosch" "van der Heijden" "van Hoensbroeck" "van Oranje-Nassau" "van Swieten"
+		"van Vredenburch" "Verspijck" "Vetter" "Weitzel" "Van Utenhove" "van Walbeeck" "van Wassenaer" "van der Werff" "van Wesembeke" "van Wingle"
+		"van der Wijck" "van Wijngaarden" "de Winter" "Wolterbeek"
+	}
+	callsigns = {
+		"the Dutch" "Amsterdam" "420" "Nassau" "Orange"
+	}
+}
+X16 = {
+	male = {
+		names = {
+			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
+			"Cesare" "Costanzo" "Davide" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando"
+			"Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo"
+			"Luigi" "Marco" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero"
+			"Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Anna"
+		}
+	}
+	surnames = {
+		"Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello"
+		"Caviglia" "Ceccherini" "Cialdini" "Cusani" "d'Absburgo-Toscana" "d'Austria-Este" "Dezza" "di Borbone di Parma" "di Robilant" "di Savoia"
+		"di Savoia-Aosta" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Govone" "La Màrmora" "Mambretti"
+		"Menabrea" "Orengo" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pelloux" "Perruchetti" "Pianelli" "Porro"
+		"Presbitero" "Ramorino" "Ricotti-Magnani" "Sacchi" "Saletta" "Sanna" "Solari" "Thaon di Revel" "Vaccari" "Zupelli"
+	}
+	callsigns = {
+		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
+		"Raven" "Two Shot" "Rosso"
+	}
+}
+X17 = {
+	male = {
+		names = {
+			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
+			"Cesare" "Costanzo" "Davide" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando"
+			"Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo"
+			"Luigi" "Marco" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero"
+			"Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Anna"
+		}
+	}
+	surnames = {
+		"Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello"
+		"Caviglia" "Ceccherini" "Cialdini" "Cusani" "d'Absburgo-Toscana" "d'Austria-Este" "Dezza" "di Borbone di Parma" "di Robilant" "di Savoia"
+		"di Savoia-Aosta" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Govone" "La Màrmora" "Mambretti"
+		"Menabrea" "Orengo" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pelloux" "Perruchetti" "Pianelli" "Porro"
+		"Presbitero" "Ramorino" "Ricotti-Magnani" "Sacchi" "Saletta" "Sanna" "Solari" "Thaon di Revel" "Vaccari" "Zupelli"
+	}
+	callsigns = {
+		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
+		"Raven" "Two Shot" "Rosso"
+	}
+}
+X18 = {
+	male = {
+		names = {
+			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
+			"Cesare" "Costanzo" "Davide" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando"
+			"Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo"
+			"Luigi" "Marco" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero"
+			"Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Anna"
+		}
+	}
+	surnames = {
+		"Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello"
+		"Caviglia" "Ceccherini" "Cialdini" "Cusani" "d'Absburgo-Toscana" "d'Austria-Este" "Dezza" "di Borbone di Parma" "di Robilant" "di Savoia"
+		"di Savoia-Aosta" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Govone" "La Màrmora" "Mambretti"
+		"Menabrea" "Orengo" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pelloux" "Perruchetti" "Pianelli" "Porro"
+		"Presbitero" "Ramorino" "Ricotti-Magnani" "Sacchi" "Saletta" "Sanna" "Solari" "Thaon di Revel" "Vaccari" "Zupelli"
+	}
+	callsigns = {
+		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
+		"Raven" "Two Shot" "Rosso"
+	}
+}
+X19 = {
+	male = {
+		names = {
+			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
+			"Cesare" "Costanzo" "Davide" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando"
+			"Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo"
+			"Luigi" "Marco" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero"
+			"Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Anna"
+		}
+	}
+	surnames = {
+		"Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello"
+		"Caviglia" "Ceccherini" "Cialdini" "Cusani" "d'Absburgo-Toscana" "d'Austria-Este" "Dezza" "di Borbone di Parma" "di Robilant" "di Savoia"
+		"di Savoia-Aosta" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Govone" "La Màrmora" "Mambretti"
+		"Menabrea" "Orengo" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pelloux" "Perruchetti" "Pianelli" "Porro"
+		"Presbitero" "Ramorino" "Ricotti-Magnani" "Sacchi" "Saletta" "Sanna" "Solari" "Thaon di Revel" "Vaccari" "Zupelli"
+	}
+	callsigns = {
+		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
+		"Raven" "Two Shot" "Rosso"
+	}
+}
+X20 = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+X21 = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+X22 = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+X23 = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+X24 = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+X25 = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+X26 = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+X27 = {
+	male = {
+		names = {
+			"Aage" "Adam" "Alber" "Anders" "ASmund" "Axel" "Carl" "Christian" "Edvard" "Edvin"
+			"Erik" "Folke" "Frederik" "Georg" "Hannibal" "Hans" "Henrik" "Herman" "Hugo" "Ivar"
+			"Jacob" "Johan" "Julius" "Knud" "Ludvig" "Magnus" "Michael" "Niels" "Olav" "Otto"
+			"Peter" "Poul" "Sigurd" "Sven" "Tage" "Thomas" "Thorvald" "Ukrik" "Valdemar" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Ahlefeldt" "Asp-Persson" "Berger" "Bonde" "Carlsen" "Dannemand" "Danneskjold-Samso" "de Meza" "Eberlin" "Falsen"
+		"Folsach" "Güntelberg" "Gyldenfeldt" "Haack" "Hambro" "Haxthausen" "Juul" "Klauman" "Krogh" "Laessoe"
+		"Leuenbach" "Lovenbalk" "Michaelsen" "Mylius" "Neergaard" "Obelitz" "Oxholm" "Reventlow" "Rosenkrantz" "Schack-Schackenborg"
+		"Stemman" "Suenson" "Thygeson" "Trampe" "Urne" "von Holstein" "von Oldenburg" "Wadenstierna" "Wedel-Heinen" "Zytphen-Adeler"
+	}
+	callsigns = {
+	}
+}
+X28 = {
+	male = {
+		names = {
+			"Agustín" "Alberto" "Alejandro" "Alfonso" "Álvaro" "Antonio" "Antonio María" "Arsenio" "Augusto" "Baldomero"
+			"Baltasar" "Benito" "Bernardino" "Bernardo" "Calixto" "Carlos" "Celestino" "Claudio" "Cristobal" "Dámaso"
+			"Diego" "Dionisio" "Eduardo" "Emilio" "Estanislao" "Federico" "Felipe" "Félix" "Fernando" "Francisco"
+			"Francisco Javier" "Gabino" "Gabriel" "Gaspar" "Genaro" "Gonzalo" "Ignacio" "Isidro" "Jacobo" "Jaime"
+			"Joaquín" "José" "José Antonio" "José Manuel" "José María" "Juan" "Juan Bautista" "Julio" "Leopoldo" "Lorenzo"
+			"Luis" "Manuel" "Marcelo" "Mariano" "Mateo" "Melchor" "Miguel" "Nicolás" "Pablo" "Pascual"
+			"Pedro" "Rafael" "Raimundo" "Ramón" "Ricardo" "Santiago" "Sebastián" "Segismundo" "Valeriano" "Vicente"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Acuña" "Aguirre" "Alcalá-Zamora" "Allendesalazar" "Alonso" "Álvarez" "Álvarez de Toledo" "Aranda" "Argüelles-Meres" "Asensio"
+		"Aznar" "Barradas" "Bugallal" "Cabrera" "Cagigal de la Vega" "Cano" "Cervera" "de Albornoz" "de Borbón" "de Carvajal"
+		"de la Fuente" "de Orleans" "Díaz" "Espartero" "Fernández" "Fernández de Córdoba" "Fitz-James Stuart" "Franco" "García" "García de la Noceda"
+		"González" "Heredia" "Hernández" "Herrera" "Hevia" "Hidalgo de Cisneros" "Linares" "López" "Maroto" "Márquez"
+		"Martínez-Campos" "Maura" "Menéndez" "Miaja" "Millán-Astray" "Mina" "Mola" "Muñoz" "Narváez" "O'Donnell"
+		"Ortega" "Pavía" "Pérez" "Primo de Rivera" "Queipo de Llano" "Rodríguez" "Rojo" "Ruiz" "Sanjurjo" "Serrano"
+		"Silvestre" "Topete" "Valdés" "Varela" "Villapol" "Villar" "Weyler" "Yagüe"
+	}
+	callsigns = {
+	}
+}
+X29 = {
+	male = {
+		names = {
+			"Albert" "Alexandre" "Alexis" "Alphonse" "André" "Antoine" "Auguste" "Barthélémy" "Baudouin" "Blaise"
+			"Camille" "Clément" "Charles" "Constant" "Damien" "David" "Désiré" "Didier" "Edmond" "Édouard"
+			"Emmanuel" "Émile" "Etienne" "Eugène" "Félix" "Fernand" "Feullien" "Florent" "François" "Frédéric"
+			"Georges" "Gérard" "Gilles" "Guillaume" "Gustave" "Henri" "Hercule" "Hubert" "Ignace" "Isidore"
+			"Jacques" "Jean" "Jean-Baptiste" "Jean-François" "Jean-Louis" "Jean-Jacques" "Joseph" "Jules" "Lambert" "Laurent"
+			"Léon" "Léonard" "Léopold" "Louis" "Lucien" "Mathieu" "Maxime" "Maximilien" "Nicolas" "Olivier"
+			"Pascal" "Patrice" "Paul" "Philippe" "Philippe-Joseph" "Pierre" "Pierre-Guillaume" "Sébastien" "Sylvain" "Théophile"
+			"Victor" "Vincent" "Werner"
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		"Allard" "Barbanson" "Barthélémy" "Baugniet" "Beaucarne" "Berger" "Berthels" "Beyts" "Biver" "Blargnies"
+		"Brialmont" "Bredart" "Cauvin" "Collet" "Cols" "Claus" "Clerix" "Coquilhat" "d'Arenberg" "d'Huart"
+		"d'Omalius" "d'Oreye" "d'Oultremont" "David" "Davignon" "de Baillet" "de Beaufort" "de Behr" "de Bocarmé" "de Bousies"
+		"de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen" "de Croÿ" "de Decker" "de Dixmude" "de Gerlache"
+		"de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" "de Mérode" "de Pelichy" "de Quarre"
+		"de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies"
+		"de Trooz" "de Viron" "de Waha" "Defacqz" "Deguise" "Delacroix" "Desmanet de Biesme" "Destriveaux" "Dethier" "Devaux"
+		"Deville" "Dewandre" "Dhanis" "Dreze" "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" "Dumont" "Fallon"
+		"Fendius" "Figeys" "Fleury-Dubay" "Fleussu" "Forgeur" "Frison" "Fuchs" "Gendebien" "Goffint" "Henry"
+		"Huysman d'Annecroix" "Jacques" "Joos" "Jottrand" "Lahure" "Lardinois" "le Cocq" "le Hon" "Lebeau" "Leclercq"
+		"Lefebvre" "Leman" "Malou" "Marcq" "Marlet" "Masbourg" "Nagelmackers" "Nalinne" "Nothomb" "Orban"
+		"Pétillon" "Picquet" "Pirmez" "Pirson" "Raikem" "Roeser" "Rogier" "Rouen" "Rouppe" "Seron"
+		"Thonus" "Thorn" "van Snick" "Wahis" "Wangermée" "Wyvekens" "Zoude"
+	}
+	callsigns = {
+	}
+}

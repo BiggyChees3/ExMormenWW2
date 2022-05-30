@@ -1,0 +1,36 @@
+
+state={
+	id=400
+	name="STATE_400"
+	resources={
+		aluminium=4.000
+		rubber=0.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			10862 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12742 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		10862 12742 12785 12787 
+	}
+	manpower=585803
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

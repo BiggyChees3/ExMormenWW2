@@ -1,0 +1,36 @@
+
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		aluminium=10.000
+		steel=11.000
+	}
+
+	history={
+		owner = X08
+		victory_points = {
+			12954 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			2161 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = X08
+	}
+
+	provinces={
+		2161 5118 5121 5159 5169 8198 8218 8251 10961 12920 12954 
+	}
+	manpower=99674
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

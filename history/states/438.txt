@@ -1,0 +1,35 @@
+
+state={
+	id=438
+	name="STATE_438"
+	resources={
+		aluminium=4.000
+		rubber=0.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			2180 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2193 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		2180 2193 5155 5212 12950 12971 
+	}
+	manpower=302905
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

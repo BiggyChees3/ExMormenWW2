@@ -1,0 +1,16 @@
+characters={
+	X23_thomas_dannemand={
+		name=X23_thomas_dannemand
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/portrait_eng_harry_pollitt.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

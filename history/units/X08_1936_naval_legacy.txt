@@ -1,0 +1,125 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 11297
+		task_force = {
+			name = "3rd Fleet"
+			location = 6419
+			ship = { name = "Black Prince" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Orlando" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Northampton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Imperieuse" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Warspite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Blenheim" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Blake" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Edgar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Hawke" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Bedford" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Grafton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Essex" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Suffolk" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Donegal" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "King Alfred" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Roxburgh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Hampshire" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Argonaut" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Cornwall" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Grafton 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Devonshire" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Imperieuse 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Spartiate" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Cressy" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Ariadne" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Aboukir" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Sutlej" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Undaunted" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Endymion" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Royal Arthur" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Cresent" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Powerful" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Theseus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Terrible" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Diadem" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Andromeda" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Amphitrite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Hogue" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Bacchante" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Monmouth" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Leviathan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Euryalus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Kent" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Berwick" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Argyll" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Antrim" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Cumberland" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Duke of Edinburgh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Warrior" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Defence" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 11297
+		task_force = {
+			name = "6th Fleet"
+			location = 5412
+			ship = { name = "Cochrane" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "5th Ipswich Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Minotaur" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "6th Plymouth Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "5th Lincoln Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 540
+		task_force = {
+			name = "1st Fleet"
+			location = 540
+			ship = { name = "4th York Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Nelson" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Shannon 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Galatea" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Immortalite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Gibraltar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "St George" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Niobe" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Europa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Drake" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Good Hope" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Lancaster" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Carnarvon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Achilles" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "Natal" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "5th Caerdydd Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "5th Liverpool Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "4th Caerdydd Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+			ship = { name = "4th Liverpool Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X08 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X08"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X08"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

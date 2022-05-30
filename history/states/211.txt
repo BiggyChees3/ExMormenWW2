@@ -1,0 +1,35 @@
+
+state={
+	id=211
+	name="STATE_211"
+	resources={
+		chromium=1.000
+		steel=11.000
+		tungsten=79.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			10662 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = COL
+		add_claim_by = X01
+	}
+
+	provinces={
+		1663 1756 1789 1815 4668 4865 7688 7888 9695 10582 10602 10651 10662 10672 12535 12573 12633 12651 12699 
+	}
+	manpower=63155
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

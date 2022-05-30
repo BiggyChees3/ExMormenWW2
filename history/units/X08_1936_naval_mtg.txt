@@ -1,0 +1,127 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 11297
+		task_force = {
+			name = "3rd Fleet"
+			location = 6419
+			ship = { name = "Black Prince" definition = light_cruiser start_experience_factor = 0.28877 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Shannon" definition = light_cruiser start_experience_factor = 0.29083 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Australia" definition = light_cruiser start_experience_factor = 0.28794 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Orlando" definition = light_cruiser start_experience_factor = 0.28909 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Northampton" definition = light_cruiser start_experience_factor = 0.28794 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Imperieuse" definition = light_cruiser start_experience_factor = 0.28909 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Warspite" definition = light_cruiser start_experience_factor = 0.28794 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Blenheim" definition = light_cruiser start_experience_factor = 0.28909 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Blake" definition = light_cruiser start_experience_factor = 0.28794 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Aurora" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Edgar" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hawke" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bedford" definition = light_cruiser start_experience_factor = 0.21706 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Grafton" definition = light_cruiser start_experience_factor = 0.25161 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Essex" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Suffolk" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Donegal" definition = light_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "King Alfred" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Roxburgh" definition = light_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hampshire" definition = light_cruiser start_experience_factor = 0.20134 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Argonaut" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cornwall" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Grafton 2" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Devonshire" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Imperieuse 2" definition = light_cruiser start_experience_factor = 0.27221 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Spartiate" definition = light_cruiser start_experience_factor = 0.27688 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cressy" definition = light_cruiser start_experience_factor = 0.2961 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ariadne" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Aboukir" definition = light_cruiser start_experience_factor = 0.2979 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Sutlej" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Undaunted" definition = light_cruiser start_experience_factor = 0.27221 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Endymion" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Royal Arthur" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cresent" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Powerful" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Theseus" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Terrible" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Diadem" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Andromeda" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Amphitrite" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hogue" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bacchante" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Monmouth" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Leviathan" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Euryalus" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Kent" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Berwick" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Argyll" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Antrim" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cumberland" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Duke of Edinburgh" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Warrior" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Defence" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 11297
+		task_force = {
+			name = "6th Fleet"
+			location = 5412
+			ship = { name = "Cochrane" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Ipswich Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Minotaur" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Plymouth Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Lincoln Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 540
+		task_force = {
+			name = "1st Fleet"
+			location = 540
+			ship = { name = "4th York Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Nelson" definition = light_cruiser start_experience_factor = 0.27221 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Shannon 2" definition = light_cruiser start_experience_factor = 0.27275 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Narcissus" definition = light_cruiser start_experience_factor = 0.27249 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Galatea" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Immortalite" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gibraltar" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "St George" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Niobe" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Europa" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Drake" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Good Hope" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Lancaster" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Carnarvon" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Achilles" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Natal" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Caerdydd Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Liverpool Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Caerdydd Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Liverpool Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X08 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X08"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X08"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

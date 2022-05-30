@@ -1,0 +1,35 @@
+
+state={
+	id=462
+	name="STATE_462"
+	resources={
+		rubber=25.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			10263 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			10222 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		1561 1589 4308 4349 4564 7336 7598 10222 10263 10450 10464 12330 12444 
+	}
+	manpower=93571
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

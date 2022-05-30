@@ -1,0 +1,38 @@
+
+state={
+	id=194
+	name="STATE_194"
+	resources={
+		aluminium=37.000
+		oil=23.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			10912 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			1981 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = COL
+		add_claim_by = X02
+	}
+
+	provinces={
+		1981 3284 10767 10823 10912 12716 
+	}
+	manpower=81950
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

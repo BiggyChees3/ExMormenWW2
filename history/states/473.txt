@@ -1,0 +1,29 @@
+
+state={
+	id=473
+	name="STATE_473"
+
+	history={
+		owner = X10
+		victory_points = {
+			12549 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		12549 
+	}
+	manpower=11606
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

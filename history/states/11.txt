@@ -1,0 +1,33 @@
+
+state={
+	id=11
+	name="STATE_11"
+	resources={
+		aluminium=2.000
+		steel=15.000
+	}
+
+	history={
+		owner = X01
+		victory_points = {
+			11654 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		598 734 1436 3602 3702 3733 3747 6707 6778 6795 6916 9664 9708 9721 9754 10381 11654 11662 11722 
+	}
+	manpower=296272
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

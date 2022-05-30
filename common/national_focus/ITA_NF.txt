@@ -1,0 +1,57 @@
+focus_tree = {
+	id = ITA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = GP_WarGERITA
+		icon = GFX_goal_generic_major_war
+		text = GP_WarGER
+		bypass = {
+		has_war_with = GER
+	}
+		x = 26
+		y = 0
+		cost = 10
+		available = {
+		has_war = no
+		date > 1939.8.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 5 name = "War with Germany" }
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = GER
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = GER ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
+			}
+		}
+	}
+	}
+
+}

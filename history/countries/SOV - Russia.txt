@@ -1,0 +1,533 @@
+﻿capital = 510
+set_major = yes
+set_research_slots = 4
+
+oob = "SOV_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SOV_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "SOV_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	motorised_infantry = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tactical_bomber1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		basic_light_tank = 1
+		gwtank = 1
+		improved_light_tank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_naval_mines = 1
+		basic_ship_hull_cruiser = 1
+		basic_ship_hull_heavy = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		basic_heavy_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		gwtank_chassis = 1
+		improved_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		basic_battleship = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_light_cruiser = 1
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = air_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = air_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+
+set_country_flag = conv_russia
+starting_train_buffer = 4
+set_convoys = 20
+
+add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 2480 producer = SOV }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 16236 producer = SOV }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 13867 producer = SOV }
+add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 2480 producer = SOV }
+
+set_politics = {
+    ruling_party = radical
+    last_election = "1930.9.14"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 1
+	fascism = 5
+	neutrality = 51
+	radical = 43
+}
+
+give_guarantee = CHI
+diplomatic_relation = { country = CHI relation = non_aggression_pact }
+
+give_guarantee = COL
+diplomatic_relation = { country = COL relation = non_aggression_pact }
+
+give_guarantee = SCA
+diplomatic_relation = { country = SCA relation = non_aggression_pact }
+
+give_guarantee = TUR
+diplomatic_relation = { country = TUR relation = non_aggression_pact }
+
+give_guarantee = X03
+diplomatic_relation = { country = X03 relation = non_aggression_pact }
+
+give_guarantee = X10
+diplomatic_relation = { country = X10 relation = non_aggression_pact }
+
+give_guarantee = X11
+diplomatic_relation = { country = X11 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = CHI modifier = negative_171 }
+give_military_access = CHI
+add_opinion_modifier = { target = COL modifier = negative_100 }
+add_opinion_modifier = { target = ETH modifier = negative_200 }
+set_truce = { target = ETH days = 1823 }
+add_opinion_modifier = { target = GER modifier = negative_200 }
+set_truce = { target = GER days = 1823 }
+add_opinion_modifier = { target = HOL modifier = negative_200 }
+set_truce = { target = HOL days = 1823 }
+add_opinion_modifier = { target = ITA modifier = negative_200 }
+set_truce = { target = ITA days = 1823 }
+add_opinion_modifier = { target = JAP modifier = negative_200 }
+add_opinion_modifier = { target = KOR modifier = negative_157 }
+add_opinion_modifier = { target = SCA modifier = negative_146 }
+give_military_access = SCA
+add_opinion_modifier = { target = SPR modifier = negative_195 }
+set_truce = { target = SPR days = 1823 }
+add_opinion_modifier = { target = TUR modifier = negative_20 }
+give_military_access = TUR
+add_opinion_modifier = { target = UZB modifier = negative_7 }
+add_opinion_modifier = { target = X00 modifier = positive_62 }
+add_opinion_modifier = { target = X01 modifier = negative_200 }
+add_opinion_modifier = { target = X03 modifier = negative_51 }
+give_military_access = X03
+add_opinion_modifier = { target = X04 modifier = negative_200 }
+add_opinion_modifier = { target = X05 modifier = negative_200 }
+set_truce = { target = X05 days = 1823 }
+add_opinion_modifier = { target = X06 modifier = positive_3 }
+add_opinion_modifier = { target = X07 modifier = negative_200 }
+set_truce = { target = X07 days = 1823 }
+add_opinion_modifier = { target = X08 modifier = negative_141 }
+set_truce = { target = X08 days = 1028 }
+add_opinion_modifier = { target = X09 modifier = positive_75 }
+add_opinion_modifier = { target = X10 modifier = negative_94 }
+add_opinion_modifier = { target = X11 modifier = negative_180 }
+add_opinion_modifier = { target = X12 modifier = negative_198 }
+add_opinion_modifier = { target = X13 modifier = negative_200 }
+
+
+add_ideas = {
+	great_power
+	SOV_monarch
+	volunteer_only
+	civilian_economy
+	free_trade
+	culture_russian
+}
+set_stability = 0.60
+set_war_support = 0.63
+
+recruit_character = SOV_igor_skobelev
+recruit_character = SOV_grigoriy_skobelev
+recruit_character = SOV_giorgi_grishin
+recruit_character = SOV_igor_yegorov
+recruit_character = SOV_dmitry_yudenich
+recruit_character = SOV_gennady_frolov
+recruit_character = SOV_giorgi_zavoyko
+recruit_character = SOV_semyon_romanov
+recruit_character = SOV_valery_frolov
+recruit_character = SOV_valery_kuropatkin
+recruit_character = SOV_dmitry_romanov
+recruit_character = SOV_semyon_zavoyko
+recruit_character = SOV_valery_kolchak
+recruit_character = SOV_giorgi_pavlov
+recruit_character = SOV_lev_makarov
+recruit_character = SOV_andrei_badanov
+recruit_character = SOV_lavr_makarov
+recruit_character = SOV_kirill_voroshilov
+recruit_character = SOV_ivan_vorontsov
+recruit_character = SOV_vasily_lazarev
+recruit_character = SOV_ivan_romanov
+recruit_character = SOV_maxim_kornilov
+recruit_character = SOV_ivan_surkov
+recruit_character = SOV_viktor_pavlov
+recruit_character = SOV_valery_skobelev
+recruit_character = SOV_fyodor_badanov
+recruit_character = SOV_pavel_pavlov
+recruit_character = SOV_yegor_konstantinov
+recruit_character = SOV_vladimir_lazarev
+recruit_character = SOV_yevgeny_frolov
+recruit_character = SOV_vladislav_lazarev
+recruit_character = SOV_yevgeny_pavlov
+recruit_character = SOV_andrei_grishin
+recruit_character = SOV_valery_azarov
+recruit_character = SOV_roman_nikolaevich
+recruit_character = SOV_pyotr_nakhimov
+recruit_character = SOV_sergei_ostrovsky
+recruit_character = SOV_ivan_tukhachevsky
+recruit_character = SOV_kirill_konstantinov
+recruit_character = SOV_nikita_putyatin
+recruit_character = SOV_fyodor_grishin
+recruit_character = SOV_maxim_kuropatkin
+recruit_character = SOV_semyon_ivanov
+recruit_character = SOV_kirill_gurko
+recruit_character = SOV_boris_gurko
+recruit_character = SOV_gennady_dragomirov
+recruit_character = SOV_semyon_voroshilov
+recruit_character = SOV_yegor_ivanov
+recruit_character = SOV_maxim_kornilov_1
+recruit_character = SOV_giorgi_antonov
+recruit_character = SOV_aleksandr_brusilov
+recruit_character = SOV_vladislav_frolov
+recruit_character = SOV_lavr_chibisov
+recruit_character = SOV_andrei_azarov
+recruit_character = SOV_vasily_ostrovsky
+recruit_character = SOV_sergei_tukhachevsky
+recruit_character = SOV_andrei_vorontsov
+recruit_character = SOV_nikolai_grishin
+recruit_character = SOV_dmitry_romanov_1
+recruit_character = SOV_sergei_zavoyko
+recruit_character = SOV_fyodor_kuropatkin
+recruit_character = SOV_roman_gurko
+recruit_character = SOV_ivan_yegorov
+recruit_character = SOV_alexei_denikin
+recruit_character = SOV_pavel_konstantinov
+recruit_character = SOV_konstantin_vorontsov
+recruit_character = SOV_anton_yegorov
+recruit_character = SOV_yuri_brusilov
+recruit_character = SOV_kirill_kolchak
+recruit_character = SOV_roman_grishin
+recruit_character = SOV_vasily_yudenich
+recruit_character = SOV_kirill_konev
+recruit_character = SOV_leonid_gurko
+recruit_character = SOV_roman_dragomirov
+recruit_character = SOV_aleksandr_vassilievich_samsonov
+recruit_character = SOV_dmitry_tukhachevsky
+recruit_character = SOV_lavr_kornilov
+recruit_character = SOV_yegor_konev
+recruit_character = SOV_leonid_grishin
+recruit_character = SOV_pyotr_kuropatkin
+recruit_character = SOV_oleg_ostrovsky
+recruit_character = SOV_sergei_kolchak
+recruit_character = SOV_leonid_voroshilov
+recruit_character = SOV_ivan_surkov_1
+recruit_character = SOV_valery_budyonny
+recruit_character = SOV_boris_budyonny
+recruit_character = SOV_maxim_lazarev
+recruit_character = SOV_igor_grishin
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Jelena Shuvalova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SOV }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Yegorova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SOV }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Chibisova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SOV }
+	}
+
+	create_operative_leader = {
+		name = "Boris Pavlov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV }
+	}
+
+	create_operative_leader = {
+		name = "Yevgeny Grishin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = ship_hull_heavy_2
+		name_group = SOV_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_2
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = SOV_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = SOV_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_medium_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = SOV_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SOV_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "Basic Heavy Tank"
+		type = heavy_tank_chassis_1
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Basic Medium Tank"
+		type = medium_tank_chassis_1
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Improved Light Tank"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+		}
+	}
+}

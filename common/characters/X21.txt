@@ -1,0 +1,16 @@
+characters={
+	X21_thomas_dannemand={
+		name=X21_thomas_dannemand
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Palme_Dutt.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

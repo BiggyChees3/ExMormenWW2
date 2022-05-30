@@ -1,0 +1,30 @@
+
+state={
+	id=337
+	name="STATE_337"
+
+	history={
+		owner = GER
+		victory_points = {
+			6488 50 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 10
+
+		}
+		add_core_of = GER
+		add_core_of = X05
+	}
+
+	provinces={
+		564 3397 3398 3524 6444 6488 6549 9443 9486 9524 9547 11445 11533 
+	}
+	manpower=419142
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=4
+	name="STATE_4"
+
+	history={
+		owner = X00
+		victory_points = {
+			7602 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X00
+	}
+
+	provinces={
+		7602 
+	}
+	manpower=30454
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

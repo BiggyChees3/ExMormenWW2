@@ -1,0 +1,37 @@
+
+state={
+	id=349
+	name="STATE_349"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			6377 7 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			3326 = {
+				naval_base = 10
+			}
+			air_base = 4
+
+		}
+		add_core_of = GER
+		add_core_of = X05
+	}
+
+	provinces={
+		374 526 3234 3271 3326 3395 6218 6263 6298 6325 6349 6377 6513 9264 9375 11402 11468 11493 
+	}
+	manpower=379241
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,288 @@
+focus_tree = {
+	id = X03_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = X03
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = Home_of_RevolutionX03
+		icon = GFX_goal_support_communism
+		text = Home_of_Revolution
+		x = 27
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_ideas = communist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_UZB_X03
+		icon = GFX_goal_generic_propaganda
+		text = Influence_UZB
+		prerequisite = { focus = Home_of_RevolutionX03 }
+		x = 26
+		y = 1
+		cost = 10
+		completion_reward = {
+			UZB = {
+				if = {
+					limit = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_UZB_X03
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_UZB
+		prerequisite = { focus = Influence_UZB_X03 }
+		x = 0
+		y = 1
+		relative_position_id = Influence_UZB_X03
+		cost = 10
+		available = {
+		UZB = { communism > 0.5 }
+	}
+		completion_reward = {
+		UZB = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_X00_X03
+		icon = GFX_goal_generic_propaganda
+		text = Influence_X00
+		prerequisite = { focus = Home_of_RevolutionX03 }
+		x = 28
+		y = 1
+		cost = 10
+		completion_reward = {
+			X00 = {
+				if = {
+					limit = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_X00_X03
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_X00
+		prerequisite = { focus = Influence_X00_X03 }
+		x = 0
+		y = 1
+		relative_position_id = Influence_X00_X03
+		cost = 10
+		available = {
+		X00 = { communism > 0.5 }
+	}
+		completion_reward = {
+		X00 = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = StrengthComX03
+		icon = GFX_goal_support_communism
+		text = StrengthCom
+		x = 31
+		y = 0
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Inter_Com_PresX03
+		icon = GFX_goal_generic_dangerous_deal
+		text = Inter_Com_Pres
+		prerequisite = { focus = StrengthComX03 }
+		x = 0
+		y = 1
+		relative_position_id = StrengthComX03
+		cost = 10
+		available = {
+		date > 1937.1.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = Inter_Com_Pres }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = WarX00X03
+		icon = GFX_goal_generic_major_war
+		text = WarX00
+		prerequisite = { focus = Inter_Com_PresX03 }
+		bypass = {
+		has_war_with = X00
+	}
+		x = 30
+		y = 2
+		cost = 10
+		available = {
+		date > 1938.7.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with Askhabad" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = X00
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = X00 ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_war_with = UZB
+
+			}
+		}
+	}
+	}
+
+	focus = {
+		id = WarUZBX03
+		icon = GFX_goal_generic_major_war
+		text = WarUZB
+		prerequisite = { focus = Inter_Com_PresX03 }
+		bypass = {
+		has_war_with = UZB
+	}
+		x = 32
+		y = 2
+		cost = 10
+		available = {
+		date > 1939.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with Uzbekistan" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = UZB
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = UZB ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_war_with = X00
+
+			}
+		}
+	}
+	}
+
+}

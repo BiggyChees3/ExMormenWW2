@@ -1,0 +1,36 @@
+
+state={
+	id=31
+	name="STATE_31"
+	resources={
+		aluminium=4.000
+		steel=5.000
+	}
+
+	history={
+		owner = X01
+		victory_points = {
+			490 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			490 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X01
+	}
+
+	provinces={
+		490 983 1657 1782 3911 4666 4784 6740 9740 10621 11682 12600 12701 
+	}
+	manpower=54431
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,7109 @@
+prospect_for_resources = {
+
+	develop_shandong_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 129
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 129
+			controls_state = 129
+		}
+
+		visible = {
+			owns_state = 129
+			controls_state = 129
+			129 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			129 = { set_state_flag = shandong_aluminium_developed }
+			129 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_suiyuan_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 163
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 163
+			controls_state = 163
+		}
+
+		visible = {
+			owns_state = 163
+			controls_state = 163
+			163 = {
+				NOT = {
+					has_state_flag = suiyuan_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			163 = { set_state_flag = suiyuan_steel_developed }
+			163 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_daqing_deposits = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 159
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 159
+			controls_state = 159
+		}
+
+		visible = {
+			owns_state = 159
+			controls_state = 159
+			159 = {
+				NOT = {
+					has_state_flag = daqing_oil_developed_1
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			159 = { set_state_flag = daqing_oil_developed_1 }
+			159 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_daqing_deposits_2 = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 159
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 159
+			controls_state = 159
+		}
+
+		visible = {
+			owns_state = 159
+			controls_state = 159
+			159 = {
+				has_state_flag = daqing_oil_developed_1
+				NOT = {
+					has_state_flag = daqing_oil_developed_2
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		remove_effect = {
+			159 = { set_state_flag = daqing_oil_developed_2 }
+			159 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_yunnan_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 174
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 174
+			controls_state = 174
+		}
+
+		visible = {
+			owns_state = 174
+			controls_state = 174
+			174 = {
+				NOT = {
+					has_state_flag = yunnan_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			174 = { set_state_flag = yunnan_aluminium_developed }
+			174 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_kirin_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 158
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 158
+			controls_state = 158
+		}
+
+		visible = {
+			owns_state = 158
+			controls_state = 158
+			158 = {
+				NOT = {
+					has_state_flag = kirin_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			158 = { set_state_flag = kirin_aluminium_developed }
+			158 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_sichuan_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 155
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 155
+			controls_state = 155
+		}
+
+		visible = {
+			owns_state = 155
+			controls_state = 155
+			155 = {
+				NOT = {
+					has_state_flag = sichuan_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			155 = { set_state_flag = sichuan_aluminium_developed }
+			155 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_luzon_chromium_deposits = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 475
+			}
+		}
+
+		available = {
+			owns_state = 475
+			controls_state = 475
+			num_of_civilian_factories_available_for_projects > 2
+			has_tech = excavation3
+		}
+
+		visible = {
+			owns_state = 475
+			controls_state = 475
+			475 = {
+				NOT = {
+					has_state_flag = luzon_chromium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			475 = { set_state_flag = luzon_chromium_developed }
+			475 = {
+				add_resource = {
+					type = chromium
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_mindanao_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 458
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 458
+			controls_state = 458
+		}
+
+		visible = {
+			owns_state = 458
+			controls_state = 458
+			458 = {
+				NOT = {
+					has_state_flag = mindanao_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			458 = { set_state_flag = mindanao_steel_developed }
+			458 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_samar_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 461
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 461
+			controls_state = 461
+		}
+
+		visible = {
+			owns_state = 461
+			controls_state = 461
+			461 = {
+				NOT = {
+					has_state_flag = samar_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			461 = { set_state_flag = samar_steel_developed }
+			461 = {
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_nauru_tungsten_deposits = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 54
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 54
+			controls_state = 54
+		}
+
+		visible = {
+			owns_state = 54
+			controls_state = 54
+			54 = {
+				NOT = {
+					has_state_flag = nauru_tungsten_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			54 = { set_state_flag = nauru_tungsten_developed }
+			54 = {
+				add_resource = {
+					type = tungsten #standin for phosphates
+					amount = 4
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_tonkin_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 109
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 109
+			controls_state = 109
+		}
+
+		visible = {
+			owns_state = 109
+			controls_state = 109
+			109 = {
+				NOT = {
+					has_state_flag = tonkin_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			109 = { set_state_flag = tonkin_aluminium_developed }
+			109 = {
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_singapore_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 450
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 450
+			controls_state = 450
+		}
+
+		visible = {
+			owns_state = 450
+			controls_state = 450
+			450 = {
+				NOT = {
+					has_state_flag = singapore_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			450 = { set_state_flag = singapore_aluminium_developed }
+			450 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_sirte_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 377
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 377
+			controls_state = 377
+		}
+
+		visible = {
+			owns_state = 377
+			controls_state = 377
+			377 = {
+				NOT = {
+					has_state_flag = sirte_oil_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			377 = {
+				set_state_flag = sirte_oil_developed
+			}
+			377 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_benghazi_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 377
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 377
+			controls_state = 377
+		}
+
+		visible = {
+			owns_state = 377
+			controls_state = 377
+			has_tech = excavation3
+			377 = {
+				NOT = {
+					has_state_flag = benghazi_oil_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			377 = {
+				set_state_flag = benghazi_oil_developed
+			}
+			377 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_tasmania_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 507
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 507
+			controls_state = 507
+		}
+
+		visible = {
+			owns_state = 507
+			controls_state = 507
+			507 = {
+				NOT = {
+					has_state_flag = tasmania_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			507 = {
+				set_state_flag = tasmania_aluminium_developed
+			}
+			507 = {
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_west_africa_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 655
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 655
+			controls_state = 655
+		}
+
+		visible = {
+			owns_state = 655
+			controls_state = 655
+			655 = {
+				NOT = {
+					has_state_flag = west_Africa_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			655 = {
+				set_state_flag = west_Africa_aluminium_developed
+			}
+			655 = {
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_west_africa_aluminium_deposits_2 = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 655
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 655
+			controls_state = 655
+		}
+
+		visible = {
+			owns_state = 655
+			controls_state = 655
+			has_tech = excavation3
+			655 = {
+				has_state_flag = west_Africa_aluminium_developed
+			}
+			655 = {
+				NOT = {
+					has_state_flag = west_Africa_aluminium_developed_2
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			655 = {
+				set_state_flag = west_Africa_aluminium_developed_2
+			}
+			655 = {
+				add_resource = {
+					type = aluminium
+					amount = 4
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_madagascar_rubber_plantations = {
+
+		icon = rubber
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 478
+			}
+		}
+
+		available = {
+			owns_state = 478
+			controls_state = 478
+			num_of_civilian_factories_available_for_projects > 2
+		}
+
+		visible = {
+			owns_state = 478
+			controls_state = 478
+			478 = {
+				NOT = {
+					has_state_flag = madagascar_rubber_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 180
+
+		cost = 25
+
+		remove_effect = {
+			478 = {
+				set_state_flag = madagascar_rubber_developed
+			}
+			478 = {
+				add_resource = {
+					type = rubber
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = rubber
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_madagascar_rubber_plantations_2 = {
+
+		icon = rubber
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 478
+			}
+		}
+
+		available = {
+			owns_state = 478
+			controls_state = 478
+			num_of_civilian_factories_available_for_projects > 4
+		}
+
+		visible = {
+			owns_state = 478
+			controls_state = 478
+			478 = {
+				has_state_flag = madagascar_rubber_developed
+			}
+			478 = {
+				NOT = {
+					has_state_flag = madagascar_rubber_developed_2
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = 180
+
+		cost = 25
+
+		remove_effect = {
+			478 = {
+				set_state_flag = madagascar_rubber_developed_2
+			}
+			478 = {
+				add_resource = {
+					type = rubber
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = rubber
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_nigeria_rubber_plantations = {
+
+		icon = rubber
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 411
+			}
+		}
+
+		available = {
+			owns_state = 411
+			controls_state = 411
+			num_of_civilian_factories_available_for_projects > 2
+		}
+
+		visible = {
+			owns_state = 411
+			controls_state = 411
+			411 = {
+				NOT = {
+					has_state_flag = nigeria_rubber_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 180
+
+		cost = 25
+
+		remove_effect = {
+			411 = {
+				set_state_flag = nigeria_rubber_developed
+			}
+			411 = {
+				add_resource = {
+					type = rubber
+					amount = 10
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = rubber
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_ems_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 343
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 343
+			controls_state = 343
+		}
+
+		visible = {
+			owns_state = 343
+			controls_state = 343
+			has_tech = excavation3
+			343 = {
+				NOT = {
+					has_state_flag = ems_oil_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		remove_effect = {
+			343 = {
+				set_state_flag = ems_oil_developed
+			}
+			343 = {
+				add_resource = {
+					type = oil
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_matzen_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 320
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 320
+			controls_state = 320
+		}
+
+		visible = {
+			owns_state = 320
+			controls_state = 320
+			has_tech = excavation3
+			320 = {
+				NOT = {
+					has_state_flag = ems_oil_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		remove_effect = {
+			320 = {
+				set_state_flag = ems_oil_developed
+			}
+			320 = {
+				add_resource = {
+					type = oil
+					amount = 320
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_friesland_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 441
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 441
+			controls_state = 441
+		}
+
+		visible = {
+			owns_state = 441
+			controls_state = 441
+			has_tech = excavation3
+			441 = {
+				NOT = {
+					has_state_flag = friesland_oil_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		remove_effect = {
+			441 = { set_state_flag = friesland_oil_developed }
+			441 = {
+				add_resource = {
+					type = oil
+					amount = 6
+				}
+
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	expand_eregli_steel_works = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 696
+			}
+		}
+
+		available = {
+			has_tech = construction3
+			if = {
+				limit = {
+					has_dlc = "Battle for the Bosporus"
+				}
+				has_country_flag = TUR_karabuk_iron_steel_factory_modernised_flag
+			}
+			num_of_civilian_factories_available_for_projects > 14
+			owns_state = 696
+			controls_state = 696
+		}
+
+		visible = {
+			owns_state = 696
+			controls_state = 696
+			696 = {
+				NOT = {
+					has_state_flag = eregli_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 15
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			696 = { set_state_flag = eregli_steel_developed }
+			696 = {
+				add_resource = {
+					type = steel
+					amount = 23
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_newfoundland_steel = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 36
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 36
+			controls_state = 36
+		}
+
+		visible = {
+			owns_state = 36
+			controls_state = 36
+			36 = {
+				NOT = {
+					has_state_flag = newfoundland_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			36 = { set_state_flag = newfoundland_steel_developed }
+			36 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_quebec_steel = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 31
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 2
+			31 = {
+				infrastructure > 1
+			}
+			owns_state = 31
+			controls_state = 31
+		}
+
+		visible = {
+			owns_state = 31
+			controls_state = 31
+			31 = {
+				NOT = {
+					has_state_flag = quebec_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			31 = {
+				set_state_flag = quebec_steel_developed
+			}
+			31 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_cuba_steel = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 219
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 219
+			controls_state = 219
+		}
+
+		visible = {
+			owns_state = 219
+			controls_state = 219
+			219 = {
+				NOT = {
+					has_state_flag = cuba_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			219 = {
+				set_state_flag = cuba_steel_developed
+			}
+			219 = {
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_arkansas_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 58
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 58
+			controls_state = 58
+		}
+
+		visible = {
+			owns_state = 58
+			controls_state = 58
+			58 = {
+				NOT = {
+					has_state_flag = {
+						flag = arkansas_aluminium_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_arkansas_aluminium_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_arkansas_aluminium_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_arkansas_aluminium_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_arkansas_aluminium_duration value = 30 }
+			58 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = arkansas_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = arkansas_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = arkansas_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			58 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_new_york_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 11
+			}
+		}
+
+		available = {
+			has_tech = construction2
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 11
+			controls_state = 11
+		}
+
+		visible = {
+			owns_state = 11
+			controls_state = 11
+			11 = {
+				NOT = {
+					has_state_flag = {
+						flag = new_york_aluminium_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_new_york_aluminium_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_new_york_aluminium_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_new_york_aluminium_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_new_york_aluminium_duration value = 30 }
+			11 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = new_york_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = new_york_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = new_york_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			11 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_tennessee_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 15
+			}
+		}
+
+		available = {
+			has_tech = construction2
+			owns_state = 15
+			controls_state = 15
+			num_of_civilian_factories_available_for_projects > 11
+		}
+
+		visible = {
+			owns_state = 15
+			controls_state = 15
+			15 = {
+				NOT = {
+					has_state_flag = {
+						flag = tennessee_aluminium_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_tennessee_aluminium_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_tennessee_aluminium_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_tennessee_aluminium_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_tennessee_aluminium_duration value = 30 }
+			15 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = tennessee_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = tennessee_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = tennessee_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			15 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_washington_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 232
+			}
+		}
+
+		available = {
+			has_tech = construction2
+			owns_state = 232
+			controls_state = 232
+			num_of_civilian_factories_available_for_projects > 11
+		}
+
+		visible = {
+			owns_state = 232
+			controls_state = 232
+			232 = {
+				NOT = {
+					has_state_flag = {
+						flag = washington_aluminium_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_washington_aluminium_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_washington_aluminium_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_washington_aluminium_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_washington_aluminium_duration value = 30 }
+			232 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = washington_aluminium_developed
+						}
+					}
+					set_state_flag = {
+						flag = washington_aluminium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = washington_aluminium_developed
+						value = 1
+					}
+				}
+			}
+			232 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_idaho_tungsten_deposits = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 211
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 211
+			controls_state = 211
+		}
+
+		visible = {
+			owns_state = 211
+			controls_state = 211
+			211 = {
+				NOT = {
+					has_state_flag = {
+						flag = idaho_tungsten_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_idaho_tungsten_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_idaho_tungsten_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_idaho_tungsten_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_idaho_tungsten_duration value = 30 }
+			211 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = idaho_tungsten_developed
+						}
+					}
+					set_state_flag = {
+						flag = idaho_tungsten_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = idaho_tungsten_developed
+						value = 1
+					}
+				}
+			}
+			211 = {
+				add_resource = {
+					type = tungsten
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_california_tungsten_deposits = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 250
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 250
+			controls_state = 250
+		}
+
+		visible = {
+			owns_state = 250
+			controls_state = 250
+			250 = {
+				NOT = {
+					has_state_flag = {
+						flag = california_tungsten_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_california_tungsten_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_california_tungsten_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_california_tungsten_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_california_tungsten_duration value = 30 }
+			250 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = california_tungsten_developed
+						}
+					}
+					set_state_flag = {
+						flag = california_tungsten_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = california_tungsten_developed
+						value = 1
+					}
+				}
+			}
+			250 = {
+				add_resource = {
+					type = tungsten
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_minnesota_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32
+			}
+		}
+
+		available = {
+			has_tech = construction3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 32
+			controls_state = 32
+		}
+
+		visible = {
+			owns_state = 32
+			controls_state = 32
+			32 = {
+				NOT = {
+					has_state_flag = {
+						flag = minnesota_steel_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_minnesota_steel_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_minnesota_steel_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_minnesota_steel_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_minnesota_steel_duration value = 30 }
+			32 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = minnesota_steel_developed
+						}
+					}
+					set_state_flag = {
+						flag = minnesota_steel_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = minnesota_steel_developed
+						value = 1
+					}
+				}
+			}
+			32 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_pennsylvania_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 9
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 9
+			controls_state = 9
+		}
+
+		visible = {
+			owns_state = 9
+			controls_state = 9
+			9 = {
+				NOT = {
+					has_state_flag = {
+						flag = pennsylvania_steel_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_pennsylvania_steel_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_pennsylvania_steel_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_pennsylvania_steel_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_pennsylvania_steel_duration value = 30 }
+			9 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = pennsylvania_steel_developed
+						}
+					}
+					set_state_flag = {
+						flag = pennsylvania_steel_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = pennsylvania_steel_developed
+						value = 1
+					}
+				}
+			}
+			9 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_ohio_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 21
+			}
+		}
+
+		available = {
+			has_tech = construction3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 21
+			controls_state = 21
+		}
+
+		visible = {
+			owns_state = 21
+			controls_state = 21
+			21 = {
+				NOT = {
+					has_state_flag = {
+						flag = ohio_steel_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_ohio_steel_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_ohio_steel_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_ohio_steel_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_ohio_steel_duration value = 30 }
+			21 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = ohio_steel_developed
+						}
+					}
+					set_state_flag = {
+						flag = ohio_steel_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = ohio_steel_developed
+						value = 1
+					}
+				}
+			}
+			21 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_indiana_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 24
+			}
+		}
+
+		available = {
+			has_tech = construction3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 24
+			controls_state = 24
+		}
+
+		visible = {
+			owns_state = 24
+			controls_state = 24
+			24 = {
+				NOT = {
+					has_state_flag = {
+						flag = indiana_steel_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_indiana_steel_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_indiana_steel_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_indiana_steel_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_indiana_steel_duration value = 30 }
+			24 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = indiana_steel_developed
+						}
+					}
+					set_state_flag = {
+						flag = indiana_steel_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = indiana_steel_developed
+						value = 1
+					}
+				}
+			}
+			24 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_montana_chromium_deposits = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 242
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 242
+			controls_state = 242
+		}
+
+		visible = {
+			owns_state = 242
+			controls_state = 242
+			has_tech = excavation3
+			242 = {
+				NOT = {
+					has_state_flag = {
+						flag = montana_chromium_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_montana_chromium_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_montana_chromium_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_montana_chromium_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_montana_chromium_duration value = 30 }
+			242 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = montana_chromium_developed
+						}
+					}
+					set_state_flag = {
+						flag = montana_chromium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = montana_chromium_developed
+						value = 1
+					}
+				}
+			}
+			242 = {
+				add_resource = {
+					type = chromium
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_california_chromium_deposits = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 250
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 250
+			controls_state = 250
+		}
+
+		visible = {
+			owns_state = 250
+			controls_state = 250
+			has_tech = excavation3
+			250 = {
+				NOT = {
+					has_state_flag = {
+						flag = california_chromium_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_california_chromium_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_california_chromium_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_california_chromium_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_california_chromium_duration value = 30 }
+			250 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = california_chromium_developed
+						}
+					}
+					set_state_flag = {
+						flag = california_chromium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = california_chromium_developed
+						value = 1
+					}
+				}
+			}
+			250 = {
+				add_resource = {
+					type = chromium
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_oregon_chromium_deposits = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 250
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 250
+			controls_state = 250
+		}
+
+		visible = {
+			owns_state = 250
+			controls_state = 250
+			has_tech = excavation3
+			250 = {
+				NOT = {
+					has_state_flag = {
+						flag = oregon_chromium_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_oregon_chromium_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_oregon_chromium_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_oregon_chromium_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_oregon_chromium_duration value = 30 }
+			250 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = oregon_chromium_developed
+						}
+					}
+					set_state_flag = {
+						flag = oregon_chromium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = oregon_chromium_developed
+						value = 1
+					}
+				}
+			}
+			250 = {
+				add_resource = {
+					type = chromium
+					amount = 26
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_alaska_chromium_deposits = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 251
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 251
+			controls_state = 251
+		}
+
+		visible = {
+			owns_state = 251
+			controls_state = 251
+			has_tech = excavation3
+			251 = {
+				NOT = {
+					has_state_flag = {
+						flag = alaska_chromium_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = USA_alaska_chromium_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_alaska_chromium_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = USA_alaska_chromium_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = repeatable_decision_tt
+			add_to_variable = { var = USA_oregon_chromium_duration value = 30 }
+			251 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = oregon_chromium_developed
+						}
+					}
+					set_state_flag = {
+						flag = alaska_chromium_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = alaska_chromium_developed
+						value = 1
+					}
+				}
+			}
+			251 = {
+				add_resource = {
+					type = chromium
+					amount = 26
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { #Too low MP we need to save PP for the laws
+						has_manpower < 10000
+						NOT = { has_idea = scraping_the_barrel }
+					}
+					has_political_power < 200
+				}
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_south_sakhalin_oil_deposits = {
+
+		icon = oil
+
+		allowed = {
+			#Everyone
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 59
+			}
+		}
+
+		available = {
+			has_full_control_of_state = 59
+			num_of_civilian_factories_available_for_projects > 2
+			has_tech = excavation3
+			controls_state = 59
+		}
+
+		visible = {
+			controls_state = 59
+			59 = { NOT = { has_state_flag = sakhalin_oil_developed } }
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			59 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+				set_state_flag = sakhalin_oil_developed
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_palau_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+			#Everyone
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 604
+			}
+		}
+
+		available = {
+			has_full_control_of_state = 604
+			num_of_civilian_factories_available_for_projects > 2
+			has_tech = excavation2
+			controls_state = 604
+		}
+
+		visible = {
+			controls_state = 604
+			604 = { NOT = { has_state_flag = palau_aluminium_developed } }
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			604 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+				set_state_flag = palau_aluminium_developed
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_cornwall_tungsten_deposits_1 = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 290
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 290
+			controls_state = 290
+		}
+
+		visible = {
+			owns_state = 290
+			controls_state = 290
+			290 = {
+				NOT = {
+					has_state_flag = cornwall_tungsten_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			290 = { set_state_flag = cornwall_tungsten_developed }
+			290 = {
+				add_resource = {
+					type = tungsten
+					amount = 4
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_cornwall_tungsten_deposits_2 = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 290
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 290
+			controls_state = 290
+		}
+
+		visible = {
+			owns_state = 290
+			controls_state = 290
+			290 = {
+				NOT = {
+					has_state_flag = cornwall_tungsten_developed_2
+				}
+				has_state_flag = cornwall_tungsten_developed
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			290 = { set_state_flag = cornwall_tungsten_developed_2 }
+			290 = {
+				add_resource = {
+					type = tungsten
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_leningrad_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+			#Everyone
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 514
+			}
+		}
+
+		available = {
+			has_full_control_of_state = 514
+			num_of_civilian_factories_available_for_projects > 2
+			has_tech = excavation2
+			controls_state = 514
+		}
+
+		visible = {
+			controls_state = 514
+			514 = { NOT = { has_state_flag = leningrad_aluminium_developed } }
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			514 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+				set_state_flag = leningrad_aluminium_developed
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+			factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_kamensk_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+			#Everyone
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 542
+			}
+		}
+
+		available = {
+			has_full_control_of_state = 542
+			num_of_civilian_factories_available_for_projects > 2
+			has_tech = excavation2
+			controls_state = 542
+		}
+
+		visible = {
+			controls_state = 542
+			542 = { NOT = { has_state_flag = kamensk_aluminium_developed } }
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			542 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+				set_state_flag = kamensk_aluminium_developed
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_stalingrad_aluminium_deposits = {
+
+		icon = aluminium
+
+		allowed = {
+			#Everyone
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 539
+			}
+		}
+
+		available = {
+			has_full_control_of_state = 539
+			num_of_civilian_factories_available_for_projects > 2
+			has_tech = excavation4
+			controls_state = 539
+		}
+
+		visible = {
+			controls_state = 539
+			539 = { NOT = { has_state_flag = stalingrad_aluminium_developed } }
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			539 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+				set_state_flag = stalingrad_aluminium_developed
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_caucasus_tungsten_deposits_1 = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 538
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 538
+			controls_state = 538
+		}
+
+		visible = {
+			owns_state = 538
+			controls_state = 538
+			538 = {
+				NOT = {
+					has_state_flag = caucasus_tungsten_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			538 = { set_state_flag = caucasus_tungsten_developed }
+			538 = {
+				add_resource = {
+					type = tungsten
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_caucasus_tungsten_deposits_2 = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 538
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 538
+			controls_state = 538
+		}
+
+		visible = {
+			owns_state = 538
+			controls_state = 538
+			538 = {
+				NOT = {
+					has_state_flag = caucasus_tungsten_developed_2
+				}
+				has_state_flag = caucasus_tungsten_developed
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			538 = { set_state_flag = caucasus_tungsten_developed_2 }
+			538 = {
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_kyzyl_tungsten_deposits = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 169
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 169
+			controls_state = 169
+		}
+
+		visible = {
+			owns_state = 169
+			controls_state = 169
+			has_tech = excavation3
+			169 = {
+				NOT = {
+					has_state_flag = kyzla_tungsten_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			169 = { set_state_flag = kyzla_tungsten_developed }
+			169 = {
+				add_resource = {
+					type = tungsten
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_chelyabinsk_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 542
+			}
+		}
+
+		available = {
+			has_tech = construction4
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 542
+			controls_state = 542
+			has_tech = construction3
+		}
+
+		visible = {
+			owns_state = 542
+			controls_state = 542
+			has_tech = construction3
+			542 = {
+				NOT = {
+					has_state_flag = {
+						flag = chelyabinsk_steel_developed
+						value = 3
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			542 = {
+				if = {
+					limit = {
+						not = {
+							has_state_flag = chelyabinsk_steel_developed
+						}
+					}
+					set_state_flag = {
+						flag = chelyabinsk_steel_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = chelyabinsk_steel_developed
+						value = 1
+					}
+				}
+			}
+			542 = {
+				add_resource = {
+					type = steel
+					amount = 20
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_zlatoust_steel_deposits_1 = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 523
+			}
+		}
+
+		available = {
+			has_tech = construction3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 523
+			controls_state = 523
+		}
+
+		visible = {
+			owns_state = 523
+			controls_state = 523
+			523 = {
+				NOT = {
+					has_state_flag = zlatoust_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			523 = { set_state_flag = zlatoust_steel_developed }
+			523 = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_zlatoust_steel_deposits_2 = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 523
+			}
+		}
+
+		available = {
+			has_tech = construction4
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 523
+			controls_state = 523
+		}
+
+		visible = {
+			owns_state = 523
+			controls_state = 523
+			523 = {
+				NOT = {
+					has_state_flag = zlatoust_steel_developed_2
+				}
+				has_state_flag = zlatoust_steel_developed
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			523 = { set_state_flag = zlatoust_steel_developed_2 }
+			523 = {
+				add_resource = {
+					type = steel
+					amount = 20
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_kursk_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 530
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 8
+			owns_state = 530
+			controls_state = 530
+		}
+
+		visible = {
+			owns_state = 530
+			controls_state = 530
+			530 = {
+				NOT = {
+					has_state_flag = {
+						flag = kursk_steel_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 9
+		}
+
+		days_remove = SOV_kursk_steel_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = SOV_kursk_steel_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = SOV_kursk_steel_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = SOV_kursk_steel_duration value = 30 }
+			530 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = kursk_steel_developed
+						}
+					}
+					set_state_flag = {
+						flag = kursk_steel_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = kursk_steel_developed
+						value = 1
+					}
+				}
+			}
+			530 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_kursk_steel_deposits_2 = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 530
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 530
+			controls_state = 530
+		}
+
+		visible = {
+			owns_state = 530
+			controls_state = 530
+			530 = {
+				NOT = {
+					has_state_flag = {
+						flag = kursk_steel_developed_2
+						value = 5
+					}
+				}
+				has_state_flag = {
+					flag = kursk_steel_developed
+					value = 5
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = SOV_kursk_steel_duration_2?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = SOV_kursk_steel_duration_2 value = 30 compare = less_than }
+				}
+				set_variable = { var = SOV_kursk_steel_duration_2 value = 30 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = SOV_kursk_steel_duration_2 value = 30 }
+			530 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = kursk_steel_developed_2
+						}
+					}
+					set_state_flag = {
+						flag = kursk_steel_developed_2
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = kursk_steel_developed_2
+						value = 1
+					}
+				}
+			}
+			530 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_kursk_steel_deposits_3 = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 530
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 14
+			owns_state = 530
+			controls_state = 530
+		}
+
+		visible = {
+			owns_state = 530
+			controls_state = 530
+			530 = {
+				NOT = {
+					has_state_flag = {
+						flag = kursk_steel_developed_3
+						value = 5
+					}
+				}
+				has_state_flag = {
+					flag = kursk_steel_developed_2
+					value = 5
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 15
+		}
+
+		days_remove = SOV_kursk_steel_duration_3?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = SOV_kursk_steel_duration_3 value = 30 compare = less_than }
+				}
+				set_variable = { var = SOV_kursk_steel_duration_3 value = 30 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = SOV_kursk_steel_duration_3 value = 30 }
+			530 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = kursk_steel_developed_3
+						}
+					}
+					set_state_flag = {
+						flag = kursk_steel_developed_3
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = kursk_steel_developed_3
+						value = 1
+					}
+				}
+			}
+			530 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_Belgorod_steel_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 512
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 8
+			owns_state = 512
+			controls_state = 512
+		}
+
+		visible = {
+			owns_state = 512
+			controls_state = 512
+			512 = {
+				NOT = {
+					has_state_flag = {
+						flag = Belgorod_steel_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 9
+		}
+
+		days_remove = SOV_Belgorod_steel_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = SOV_Belgorod_steel_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = SOV_Belgorod_steel_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = SOV_Belgorod_steel_duration value = 30 }
+			512 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = Belgorod_steel_developed
+						}
+					}
+					set_state_flag = {
+						flag = Belgorod_steel_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = Belgorod_steel_developed
+						value = 1
+					}
+				}
+			}
+			512 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_Belgorod_steel_deposits_2 = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 512
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 512
+			controls_state = 512
+		}
+
+		visible = {
+			owns_state = 512
+			controls_state = 512
+			512 = {
+				NOT = {
+					has_state_flag = {
+						flag = Belgorod_steel_developed_2
+						value = 5
+					}
+				}
+				has_state_flag = {
+					flag = Belgorod_steel_developed
+					value = 5
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = SOV_Belgorod_steel_duration_2?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = SOV_Belgorod_steel_duration_2 value = 30 compare = less_than }
+				}
+				set_variable = { var = SOV_Belgorod_steel_duration_2 value = 30 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = SOV_Belgorod_steel_duration_2 value = 30 }
+			512 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = Belgorod_steel_developed_2
+						}
+					}
+					set_state_flag = {
+						flag = Belgorod_steel_developed_2
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = Belgorod_steel_developed_2
+						value = 1
+					}
+				}
+			}
+			512 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_Belgorod_steel_deposits_3 = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 512
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 14
+			owns_state = 512
+			controls_state = 512
+		}
+
+		visible = {
+			owns_state = 512
+			controls_state = 512
+			512 = {
+				NOT = {
+					has_state_flag = {
+						flag = Belgorod_steel_developed_3
+						value = 5
+					}
+				}
+				has_state_flag = {
+					flag = Belgorod_steel_developed_2
+					value = 5
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 15
+		}
+
+		days_remove = SOV_Belgorod_steel_duration_3?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = SOV_Belgorod_steel_duration_3 value = 30 compare = less_than }
+				}
+				set_variable = { var = SOV_Belgorod_steel_duration_3 value = 30 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = SOV_Belgorod_steel_duration_3 value = 30 }
+			512 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = Belgorod_steel_developed_3
+						}
+					}
+					set_state_flag = {
+						flag = Belgorod_steel_developed_3
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = Belgorod_steel_developed_3
+						value = 1
+					}
+				}
+			}
+			512 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_uralsk_chromium_deposits_1 = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 540
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 540
+			controls_state = 540
+		}
+
+		visible = {
+			owns_state = 540
+			controls_state = 540
+			540 = {
+				NOT = {
+					has_state_flag = uralsk_chromium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			540 = { set_state_flag = uralsk_chromium_developed }
+			540 = {
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_uralsk_chromium_deposits_2 = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 540
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			owns_state = 540
+			controls_state = 540
+			num_of_civilian_factories_available_for_projects > 4
+		}
+
+		visible = {
+			owns_state = 540
+			controls_state = 540
+			540 = {
+				NOT = {
+					has_state_flag = uralsk_chromium_developed_2
+				}
+				has_state_flag = uralsk_chromium_developed
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			540 = { set_state_flag = uralsk_chromium_developed_2 }
+			540 = {
+				add_resource = {
+					type = chromium
+					amount = 15
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_liaotung_iron_ore_deposits = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 158
+			}
+		}
+
+		available = {
+			has_tech = construction3
+			num_of_civilian_factories_available_for_projects > 2
+			has_tech = excavation1
+			owns_state = 158
+			controls_state = 158
+		}
+
+		visible = {
+			owns_state = 158
+			controls_state = 158
+			158 = {
+				NOT = {
+					has_state_flag = liaotung_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			158 = { set_state_flag = liaotung_steel_developed }
+			158 = {
+				add_resource = {
+					type = steel
+					amount = 16
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_chosen_tungsten_deposits = {
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 172
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 172
+			controls_state = 172
+		}
+
+		visible = {
+			owns_state = 172
+			controls_state = 172
+			172 = {
+				NOT = {
+					has_state_flag = {
+						flag = chosin_tungsten_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = chosin_tungsten_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = chosin_tungsten_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = chosin_tungsten_duration value = 30 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = chosin_tungsten_duration value = 30 }
+			172 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = chosin_tungsten_developed
+						}
+					}
+					set_state_flag = {
+						flag = chosin_tungsten_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = chosin_tungsten_developed
+						value = 1
+					}
+				}
+			}
+			172 = {
+				add_resource = {
+					type = tungsten
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_abu_dhabi_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 688
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			num_of_civilian_factories_available_for_projects > 6
+			owns_state = 688
+			controls_state = 688
+		}
+
+		visible = {
+			owns_state = 688
+			controls_state = 688
+			has_tech = excavation5
+			688 = {
+				NOT = {
+					has_state_flag = abu_dhabi_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 9
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		remove_effect = {
+			688 = {
+				set_state_flag = abu_dhabi_developed
+			}
+			688 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_kuwait_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 687
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			owns_state = 687
+			controls_state = 687
+			num_of_civilian_factories_available_for_projects > 11
+		}
+
+		visible = {
+			owns_state = 687
+			controls_state = 687
+			has_tech = excavation2
+			687 = {
+				NOT = {
+					has_state_flag = {
+						flag = kuwait_oil_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = kuwait_oil_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = kuwait_oil_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = kuwait_oil_duration value = 60 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = kuwait_oil_duration value = 30 }
+			687 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = kuwait_oil_developed
+						}
+					}
+					set_state_flag = {
+						flag = kuwait_oil_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = kuwait_oil_developed
+						value = 1
+					}
+				}
+			}
+			687 = {
+				add_resource = {
+					type = oil
+					amount = 18
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_khuzestan_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 681
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 8
+			owns_state = 681
+			controls_state = 681
+		}
+
+		visible = {
+			owns_state = 681
+			controls_state = 681
+			has_tech = excavation2
+			681 = {
+				NOT = {
+					has_state_flag = khuzestan_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 9
+		}
+
+		days_remove = 180
+
+		cost = 25
+
+		remove_effect = {
+			681 = {
+				set_state_flag = khuzestan_developed
+			}
+			681 = {
+				add_resource = {
+					type = oil
+					amount = 16
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_fars_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 695
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 695
+			controls_state = 695
+		}
+
+		visible = {
+			owns_state = 695
+			controls_state = 695
+			has_tech = excavation3
+			695 = {
+				NOT = {
+					has_state_flag = fars_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		remove_effect = {
+			695 = {
+				set_state_flag = fars_developed
+			}
+			695 = {
+				add_resource = {
+					type = oil
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_baghdad_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 680
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			num_of_civilian_factories_available_for_projects > 11
+			owns_state = 680
+			controls_state = 680
+		}
+
+		visible = {
+			owns_state = 680
+			controls_state = 680
+			has_tech = excavation4
+			680 = {
+				NOT = {
+					has_state_flag = baghdad_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 12
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			680 = {
+				set_state_flag = baghdad_developed
+			}
+			680 = {
+				add_resource = {
+					type = oil
+					amount = 18
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_mosul_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 426
+			}
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 426
+			controls_state = 426
+		}
+
+		visible = {
+			owns_state = 426
+			controls_state = 426
+			has_tech = excavation3
+			426 = {
+				NOT = {
+					has_state_flag = mosul_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 15
+		}
+
+		days_remove = 180
+
+		cost = 25
+
+		remove_effect = {
+			426 = {
+				set_state_flag = mosul_developed
+			}
+			426 = {
+				add_resource = {
+					type = oil
+					amount = 28
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_nejd_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 687
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			owns_state = 687
+			controls_state = 687
+			num_of_civilian_factories_available_for_projects > 14
+		}
+
+		visible = {
+			owns_state = 687
+			controls_state = 687
+			has_tech = excavation4
+			687 = {
+				NOT = {
+					has_state_flag = {
+						flag = nejd_oil_developed
+						value = 5
+					}
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 15
+		}
+
+		days_remove = nejd_oil_duration?30
+
+		cost = 25
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = nejd_oil_duration value = 30 compare = less_than }
+				}
+				set_variable = { var = nejd_oil_duration value = 60 }
+			}
+		}
+
+		remove_effect = {
+			add_to_variable = { var = nejd_oil_duration value = 30 }
+			687 = {
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = nejd_oil_developed
+						}
+					}
+					set_state_flag = {
+						flag = nejd_oil_developed
+						value = 1
+					}
+				}
+				else = {
+					modify_state_flag = {
+						flag = nejd_oil_developed
+						value = 1
+					}
+				}
+			}
+			687 = {
+				add_resource = {
+					type = oil
+					amount = 22
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_eastern_desert_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 393
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 393
+			controls_state = 393
+		}
+
+		visible = {
+			owns_state = 393
+			controls_state = 393
+			has_tech = excavation2
+			393 = {
+				NOT = {
+					has_state_flag = eastern_desert_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			393 = {
+				set_state_flag = eastern_desert_developed
+			}
+			393 = {
+				add_resource = {
+					type = oil
+					amount = 6
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_qatar_oil_fields = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 688
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 5
+			owns_state = 688
+			controls_state = 688
+		}
+
+		visible = {
+			owns_state = 688
+			controls_state = 688
+			has_tech = excavation2
+			688 = {
+				NOT = {
+					has_state_flag = qatar_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 6
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			688 = {
+				set_state_flag = qatar_developed
+			}
+			688 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_malatya_chromium_deposits = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 696
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 4
+			owns_state = 696
+			controls_state = 696
+		}
+
+		visible = {
+			owns_state = 696
+			controls_state = 696
+			696 = {
+				NOT = {
+					has_state_flag = malatya_chromium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		days_remove = 90
+
+		cost = 25
+
+		remove_effect = {
+			696 = { set_state_flag = malatya_chromium_developed }
+			696 = {
+				add_resource = {
+					type = chromium
+					amount = 15
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_mersin_chromium_mines = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 672
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 5
+			owns_state = 672
+			controls_state = 672
+		}
+
+		visible = {
+			owns_state = 672
+			controls_state = 672
+			672 = {
+				NOT = {
+					has_state_flag = mersin_chromium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 6
+		}
+
+		days_remove = 120
+
+		cost = 25
+
+		remove_effect = {
+			672 = { set_state_flag = mersin_chromium_developed }
+			672 = {
+				add_resource = {
+					type = chromium
+					amount = 34
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	utilize_diyarbakir_chromium_deposits = {
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 422
+			}
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 3
+			owns_state = 422
+			controls_state = 422
+		}
+
+		visible = {
+			owns_state = 422
+			controls_state = 422
+			422 = {
+				NOT = {
+					has_state_flag = diyarbakir_chromium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 4
+		}
+
+		days_remove = 180
+
+		cost = 25
+
+		remove_effect = {
+			422 = { set_state_flag = biyarbakir_chromium_developed }
+			422 = {
+				add_resource = {
+					type = chromium
+					amount = 36
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+	}
+
+	expand_the_kirikkale_steel_mills = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 696
+			}
+		}
+
+		available = {
+			has_tech = construction3
+			num_of_civilian_factories_available_for_projects > 14
+			owns_state = 696
+			controls_state = 696
+		}
+
+		visible = {
+			owns_state = 696
+			controls_state = 696
+			696 = {
+				NOT = {
+					has_state_flag = ankara_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 15
+		}
+
+		days_remove = 45
+
+		cost = 25
+
+		remove_effect = {
+			696 = {
+				set_state_flag = ankara_steel_developed
+			}
+			696 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	develop_the_iron_mines_in_divrigi = {
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 422
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 19
+			owns_state = 422
+			controls_state = 422
+		}
+
+		visible = {
+			has_tech = excavation2
+			owns_state = 422
+			controls_state = 422
+			422 = {
+				NOT = {
+					has_state_flag = sivas_steel_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 20
+		}
+
+		days_remove = 40
+
+		cost = 25
+
+		remove_effect = {
+			422 = {
+				set_state_flag = sivas_steel_developed
+			}
+			422 = {
+				add_resource = {
+					type = steel
+					amount = 28
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+	}
+
+	exploit_the_raman_oil_field = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 422
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 9
+			owns_state = 422
+			controls_state = 422
+		}
+
+		visible = {
+			has_tech = excavation1
+			owns_state = 422
+			controls_state = 422
+			422 = {
+				NOT = {
+					has_state_flag = raman_oil_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 10
+		}
+
+		days_remove = 60
+
+		cost = 25
+
+		remove_effect = {
+			422 = {
+				set_state_flag = raman_oil_developed
+			}
+			422 = {
+				add_resource = {
+					type = oil
+					amount = 16
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	drill_in_the_garzan_oil_field = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 422
+			}
+		}
+
+		available = {
+			has_tech = excavation4
+			num_of_civilian_factories_available_for_projects > 15
+			owns_state = 422
+			controls_state = 422
+		}
+
+		visible = {
+			owns_state = 422
+			controls_state = 422
+			422 = {
+				NOT = {
+					has_state_flag = garzan_oil_developed
+				}
+			}
+			has_tech = excavation3
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 16
+		}
+
+		days_remove = 80
+
+		cost = 25
+
+		remove_effect = {
+			422 = {
+				set_state_flag = garzan_oil_developed
+			}
+			422 = {
+				add_resource = {
+					type = oil
+					amount = 14
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+
+	expand_the_west_raman_oil_field = {
+
+		icon = oil
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_states_trigger = {
+				state = 422
+			}
+		}
+
+		available = {
+			has_tech = excavation5
+			num_of_civilian_factories_available_for_projects > 24
+			owns_state = 422
+			controls_state = 422
+		}
+
+		visible = {
+			owns_state = 422
+			controls_state = 422
+			422 = {
+				NOT = {
+					has_state_flag = west_raman_oil_developed
+				}
+			}
+			has_tech = excavation4
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 25
+		}
+
+		days_remove = 180
+
+		cost = 25
+
+		remove_effect = {
+			422 = {
+				set_state_flag = west_raman_oil_developed
+			}
+			422 = {
+				add_resource = {
+					type = oil
+					amount = 36
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {
+				factor = 0
+				AND = { #Too low MP we need to save PP for the laws
+					has_manpower < 10000
+					NOT = { has_idea = scraping_the_barrel }
+				}
+			}
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_available_resources_in_country = {
+					resource = oil
+					amount < 1
+				}
+			}
+		}
+	}
+}
+

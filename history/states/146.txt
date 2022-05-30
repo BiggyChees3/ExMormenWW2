@@ -1,0 +1,36 @@
+
+state={
+	id=146
+	name="STATE_146"
+	resources={
+		aluminium=6.000
+		steel=4.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			7014 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			7014 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		4042 7014 11928 12076 
+	}
+	manpower=375464
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

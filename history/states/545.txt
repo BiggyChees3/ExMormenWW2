@@ -1,0 +1,30 @@
+
+state={
+	id=545
+	name="STATE_545"
+
+	history={
+		owner = SOV
+		victory_points = {
+			6085 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = JAP
+		add_claim_by = SOV
+	}
+
+	provinces={
+		6085 9224 13065 
+	}
+	manpower=10229
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

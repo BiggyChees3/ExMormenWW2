@@ -1,0 +1,33 @@
+
+state={
+	id=3
+	name="STATE_3"
+
+	history={
+		owner = X00
+		victory_points = {
+			13050 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			13050 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X00
+		add_claim_by = X10
+	}
+
+	provinces={
+		13050 
+	}
+	manpower=2231
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

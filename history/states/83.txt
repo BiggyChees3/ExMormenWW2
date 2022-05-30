@@ -1,0 +1,39 @@
+
+state={
+	id=83
+	name="STATE_83"
+	resources={
+		oil=2.000
+		rubber=0.000
+		steel=4.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = X03
+		victory_points = {
+			12338 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 2
+			dockyard = 3
+			11929 = {
+				naval_base = 1
+			}
+			air_base = 4
+
+		}
+		add_core_of = X03
+	}
+
+	provinces={
+		1497 4616 7455 7565 7662 9993 10349 10389 10416 10443 11929 12338 12366 12395 12423 13208 
+	}
+	manpower=1140298
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

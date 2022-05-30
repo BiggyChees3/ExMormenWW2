@@ -1,0 +1,148 @@
+﻿converted_war_strategies_X00 = {
+	enable = {
+		tag = X00
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 3007
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X03"
+		value = 251
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X09"
+		value = 156
+	}
+}
+
+converted_diplo_strategies_X00 = {
+	enable = {
+		tag = X00
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 249
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 245
+	}
+	ai_strategy = {
+		type = contain
+		id = "UZB"
+		value = 177
+	}
+	ai_strategy = {
+		type = contain
+		id = "X12"
+		value = 172
+	}
+	ai_strategy = {
+		type = contain
+		id = "X03"
+		value = 133
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 108
+	}
+	ai_strategy = {
+		type = contain
+		id = "X09"
+		value = 83
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 325
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X09"
+		value = 156
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X03"
+		value = 142
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "UZB"
+		value = 106
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X12"
+		value = 103
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 56
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 166
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 85
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 55
+	}
+	ai_strategy = {
+		type = protect
+		id = "X12"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "UZB"
+		value = 40
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "UZB"
+		value = 66
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X09"
+		value = 33
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "JAP"
+		value = 25
+	}
+}

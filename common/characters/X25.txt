@@ -1,0 +1,16 @@
+characters={
+	X25_thomas_dannemand={
+		name=X25_thomas_dannemand
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

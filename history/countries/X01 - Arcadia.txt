@@ -1,0 +1,506 @@
+﻿capital = 10
+set_major = yes
+set_research_slots = 4
+add_named_threat = { threat = 1.736 name = infamy }
+
+oob = "X01_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X01_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X01_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fighter1 = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	marines = 1
+	motorised_infantry = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tactical_bomber1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		basic_light_tank = 1
+		gwtank = 1
+		improved_light_tank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_naval_mines = 1
+		basic_secondary_battery = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+		sonar = 1
+		submarine_mine_laying = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		basic_heavy_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		gwtank_chassis = 1
+		improved_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = air_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = air_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = naval_doctrine
+}
+
+set_country_flag = conv_us_north_east
+set_convoys = 135
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 269 producer = X01 }
+add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 50 producer = X01 }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 20 producer = X01 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1544 producer = X01 }
+add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 50 producer = X01 }
+
+set_politics = {
+    ruling_party = communism
+    last_election = "1923.12.29"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = X29
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = X29
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = X01_research
+}
+
+give_guarantee = COL
+diplomatic_relation = { country = COL relation = non_aggression_pact }
+
+give_guarantee = SCA
+diplomatic_relation = { country = SCA relation = non_aggression_pact }
+
+give_guarantee = TUR
+diplomatic_relation = { country = TUR relation = non_aggression_pact }
+
+give_guarantee = X03
+diplomatic_relation = { country = X03 relation = non_aggression_pact }
+
+give_guarantee = X08
+diplomatic_relation = { country = X08 relation = non_aggression_pact }
+
+give_guarantee = X11
+diplomatic_relation = { country = X11 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = CHI modifier = negative_189 }
+give_military_access = CHI
+add_opinion_modifier = { target = COL modifier = negative_163 }
+add_opinion_modifier = { target = ETH modifier = negative_200 }
+set_truce = { target = ETH days = 1823 }
+add_opinion_modifier = { target = GER modifier = negative_200 }
+set_truce = { target = GER days = 1823 }
+add_opinion_modifier = { target = HOL modifier = negative_200 }
+set_truce = { target = HOL days = 1823 }
+add_opinion_modifier = { target = ITA modifier = negative_200 }
+set_truce = { target = ITA days = 1823 }
+add_opinion_modifier = { target = JAP modifier = negative_195 }
+set_truce = { target = JAP days = 220 }
+add_opinion_modifier = { target = SCA modifier = positive_165 }
+give_military_access = SCA
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+add_opinion_modifier = { target = SPR modifier = negative_200 }
+set_truce = { target = SPR days = 1823 }
+add_opinion_modifier = { target = TUR modifier = negative_106 }
+give_military_access = TUR
+add_opinion_modifier = { target = X00 modifier = negative_100 }
+add_opinion_modifier = { target = X02 modifier = positive_50 }
+add_opinion_modifier = { target = X04 modifier = negative_170 }
+add_opinion_modifier = { target = X05 modifier = negative_200 }
+set_truce = { target = X05 days = 1823 }
+add_opinion_modifier = { target = X06 modifier = positive_110 }
+add_opinion_modifier = { target = X07 modifier = negative_200 }
+set_truce = { target = X07 days = 1823 }
+add_opinion_modifier = { target = X08 modifier = positive_100 }
+add_opinion_modifier = { target = X09 modifier = negative_10 }
+add_opinion_modifier = { target = X10 modifier = negative_200 }
+add_opinion_modifier = { target = X11 modifier = negative_200 }
+add_opinion_modifier = { target = X13 modifier = negative_198 }
+
+
+add_ideas = {
+	great_power
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_septiman
+}
+set_stability = 0.60
+set_war_support = 0.59
+
+recruit_character = X01_theodore_roosevelt
+recruit_character = X01_leopold_dumont
+recruit_character = X01_desire_van_snick
+recruit_character = X01_emile_le_cocq
+recruit_character = X01_victor_seron
+recruit_character = X01_edmond_de_grez
+recruit_character = X01_francois_rogier
+recruit_character = X01_francois_de_ligne
+recruit_character = X01_albert_de_dixmude
+recruit_character = X01_philippe_joseph_huysman_d'annecroix
+recruit_character = X01_henri_berthels
+recruit_character = X01_patrice_dumont
+recruit_character = X01_werner_thorn
+recruit_character = X01_clement_jottrand
+recruit_character = X01_auguste_de_beaufort
+recruit_character = X01_francois_du_bus
+recruit_character = X01_clement_clerix
+recruit_character = X01_jean_jacques_desmanet_de_biesme
+recruit_character = X01_gustave_frison
+recruit_character = X01_paul_rouppe
+recruit_character = X01_gilles_de_quarre
+recruit_character = X01_fernand_jacques
+recruit_character = X01_etienne_biver
+recruit_character = X01_blaise_gendebien
+recruit_character = X01_alexis_dhanis
+recruit_character = X01_baudouin_biver
+recruit_character = X01_gustave_thonus
+recruit_character = X01_pierre_guillaume_lebeau
+recruit_character = X01_hubert_forgeur
+recruit_character = X01_werner_zoude
+recruit_character = X01_constant_dethier
+recruit_character = X01_henri_berger
+recruit_character = X01_jean_nalinne
+recruit_character = X01_olivier_rouppe
+recruit_character = X01_felix_jottrand
+recruit_character = X01_auguste_rouppe
+recruit_character = X01_nicolas_rouppe
+recruit_character = X01_alexis_de_ligne
+recruit_character = X01_baudouin_dewandre
+recruit_character = X01_antoine_coquilhat
+recruit_character = X01_florent_leclercq
+recruit_character = X01_sebastien_lefebvre
+recruit_character = X01_jean_defacqz
+recruit_character = X01_hercule_deguise
+recruit_character = X01_leonard_nalinne
+recruit_character = X01_guillaume_fallon
+recruit_character = X01_desire_de_robaulx
+recruit_character = X01_jean_dewandre
+recruit_character = X01_mathieu_de_riquet
+recruit_character = X01_edmond_dreze
+recruit_character = X01_florent_de_pelichy
+recruit_character = X01_alexandre_dewandre
+recruit_character = X01_frederic_de_decker
+recruit_character = X01_laurent_de_waha
+recruit_character = X01_patrice_blargnies
+recruit_character = X01_ignace_frison
+recruit_character = X01_francois_de_theux_de_meylandt
+recruit_character = X01_henri_de_riquet
+recruit_character = X01_emmanuel_berger
+recruit_character = X01_laurent_delacroix
+recruit_character = X01_barthelemy_de_melin
+recruit_character = X01_louis_baugniet
+recruit_character = X01_jean_baptiste_de_beaufort
+recruit_character = X01_paul_du_val_de_beaulieu
+recruit_character = X01_hubert_du_bois
+recruit_character = X01_desire_baugniet
+recruit_character = X01_albert_defacqz
+recruit_character = X01_isidore_marcq
+recruit_character = X01_pierre_guillaume_claus
+recruit_character = X01_charles_deville
+recruit_character = X01_georges_baugniet
+recruit_character = X01_gerard_delacroix
+recruit_character = X01_theophile_de_lannoy
+recruit_character = X01_alexis_de_celles
+recruit_character = X01_barthelemy_d'oreye
+recruit_character = X01_alexis_deguise
+recruit_character = X01_hubert_de_secus
+recruit_character = X01_jacques_d'oreye
+recruit_character = X01_georges_de_robaulx
+recruit_character = X01_isidore_de_bocarme
+recruit_character = X01_werner_de_merode
+recruit_character = X01_vincent_de_rouille
+recruit_character = X01_jules_frison
+recruit_character = X01_pascal_de_stassart
+recruit_character = X01_etienne_de_stockem
+recruit_character = X01_didier_malou
+recruit_character = X01_camille_de_burlet
+recruit_character = X01_blaise_d'huart
+recruit_character = X01_jean_baptiste_de_decker
+recruit_character = X01_feullien_de_lannoy
+recruit_character = X01_francois_de_hemptinne
+recruit_character = X01_constant_de_secus
+recruit_character = X01_feullien_fallon
+recruit_character = X01_alexis_biver
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = X01_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = X01_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = X01_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X01_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X01_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "Basic Heavy Tank"
+		type = heavy_tank_chassis_1
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Basic Medium Tank"
+		type = medium_tank_chassis_1
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Improved Light Tank"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+		}
+	}
+}

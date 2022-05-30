@@ -1,0 +1,16 @@
+characters={
+	X18_oreste_d'austria_este={
+		name=X18_oreste_d'austria_este
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_Italy_Carlo_Sforza.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=648
+	name="STATE_648"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = SPR
+		add_core_of = SPR
+	}
+
+	provinces={
+		1958 8035 8088 10779 10838 
+	}
+	manpower=9892
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

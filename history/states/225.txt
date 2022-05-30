@@ -1,0 +1,33 @@
+
+state={
+	id=225
+	name="STATE_225"
+	resources={
+		oil=10.000
+		steel=24.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			1836 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		1752 1836 1870 3719 3750 4759 4772 4839 6722 7877 10685 10709 12566 12685 
+	}
+	manpower=53050
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

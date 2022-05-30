@@ -1,0 +1,32 @@
+
+state={
+	id=674
+	name="STATE_674"
+	resources={
+		steel=16.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			4111 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		1074 4111 4486 4550 7184 7513 10383 12316 12442 
+	}
+	manpower=104806
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

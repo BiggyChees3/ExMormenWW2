@@ -1,0 +1,38 @@
+
+state={
+	id=172
+	name="STATE_172"
+	resources={
+		steel=4.000
+		tungsten=11.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			7155 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			1003 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = KOR
+		add_claim_by = JAP
+	}
+
+	provinces={
+		848 1003 4004 4107 7070 7155 9981 10065 11915 11958 12040 
+	}
+	manpower=262553
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

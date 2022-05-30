@@ -1,0 +1,36 @@
+
+state={
+	id=417
+	name="STATE_417"
+	resources={
+		aluminium=3.000
+		chromium=3.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			914 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			9780 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		914 3448 3884 3896 6900 9780 9875 9914 11762 11767 13234 13235 
+	}
+	manpower=123238
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

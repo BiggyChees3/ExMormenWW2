@@ -1,0 +1,35 @@
+
+state={
+	id=439
+	name="STATE_439"
+
+	history={
+		owner = HOL
+		victory_points = {
+			13016 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			13016 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = HOL
+		add_claim_by = X04
+		add_claim_by = X05
+		add_claim_by = X07
+	}
+
+	provinces={
+		13016 
+	}
+	manpower=3440
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

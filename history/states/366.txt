@@ -1,0 +1,33 @@
+
+state={
+	id=366
+	name="STATE_366"
+
+	history={
+		owner = ITA
+		victory_points = {
+			9907 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			11833 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		910 1616 6875 6946 9750 9879 9907 11833 11889 
+	}
+	manpower=328258
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

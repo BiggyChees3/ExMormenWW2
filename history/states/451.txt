@@ -1,0 +1,36 @@
+
+state={
+	id=451
+	name="STATE_451"
+	resources={
+		rubber=11.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			4273 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			4273 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		1298 4273 4301 7293 7321 10175 10191 12162 12219 12234 
+	}
+	manpower=269787
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

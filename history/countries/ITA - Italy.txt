@@ -1,0 +1,610 @@
+﻿capital = 370
+set_major = yes
+set_research_slots = 4
+add_named_threat = { threat = 1.7789 name = infamy }
+
+oob = "ITA_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ITA_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "ITA_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	fighter1 = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	marines = 1
+	motorised_infantry = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tactical_bomber1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		basic_light_tank = 1
+		gwtank = 1
+		improved_light_tank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_naval_mines = 1
+		basic_secondary_battery = 1
+		basic_ship_hull_cruiser = 1
+		basic_ship_hull_heavy = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_carrier = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+		smoke_generator = 1
+		sonar = 1
+		submarine_mine_laying = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		basic_heavy_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		gwtank_chassis = 1
+		improved_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		basic_battleship = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_light_cruiser = 1
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = air_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = air_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = naval_doctrine
+}
+
+set_country_flag = conv_italy
+starting_train_buffer = 1.5
+set_convoys = 37
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 39 producer = ITA }
+add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 1070 producer = ITA }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 8100 producer = ITA }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3696 producer = ITA }
+add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 1070 producer = ITA }
+
+set_politics = {
+    ruling_party = fascism
+    last_election = "1917.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 79
+	neutrality = 21
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = KOR
+        autonomous_state = autonomy_integrated_puppet
+    }
+    set_autonomy = {
+        target = X16
+        autonomous_state = autonomy_integrated_puppet
+    }
+    set_autonomy = {
+        target = X17
+        autonomous_state = autonomy_integrated_puppet
+    }
+    set_autonomy = {
+        target = X18
+        autonomous_state = autonomy_integrated_puppet
+    }
+    set_autonomy = {
+        target = X19
+        autonomous_state = autonomy_integrated_puppet
+    }
+    else = {
+        set_autonomy = {
+            target = KOR
+            autonomous_state = autonomy_puppet
+        }
+        set_autonomy = {
+            target = X16
+            autonomous_state = autonomy_puppet
+        }
+        set_autonomy = {
+            target = X17
+            autonomous_state = autonomy_puppet
+        }
+        set_autonomy = {
+            target = X18
+            autonomous_state = autonomy_puppet
+        }
+        set_autonomy = {
+            target = X19
+            autonomous_state = autonomy_puppet
+        }
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ITA_research
+}
+
+give_guarantee = ETH
+diplomatic_relation = { country = ETH relation = non_aggression_pact }
+
+give_guarantee = GER
+diplomatic_relation = { country = GER relation = non_aggression_pact }
+
+give_guarantee = HOL
+diplomatic_relation = { country = HOL relation = non_aggression_pact }
+
+give_guarantee = SPR
+diplomatic_relation = { country = SPR relation = non_aggression_pact }
+
+give_guarantee = X06
+diplomatic_relation = { country = X06 relation = non_aggression_pact }
+
+give_guarantee = X07
+diplomatic_relation = { country = X07 relation = non_aggression_pact }
+
+give_guarantee = X09
+diplomatic_relation = { country = X09 relation = non_aggression_pact }
+
+give_guarantee = X11
+diplomatic_relation = { country = X11 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = CHI modifier = negative_200 }
+set_truce = { target = CHI days = 1823 }
+add_opinion_modifier = { target = COL modifier = negative_200 }
+set_truce = { target = COL days = 1823 }
+add_opinion_modifier = { target = ETH modifier = positive_200 }
+give_military_access = ETH
+add_opinion_modifier = { target = GER modifier = negative_77 }
+add_opinion_modifier = { target = HOL modifier = negative_110 }
+add_opinion_modifier = { target = JAP modifier = negative_195 }
+set_truce = { target = JAP days = 887 }
+add_opinion_modifier = { target = KOR modifier = positive_196 }
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+set_truce = { target = SCA days = 1823 }
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+set_truce = { target = SOV days = 1823 }
+add_opinion_modifier = { target = SPR modifier = negative_146 }
+give_military_access = SPR
+add_opinion_modifier = { target = TUR modifier = negative_200 }
+set_truce = { target = TUR days = 1823 }
+add_opinion_modifier = { target = UZB modifier = negative_35 }
+add_opinion_modifier = { target = X00 modifier = positive_106 }
+add_opinion_modifier = { target = X01 modifier = negative_200 }
+set_truce = { target = X01 days = 1823 }
+add_opinion_modifier = { target = X02 modifier = negative_200 }
+add_opinion_modifier = { target = X03 modifier = negative_200 }
+set_truce = { target = X03 days = 1823 }
+add_opinion_modifier = { target = X04 modifier = positive_60 }
+add_opinion_modifier = { target = X05 modifier = negative_200 }
+add_opinion_modifier = { target = X06 modifier = positive_200 }
+add_opinion_modifier = { target = X07 modifier = positive_132 }
+give_military_access = X07
+add_opinion_modifier = { target = X08 modifier = negative_200 }
+set_truce = { target = X08 days = 1823 }
+add_opinion_modifier = { target = X09 modifier = positive_147 }
+add_opinion_modifier = { target = X10 modifier = negative_200 }
+set_truce = { target = X10 days = 1823 }
+add_opinion_modifier = { target = X11 modifier = negative_200 }
+add_opinion_modifier = { target = X12 modifier = negative_195 }
+add_opinion_modifier = { target = X13 modifier = negative_200 }
+
+
+add_ideas = {
+	great_power
+	vittoria_mutilata
+	volunteer_only
+	partial_economic_mobilisation
+	limited_exports
+	culture_north_italian
+}
+set_stability = 0.60
+set_war_support = 0.57
+
+recruit_character = ITA_luigi_cadorna
+recruit_character = ITA_benito_baratieri
+recruit_character = ITA_enrico_cagni
+recruit_character = ITA_ugo_solari
+recruit_character = ITA_guglielmo_presbitero
+recruit_character = ITA_tancredi_di_savoia
+recruit_character = ITA_girolamo_d'austria_este
+recruit_character = ITA_silvio_di_robilant
+recruit_character = ITA_oreste_zupelli
+recruit_character = ITA_simone_sanna
+recruit_character = ITA_antonio_saletta
+recruit_character = ITA_tancredi_giardino
+recruit_character = ITA_federico_porro
+recruit_character = ITA_innocenzo_menabrea
+recruit_character = ITA_francesco_vaccari
+recruit_character = ITA_pasquale_vaccari
+recruit_character = ITA_simone_cialdini
+recruit_character = ITA_amedeo_giardino
+recruit_character = ITA_ruggiero_pelloux
+recruit_character = ITA_alfonso_pacoret_de_saint_bon
+recruit_character = ITA_enrico_vaccari
+recruit_character = ITA_silvio_emo
+recruit_character = ITA_pasquale_d'austria_este
+recruit_character = ITA_roberto_fara
+recruit_character = ITA_enrico_acton
+recruit_character = ITA_benito_fara
+recruit_character = ITA_ugo_giardino
+recruit_character = ITA_benito_emo
+recruit_character = ITA_matteo_saletta
+recruit_character = ITA_davide_caviglia
+recruit_character = ITA_ferdinando_bava_beccaris
+recruit_character = ITA_innocenzo_cadorna
+recruit_character = ITA_ugo_bava_beccaris
+recruit_character = ITA_ettore_capello
+recruit_character = ITA_vincenzo_ricotti_magnani
+recruit_character = ITA_alfonso_capello
+recruit_character = ITA_francesco_caviglia
+recruit_character = ITA_antonio_pellion_di_persano
+recruit_character = ITA_felice_capello
+recruit_character = ITA_roberto_zupelli
+recruit_character = ITA_francesco_solari
+recruit_character = ITA_giuseppe_pelloux
+recruit_character = ITA_federico_solari
+recruit_character = ITA_ambrogio_fara
+recruit_character = ITA_andrea_emo
+recruit_character = ITA_francesco_acton
+recruit_character = ITA_ferdinando_baratieri
+recruit_character = ITA_camillo_acton
+recruit_character = ITA_davide_saletta
+recruit_character = ITA_vincenzo_pelloux
+recruit_character = ITA_carlo_pianelli
+recruit_character = ITA_paolo_capello
+recruit_character = ITA_vittorio_d'austria_este
+recruit_character = ITA_raffaele_presbitero
+recruit_character = ITA_benito_thaon_di_revel
+recruit_character = ITA_prospero_pellion_di_persano
+recruit_character = ITA_camillo_pellion_di_persano
+recruit_character = ITA_fabrizio_giardino
+recruit_character = ITA_amedeo_presbitero
+recruit_character = ITA_matteo_cusani
+recruit_character = ITA_raffaele_sacchi
+recruit_character = ITA_umberto_la_marmora
+recruit_character = ITA_faustino_cusani
+recruit_character = ITA_fabrizio_perruchetti
+recruit_character = ITA_prospero_solari
+recruit_character = ITA_amedeo_menabrea
+recruit_character = ITA_giulio_ricotti_magnani
+recruit_character = ITA_vittorio_dezza
+recruit_character = ITA_oreste_bava_beccaris
+recruit_character = ITA_pietro_pianelli
+recruit_character = ITA_faustino_govone
+recruit_character = ITA_matteo_cusani_1
+recruit_character = ITA_guglielmo_cusani
+recruit_character = ITA_giuseppe_mambretti
+recruit_character = ITA_francesco_pelloux
+recruit_character = ITA_ettore_ceccherini
+recruit_character = ITA_gennaro_ceccherini
+recruit_character = ITA_fiorenzo_emo
+recruit_character = ITA_prospero_sanna
+recruit_character = ITA_simone_mambretti
+recruit_character = ITA_simone_acton
+recruit_character = ITA_federico_presbitero
+recruit_character = ITA_fabrizio_ricotti_magnani
+recruit_character = ITA_francesco_giardino
+recruit_character = ITA_prospero_canevaro
+recruit_character = ITA_silvio_ramorino
+recruit_character = ITA_guglielmo_di_savoia
+recruit_character = ITA_giuseppe_capello
+recruit_character = ITA_amedeo_caviglia
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Maria Badoglio"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Cadorna"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Govone"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Gennaro Giardino"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Fabrizio d'Austria-Este"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = ship_hull_heavy_2
+		name_group = ITA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_2
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = ITA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = ITA_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_medium_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = ITA_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = ITA_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "Basic Heavy Tank"
+		type = heavy_tank_chassis_1
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Basic Medium Tank"
+		type = medium_tank_chassis_1
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Improved Light Tank"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+		}
+	}
+}

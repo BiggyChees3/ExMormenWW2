@@ -1,0 +1,16 @@
+characters={
+	X28_melchor_fernandez_de_cordoba={
+		name=X28_melchor_fernandez_de_cordoba
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Italy_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=minarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

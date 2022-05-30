@@ -1,0 +1,39 @@
+
+state={
+	id=437
+	name="STATE_437"
+	resources={
+		aluminium=2.000
+		chromium=20.000
+		rubber=1.000
+		steel=4.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			10929 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			2120 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		1874 2120 2151 2216 4851 7842 10929 12935 
+	}
+	manpower=2035454
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

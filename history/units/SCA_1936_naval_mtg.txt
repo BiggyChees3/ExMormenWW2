@@ -1,0 +1,430 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "1st Fleet"
+			location = 7113
+			ship = { name = "Ullr" definition = light_cruiser start_experience_factor = 0.23112 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hekla" definition = light_cruiser start_experience_factor = 0.2244 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Dublin Cruiser" definition = light_cruiser start_experience_factor = 0.22671 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Njord" definition = light_cruiser start_experience_factor = 0.27601 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.22848 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.00996 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.01568 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gudenåen" definition = light_cruiser start_experience_factor = 0.0162 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Riga Cruiser" definition = light_cruiser start_experience_factor = 0.01202 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Fyen" definition = light_cruiser start_experience_factor = 0.00961 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Herluf Trolle" definition = light_cruiser start_experience_factor = 0.01255 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Cork Cruiser" definition = light_cruiser start_experience_factor = 0.09319 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Dublin Cruiser" definition = light_cruiser start_experience_factor = 0.06528 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.06515 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.05978 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.13003 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "St. Thomas" definition = light_cruiser start_experience_factor = 0.02824 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.11914 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.12711 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Dublin Cruiser" definition = light_cruiser start_experience_factor = 0.10208 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.10355 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.018 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Turku Cruiser" definition = light_cruiser start_experience_factor = 0.01839 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Borgholm" definition = light_cruiser start_experience_factor = 0.01154 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Tre Kronor" definition = light_cruiser start_experience_factor = 0.01296 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Ngoyo Cruiser" definition = light_cruiser start_experience_factor = 0.25137 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.20037 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.20294 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.22241 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Cork Cruiser" definition = light_cruiser start_experience_factor = 0.20173 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.20452 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.19996 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.2387 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Heimdal" definition = light_cruiser start_experience_factor = 0.29613 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Søeormen" definition = light_cruiser start_experience_factor = 0.28755 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.29468 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.28641 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.29092 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.29409 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.29643 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.28755 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.2915 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.29468 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.28641 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.29092 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.29409 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.29643 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.28755 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.2915 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.29468 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.28586 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.29064 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.2938 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.29614 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.28699 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.29092 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.29438 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.29614 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.29179 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.29438 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.29643 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.28755 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.29179 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.28641 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.29092 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.29409 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.28755 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.2915 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.29468 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.28977 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.28976 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.29466 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.26497 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.29179 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hoder" definition = light_cruiser start_experience_factor = 0.29498 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.28669 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.29122 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.29409 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.29643 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Vidar" definition = light_cruiser start_experience_factor = 0.28755 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.2915 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Tyr" definition = light_cruiser start_experience_factor = 0.29468 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.28641 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Östersund" definition = light_cruiser start_experience_factor = 0.29409 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Odin" definition = light_cruiser start_experience_factor = 0.29643 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Valkyrien" definition = light_cruiser start_experience_factor = 0.28755 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bragl" definition = light_cruiser start_experience_factor = 0.2915 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Forseti" definition = light_cruiser start_experience_factor = 0.29468 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Geiser" definition = light_cruiser start_experience_factor = 0.28641 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ornen" definition = light_cruiser start_experience_factor = 0.29092 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Göta Lejon" definition = light_cruiser start_experience_factor = 0.29409 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Heimdall" definition = light_cruiser start_experience_factor = 0.2737 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.28755 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.26915 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Claes Horn" definition = light_cruiser start_experience_factor = 0.28641 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Thor" definition = light_cruiser start_experience_factor = 0.29409 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ale" definition = light_cruiser start_experience_factor = 0.29643 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Psilander" definition = light_cruiser start_experience_factor = 0.27782 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.29264 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.29555 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Christianborg Cruiser" definition = light_cruiser start_experience_factor = 0.29263 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.29555 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.28425 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.2884 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.29181 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.29556 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.28019 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.28343 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.28619 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.28869 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.29067 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.29209 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.29353 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.29469 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.29585 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.29644 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Riga Cruiser" definition = light_cruiser start_experience_factor = 0.28343 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.2859 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.28812 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.29009 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.2918 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.29294 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Ngoyo Cruiser" definition = light_cruiser start_experience_factor = 0.29527 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.29585 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Christianborg Cruiser" definition = light_cruiser start_experience_factor = 0.27224 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.28588 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.28867 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.29093 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.29293 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.29438 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.29555 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.2856 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.29007 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.29264 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.29672 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.28672 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.29065 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Riga Cruiser" definition = light_cruiser start_experience_factor = 0.29381 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.28671 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Wakayama Cruiser" definition = light_cruiser start_experience_factor = 0.29121 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.28387 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.29614 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.28838 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.29264 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.29555 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.28809 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.29293 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.29584 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.29207 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.29526 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.29351 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.29643 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.29007 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.29467 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.28922 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.29409 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Ngoyo Cruiser" definition = light_cruiser start_experience_factor = 0.28863 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Christianborg Cruiser" definition = light_cruiser start_experience_factor = 0.2935 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.29672 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Riga Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Wakayama Cruiser" definition = light_cruiser start_experience_factor = 0.2982 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.2994 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Christianborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.29324 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Riga Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Ngoyo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Christianborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Wakayama Cruiser" definition = light_cruiser start_experience_factor = 0.29821 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Turku Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Riga Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Ngoyo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Christianborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Wakayama Cruiser" definition = light_cruiser start_experience_factor = 0.29294 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.29643 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Ngoyo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "18th Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Riga Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "17th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Ngoyo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "15th Christianborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.2994 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Christianssand Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "24th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Turku Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "24th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "19th Wakayama Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Malmö Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "14th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "23rd Göteborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "24th Aalborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Aabenraa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.2997 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Stockholm Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "21st Kalmar Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "25th Ösel Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "24th Turku Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "25th Vaasa Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "13th Ngoyo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "24th Inverness Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "16th Christianborg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "20th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "22nd Glasgow Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "24th Iceland Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "22nd Fleet"
+		naval_base = 5036
+		task_force = {
+			name = "22nd Fleet"
+			location = 5036
+			ship = { name = "Claes Uggla" definition = light_cruiser start_experience_factor = 0.28899 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "9th Fleet"
+			location = 7113
+			ship = { name = "17th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "3rd Fleet"
+			location = 7113
+			ship = { name = "22nd Wakayama Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "4th Fleet"
+			location = 419
+			ship = { name = "26th Godthab Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "5th Fleet"
+			location = 593
+			ship = { name = "25th Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 11105
+		task_force = {
+			name = "6th Fleet"
+			location = 11105
+			ship = { name = "24th Helsinki Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "7th Fleet"
+			location = 1885
+			ship = { name = "28th Riga Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 5036
+		task_force = {
+			name = "8th Fleet"
+			location = 5036
+			ship = { name = "17th Buea Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 5036
+		task_force = {
+			name = "10th Fleet"
+			location = 5036
+			ship = { name = "16th Kribi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "12th Fleet"
+			location = 8691
+			ship = { name = "18th Nacala Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "13th Fleet"
+			location = 2382
+			ship = { name = "Freyr" definition = light_cruiser start_experience_factor = 0.25938 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Trondheim Cruiser" definition = light_cruiser start_experience_factor = 0.27161 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 7113
+		task_force = {
+			name = "11th Fleet"
+			location = 7113
+			ship = { name = "23rd Wakayama Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SCA"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "SCA"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

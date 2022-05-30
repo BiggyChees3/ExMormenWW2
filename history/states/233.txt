@@ -1,0 +1,35 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		aluminium=0.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			1712 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			1712 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		1712 
+	}
+	manpower=6003
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

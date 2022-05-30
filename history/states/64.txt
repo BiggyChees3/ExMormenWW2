@@ -1,0 +1,35 @@
+
+state={
+	id=64
+	name="STATE_64"
+	resources={
+		aluminium=3.000
+		chromium=9.000
+		steel=7.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X02
+		victory_points = {
+			7476 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X02
+	}
+
+	provinces={
+		2190 2218 5223 7476 8148 8210 8233 10931 12903 12909 12923 12938 
+	}
+	manpower=112034
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

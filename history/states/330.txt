@@ -1,0 +1,32 @@
+
+state={
+	id=330
+	name="STATE_330"
+	resources={
+		aluminium=16.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9620 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		636 6683 9618 9620 9638 11601 11604 
+	}
+	manpower=231889
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

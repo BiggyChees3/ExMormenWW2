@@ -1,0 +1,29 @@
+
+state={
+	id=285
+	name="STATE_285"
+
+	history={
+		owner = X08
+		victory_points = {
+			8216 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = X08
+	}
+
+	provinces={
+		2136 8195 8216 8253 12928 12978 
+	}
+	manpower=284425
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

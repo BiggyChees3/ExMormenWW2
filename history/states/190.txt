@@ -1,0 +1,35 @@
+
+state={
+	id=190
+	name="STATE_190"
+	resources={
+		aluminium=2.000
+		chromium=6.000
+		rubber=8.000
+		steel=3.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			10886 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = COL
+
+	}
+
+	provinces={
+		2077 4991 10842 10886 13085 
+	}
+	manpower=161207
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

@@ -1,0 +1,16 @@
+characters={
+	X22_thomas_dannemand={
+		name=X22_thomas_dannemand
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}
