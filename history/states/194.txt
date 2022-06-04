@@ -14,9 +14,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 0
-			arms_factory = 0
-			dockyard = 1
+			##industrial_complex = 0
+			#arms_factory = 0
+			#dockyard = 1
 			1981 = {
 				naval_base = 10
 			}
@@ -30,7 +30,7 @@ state={
 	provinces={
 		1981 3284 10767 10823 10912 12716 
 	}
-	manpower=81950
+	manpower=409758
 	buildings_max_level_factor=1.000
 	state_category=rural
 

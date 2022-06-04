@@ -13,9 +13,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 8
-			arms_factory = 2
-			dockyard = 2
+			#industrial_complex = 8
+			#arms_factory = 2
+			#dockyard = 2
 			3326 = {
 				naval_base = 10
 			}
@@ -29,7 +29,7 @@ state={
 	provinces={
 		374 526 3234 3271 3326 3395 6218 6263 6298 6325 6349 6377 6513 9264 9375 11402 11468 11493 
 	}
-	manpower=379241
+	manpower=1896214
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

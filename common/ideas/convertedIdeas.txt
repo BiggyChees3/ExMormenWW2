@@ -273,19 +273,19 @@ ideas = {
 			}
 		}
 
-		liberty_ethos_focus_neutral = {
-			removal_cost = -1
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				has_government = democratic
-			}
-			picture = generic_democratic_drift_bonus
-			modifier = {
-				trade_opinion_factor = 0.2
-			}
-		}
+#		liberty_ethos_focus_neutral = {
+#			removal_cost = -1
+#			allowed = {
+#				always = no
+#			}
+#			allowed_civil_war = {
+#				has_government = democratic
+#			}
+#			picture = generic_democratic_drift_bonus
+#			modifier = {
+#				trade_opinion_factor = 0.2
+#			}
+#		}
 
 		radical_defeated = {
 			removal_cost = -1

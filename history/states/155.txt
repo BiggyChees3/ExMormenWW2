@@ -15,8 +15,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
+			#industrial_complex = 1
+			##arms_factory = 1
 			air_base = 1
 
 		}
@@ -26,7 +26,7 @@ state={
 	provinces={
 		1367 1893 2030 2091 4295 5048 7256 8026 12274 12767 
 	}
-	manpower=663431
+	manpower=3317158
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

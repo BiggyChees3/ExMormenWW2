@@ -15,8 +15,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 0
-			arms_factory = 0
+			#industrial_complex = 0
+			#arms_factory = 0
 			4379 = {
 				naval_base = 10
 			}
@@ -28,7 +28,7 @@ state={
 	provinces={
 		1302 4255 4379 4397 7229 7280 9988 10016 10137 10309 11909 11936 12297 
 	}
-	manpower=165750
+	manpower=828760
 	buildings_max_level_factor=1.000
 	state_category=rural
 

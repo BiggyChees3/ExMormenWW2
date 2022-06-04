@@ -1,4 +1,3 @@
-
 state={
 	id=195
 	name="STATE_195"
@@ -13,8 +12,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 1
+			#industrial_complex = 0
+			##arms_factory = 1
 			air_base = 1
 
 		}
@@ -25,7 +24,7 @@ state={
 	provinces={
 		5214 5317 7915 8050 10736 10849 10879 
 	}
-	manpower=53785
+	manpower=268932
 	buildings_max_level_factor=1.000
 	state_category=rural
 

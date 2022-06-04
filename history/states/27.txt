@@ -13,8 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
+			#industrial_complex = 1
+			##arms_factory = 1
 			air_base = 1
 
 		}
@@ -25,7 +25,7 @@ state={
 	provinces={
 		1441 1523 1534 1564 1621 4449 4540 4567 4569 4597 7449 7586 7607 10370 12346 12361 12463 
 	}
-	manpower=139542
+	manpower=697716
 	buildings_max_level_factor=1.000
 	state_category=town
 

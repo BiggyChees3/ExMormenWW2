@@ -11,8 +11,8 @@ characters={
 		}
 	}
 
-	COL_rama3n_gonza!lez_valencia={
-		name=COL_rama3n_gonza!lez_valencia
+	COL_ramaen_gonza!lez_valencia={
+		name=COL_ramaan_gonza!lez_valencia
 		corps_commander={
 			skill=4
 			attack_skill=4
